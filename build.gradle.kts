@@ -44,6 +44,37 @@ kotlin {
 }
 
 @Suppress("UnstableApiUsage")
+publishing {
+    publications {
+        configureEach {
+            (this as MavenPublication).pom {
+                scm {
+                    connection = "scm:git:$pluginUrl.git"
+                    developerConnection = pluginScm
+                    url = pluginUrl
+                }
+
+                licenses {
+                    license {
+                        name = "Apache 2.0"
+                        url = "https://opensource.org/licenses/Apache-2.0"
+                    }
+                }
+
+                developers {
+                    developer {
+                        id = "jamesward"
+                        name = "James Ward"
+                        email = "james@jamesward.com"
+                        url = "https://jamesward.com"
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Suppress("UnstableApiUsage")
 nexusPublishing.repositories {
     sonatype {
         username = System.getenv("SONATYPE_USERNAME")
