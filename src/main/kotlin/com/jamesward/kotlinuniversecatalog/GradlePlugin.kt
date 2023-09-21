@@ -27,7 +27,7 @@ class GradlePlugin : Plugin<Settings> {
 
                         plugin("skie", "co.touchlab.skie").version("0.4.19")
 
-                        plugin("jib", "com.google.cloud.tools.jib").version("3.3.2")
+                        plugin("jib", "com.google.cloud.tools.jib").version("3.4.0")
 
                         plugin("gradle-plugin-publish", "com.gradle.plugin-publish").version("1.2.1")
                         plugin("qoomon-git-versioning", "me.qoomon.git-versioning").version("6.4.2")
