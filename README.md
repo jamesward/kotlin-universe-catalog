@@ -5,7 +5,7 @@ Usage:
 `settings.gradle.kts`
 ```
 plugins {
-    id("com.jamesward.kotlin-universe-catalog") version "2023.09.21-f994082"
+    id("com.jamesward.kotlin-universe-catalog") version "2023.09.21-af6f145"
 }
 ```
 
