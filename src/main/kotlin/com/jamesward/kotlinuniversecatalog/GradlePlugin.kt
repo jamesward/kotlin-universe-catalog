@@ -29,6 +29,10 @@ class GradlePlugin : Plugin<Settings> {
 
                         plugin("jib", "com.google.cloud.tools.jib").version("3.3.2")
 
+                        plugin("gradle-plugin-publish", "com.gradle.plugin-publish").version("1.2.1")
+                        plugin("qoomon-git-versioning", "me.qoomon.git-versioning").version("6.4.2")
+                        plugin("gradle-nexus-publish-plugin", "io.github.gradle-nexus.publish-plugin").version("1.1.0")
+
                         version("androidx-compose-compiler", "1.5.3")
 
                         library("kotlinx-serialization-json", "org.jetbrains.kotlinx", "kotlinx-serialization-json").version("1.6.0")
