@@ -48,6 +48,8 @@ publishing {
     publications {
         configureEach {
             (this as MavenPublication).pom {
+                url = pluginUrl
+
                 scm {
                     connection = "scm:git:$pluginUrl.git"
                     developerConnection = pluginScm
