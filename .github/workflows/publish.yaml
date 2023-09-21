@@ -32,9 +32,10 @@ jobs:
       - name: Publish
         if: ${{ steps.secret-check.outputs.available == 'true' }}
         run: |
-          ./gradle publishPlugins -Pgradle.publish.key=${{ secrets.GRADLE_PUBLISH_KEY }} -Pgradle.publish.secret=${{ secrets.GRADLE_PUBLISH_SECRET }}
+          ./gradlew publishPlugins -Pgradle.publish.key=${{ secrets.GRADLE_PUBLISH_KEY }} -Pgradle.publish.secret=${{ secrets.GRADLE_PUBLISH_SECRET }}
 
       - id: get-version
+        name: Get Version
         if: ${{ steps.secret-check.outputs.available == 'true' }}
         run: |
           echo "version=$(./gradlew :version -q)" >> $GITHUB_OUTPUT
