@@ -46,6 +46,7 @@ jobs:
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" README.md
 
       - name: Commit README
+        if: ${{ steps.secret-check.outputs.available == 'true' }}
         uses: test-room-7/action-update-file@v1
         with:
           file-path: README.md
@@ -54,11 +55,6 @@ jobs:
 
       - name: Create Git Tag
         if: ${{ steps.secret-check.outputs.available == 'true' }}
-        uses: actions/create-release@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.get-version.outputs.version }}
-          release_name: ${{ steps.get-version.outputs.version }}
-          draft: false
-          prerelease: false
