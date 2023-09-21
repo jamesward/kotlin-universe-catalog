@@ -2,9 +2,9 @@ plugins {
     `kotlin-dsl`
     `maven-publish`
     signing
-    id("com.gradle.plugin-publish") version "1.2.1"
-    id("me.qoomon.git-versioning") version "6.4.2"
-    id("io.github.gradle-nexus.publish-plugin") version "1.1.0"
+    alias(universe.plugins.gradle.plugin.publish)
+    alias(universe.plugins.qoomon.git.versioning)
+    alias(universe.plugins.gradle.nexus.publish.plugin)
 }
 
 repositories {

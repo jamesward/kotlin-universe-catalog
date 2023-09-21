@@ -1,9 +1,8 @@
 pluginManagement {
     repositories {
-        mavenLocal()
         mavenCentral()
         gradlePluginPortal()
-        maven("https://oss.sonatype.org/content/groups/staging")  // since mavenCentral takes a little while
+        maven("https://oss.sonatype.org/content/groups/staging") // since mavenCentral takes a little while
     }
 }
 

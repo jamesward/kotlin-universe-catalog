@@ -51,6 +51,7 @@ jobs:
         if: ${{ steps.secret-check.outputs.available == 'true' }}
         run: |
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" README.md
+          sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" settings.gradle.kts
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" example/settings.gradle.kts
 
       - name: Commit README
@@ -59,6 +60,7 @@ jobs:
         with:
           file-path: |
             README.md
+            settings.gradle.kts
             example/settings.gradle.kts
           commit-msg: Update version
           github-token: ${{ secrets.GITHUB_TOKEN }}
