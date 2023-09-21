@@ -48,6 +48,8 @@ publishing {
     publications {
         configureEach {
             (this as MavenPublication).pom {
+                name = pluginName
+                description = pluginDescription
                 url = pluginUrl
 
                 scm {
