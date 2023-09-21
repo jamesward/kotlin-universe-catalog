@@ -44,43 +44,6 @@ kotlin {
 }
 
 @Suppress("UnstableApiUsage")
-publishing {
-    publications {
-        create<MavenPublication>("mavenJava") {
-            pom {
-                name = pluginName
-                description = pluginDescription
-                url = pluginUrl
-
-                scm {
-                    connection = "scm:git:$pluginUrl.git"
-                    developerConnection = pluginScm
-                    url = pluginUrl
-                }
-
-                licenses {
-                    license {
-                        name = "Apache 2.0"
-                        url = "https://opensource.org/licenses/Apache-2.0"
-                    }
-                }
-
-                developers {
-                    developer {
-                        id = "jamesward"
-                        name = "James Ward"
-                        email = "james@jamesward.com"
-                        url = "https://jamesward.com"
-                    }
-                }
-            }
-
-            from(components["java"])
-        }
-    }
-}
-
-@Suppress("UnstableApiUsage")
 nexusPublishing.repositories {
     sonatype {
         username = System.getenv("SONATYPE_USERNAME")
@@ -89,6 +52,6 @@ nexusPublishing.repositories {
 }
 
 signing {
-    sign(publishing.publications["mavenJava"])
+    isRequired = System.getenv("GPG_PRIVATE_KEY") != null && System.getenv("GPG_PASSPHRASE") != null
     useInMemoryPgpKeys(System.getenv("GPG_PRIVATE_KEY"), System.getenv("GPG_PASSPHRASE"))
 }
