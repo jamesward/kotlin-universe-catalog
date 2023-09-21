@@ -22,7 +22,6 @@ dependencies {
 
 
 TODO:
-- Automatic daily publishing on git tag
 - Automatic updating from dependabot? Or Maven Central & Google Maven?
 - Tests ?
 - Channels (stable, beta, alpha)

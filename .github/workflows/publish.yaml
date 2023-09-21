@@ -40,6 +40,18 @@ jobs:
         run: |
           echo "version=$(./gradlew :version -q)" >> $GITHUB_OUTPUT
 
+      - name: Update README
+        if: ${{ steps.secret-check.outputs.available == 'true' }}
+        run: |
+          sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" README.md
+
+      - name: Commit README
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: README.md
+          commit-msg: Update version
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create Git Tag
         if: ${{ steps.secret-check.outputs.available == 'true' }}
         uses: actions/create-release@latest
