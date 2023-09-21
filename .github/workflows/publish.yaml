@@ -44,12 +44,15 @@ jobs:
         if: ${{ steps.secret-check.outputs.available == 'true' }}
         run: |
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" README.md
+          sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" example/settings.gradle.kts
 
       - name: Commit README
         if: ${{ steps.secret-check.outputs.available == 'true' }}
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: README.md
+          file-path: |
+            README.md
+            example/settings.gradle.kts
           commit-msg: Update version
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
