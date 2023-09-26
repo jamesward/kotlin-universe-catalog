@@ -9,6 +9,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Fetch Git Tags
+        run: |
+          git fetch --prune --unshallow --tags
+
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
