@@ -25,4 +25,3 @@ TODO:
 - Automatic updating from dependabot? Or Maven Central & Google Maven?
 - Tests ?
 - Channels (stable, beta, alpha)
-- Version sequential numbering after date e.g. 2023.09.21-1
