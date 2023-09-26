@@ -1,3 +1,6 @@
+import me.qoomon.gitversioning.commons.GitUtil
+import org.eclipse.jgit.storage.file.FileRepositoryBuilder
+
 plugins {
     `kotlin-dsl`
     `maven-publish`
@@ -14,8 +17,19 @@ repositories {
 group = "com.jamesward.kotlin-universe-catalog"
 
 gitVersioning.apply {
+    val repository = FileRepositoryBuilder().findGitDir(project.projectDir).build()
+    val tags = GitUtil.tags(repository)
+    val head = GitUtil.worktreesFix_resolveHead(repository)
+    val headTimestamp = GitUtil.revTimestamp(repository, head)
+    val tagsForTimestamp = tags.filter {
+        val timestamp = GitUtil.revTimestamp(repository, it.objectId)
+        timestamp.year == headTimestamp.year &&
+                timestamp.month == headTimestamp.month &&
+                timestamp.dayOfMonth == headTimestamp.dayOfMonth
+    }
+
     rev {
-        version = "\${commit.timestamp.year}.\${commit.timestamp.month}.\${commit.timestamp.day}-\${commit.short}"
+        version = "\${commit.timestamp.year}.\${commit.timestamp.month}.\${commit.timestamp.day}-${tagsForTimestamp.size + 1}"
     }
 }
 
