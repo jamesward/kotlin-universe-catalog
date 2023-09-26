@@ -8,5 +8,5 @@ pluginManagement {
 }
 
 plugins {
-    id("com.jamesward.kotlin-universe-catalog") version "2023.09.21-a6dddc0"
+    id("com.jamesward.kotlin-universe-catalog") version "2023.09.26-1"
 }
