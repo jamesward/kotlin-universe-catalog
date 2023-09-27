@@ -50,4 +50,4 @@ arrow-kt-suspendapp = { group = "io.arrow-kt", name = "suspendapp", version = "0
 arrow-kt-suspendapp-ktor = { group = "io.arrow-kt", name = "suspendapp-ktor", version = "0.4.0" }
 
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.10.0" }
-junit-platform-launcher = { group = "org.junit.platform" , name = "junit-platform-launcher", version = "1.9.2" }
+junit-platform-launcher = { group = "org.junit.platform" , name = "junit-platform-launcher", version = "1.10.0" }
