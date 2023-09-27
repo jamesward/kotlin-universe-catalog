@@ -18,3 +18,7 @@ publishing {
         }
     }
 }
+
+signing {
+    sign(publishing.publications["maven"])
+}

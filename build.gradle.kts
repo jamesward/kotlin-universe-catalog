@@ -68,9 +68,6 @@ subprojects {
         }
     }
 
-    extensions.getByType<PublishingExtension>().publications.findByName("maven")?.let {
-        extensions.getByType<SigningExtension>().sign(it)
-    }
     extensions.getByType<SigningExtension>().useInMemoryPgpKeys(System.getenv("GPG_PRIVATE_KEY"), System.getenv("GPG_PASSPHRASE"))
 
     tasks.withType<Sign> {
