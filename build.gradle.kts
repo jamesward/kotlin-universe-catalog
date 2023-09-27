@@ -2,16 +2,8 @@ import me.qoomon.gitversioning.commons.GitUtil
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 
 plugins {
-    `kotlin-dsl`
-    `maven-publish`
-    signing
-    alias(universe.plugins.gradle.plugin.publish)
     alias(universe.plugins.qoomon.git.versioning)
     alias(universe.plugins.gradle.nexus.publish.plugin)
-}
-
-repositories {
-    mavenCentral()
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -33,43 +25,28 @@ gitVersioning.apply {
     }
 }
 
-val pluginName = "Kotlin Universe Catalog"
-val pluginDescription = "Gradle convention plugin that defines version catalogs for the universe of Kotlin Gradle plugins and libraries"
-val pluginUrl = "https://github.com/jamesward/kotlin-universe-catalog"
-val pluginScm = "scm:git:git@github.com:jamesward/kotlin-universe-catalog.git"
+ext["pluginName"] = "Kotlin Universe Catalog"
+ext["pluginDescription"] = "Gradle convention plugin that defines version catalogs for the universe of Kotlin Gradle plugins and libraries"
+ext["pluginUrl"] = "https://github.com/jamesward/kotlin-universe-catalog"
 
-@Suppress("UnstableApiUsage")
-gradlePlugin {
-    website = pluginUrl
-    vcsUrl = pluginUrl
-    plugins {
-        create("KotlinUniverseCatalog") {
-            id = "com.jamesward.kotlin-universe-catalog"
-            implementationClass = "com.jamesward.kotlinuniversecatalog.GradlePlugin"
-            displayName = pluginName
-            description = pluginDescription
-            tags = listOf("kotlin")
-        }
+subprojects {
+    apply {
+        plugin("maven-publish")
+        plugin("signing")
     }
-}
 
-kotlin {
-    jvmToolchain(8)
-}
-
-@Suppress("UnstableApiUsage")
-publishing {
-    publications {
+    @Suppress("UnstableApiUsage")
+    extensions.getByType<PublishingExtension>().publications {
         configureEach {
             (this as MavenPublication).pom {
-                name = pluginName
-                description = pluginDescription
-                url = pluginUrl
+                name = rootProject.ext["pluginName"].toString()
+                description = rootProject.ext["pluginDescription"].toString()
+                url = rootProject.ext["pluginUrl"].toString()
 
                 scm {
-                    connection = "scm:git:$pluginUrl.git"
-                    developerConnection = pluginScm
-                    url = pluginUrl
+                    connection = "scm:git:${rootProject.ext["pluginUrl"]}.git"
+                    developerConnection = "scm:git:git@github.com:jamesward/kotlin-universe-catalog.git"
+                    url = rootProject.ext["pluginUrl"].toString()
                 }
 
                 licenses {
@@ -90,6 +67,13 @@ publishing {
             }
         }
     }
+
+    //extensions.getByType<SigningExtension>().sign(extensions.getByType<PublishingExtension>().publications.named("maven").get())
+    extensions.getByType<SigningExtension>().useInMemoryPgpKeys(System.getenv("GPG_PRIVATE_KEY"), System.getenv("GPG_PASSPHRASE"))
+
+    tasks.withType<Sign> {
+        onlyIf { System.getenv("GPG_PRIVATE_KEY") != null && System.getenv("GPG_PASSPHRASE") != null }
+    }
 }
 
 @Suppress("UnstableApiUsage")
@@ -98,9 +82,4 @@ nexusPublishing.repositories {
         username = System.getenv("SONATYPE_USERNAME")
         password = System.getenv("SONATYPE_PASSWORD")
     }
-}
-
-signing {
-    isRequired = System.getenv("GPG_PRIVATE_KEY") != null && System.getenv("GPG_PASSPHRASE") != null
-    useInMemoryPgpKeys(System.getenv("GPG_PRIVATE_KEY"), System.getenv("GPG_PASSPHRASE"))
 }

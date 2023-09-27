@@ -7,6 +7,14 @@ pluginManagement {
     }
 }
 
+@Suppress("UnstableApiUsage")
+dependencyResolutionManagement {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
 plugins {
-    id("com.jamesward.kotlin-universe-catalog") version "2023.09.26-3"
+    id("com.jamesward.kotlin-universe-catalog") version "2023.09.26-4"
 }

@@ -22,6 +22,6 @@ dependencies {
 
 
 TODO:
-- Automatic updating from dependabot? Or Maven Central & Google Maven?
-- Tests ?
-- Channels (stable, beta, alpha)
+- Channels (stable, rc, beta, alpha)
+  - Using an RC can result in an older version than stable
+  - How will dependabot bump? stable always stable, rcs always rcs, etc?
