@@ -54,6 +54,7 @@ jobs:
         if: ${{ steps.secret-check.outputs.available == 'true' }}
         run: |
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" README.md
+          sed -ie "s/stables:[^\"]*\"/stables:${{ steps.get-version.outputs.version }}\"/" README.md
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" settings.gradle.kts
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" example/settings.gradle.kts
 
