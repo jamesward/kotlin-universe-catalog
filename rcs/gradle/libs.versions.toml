@@ -1,2 +1,0 @@
-[libraries]
-kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.0-RC" }

@@ -9,18 +9,10 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "gradle"
-    directory: "/alphas"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    directory: "/betas"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    directory: "/rcs"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
     directory: "/stables"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/unstables"
     schedule:
       interval: "daily"

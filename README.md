@@ -20,8 +20,17 @@ dependencies {
 }
 ```
 
+You can also use the unstable universe which includes alphas, betas, and rcs with `universeunstable`.
 
-TODO:
-- Channels (stable, rc, beta, alpha)
-  - Using an RC can result in an older version than stable
-  - How will dependabot bump? stable always stable, rcs always rcs, etc?
+If you'd rather not use the settings plugin you can depend directly on the Version Catalog artifacts:
+
+`settings.gradle.kts`
+```
+dependencyResolutionManagement {
+    versionCatalogs {
+        create("universe") {
+            from("com.jamesward.kotlin-universe-catalog:stables:2023.09.27-2")
+        }
+    }
+}
+```

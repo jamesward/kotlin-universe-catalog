@@ -19,3 +19,13 @@ dependencyResolutionManagement {
 plugins {
     id("com.jamesward.kotlin-universe-catalog") version "2023.09.27-2"
 }
+
+/*
+dependencyResolutionManagement {
+    versionCatalogs {
+        create("universe") {
+            from("com.jamesward.kotlin-universe-catalog:stables:2023.09.27-2")
+        }
+    }
+}
+*/

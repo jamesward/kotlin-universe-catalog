@@ -18,8 +18,8 @@ kotlin {
 
 dependencies {
     testImplementation(gradleTestKit())
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.10.0")
+    testImplementation(universe.junit.jupiter)
+    testRuntimeOnly(universe.junit.platform.launcher)
 }
 
 tasks.named<Test>("test") {
