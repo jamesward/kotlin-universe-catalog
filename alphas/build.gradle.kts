@@ -7,7 +7,7 @@ group = "com.jamesward.kotlin-universe-catalog"
 
 catalog {
     versionCatalog {
-        from(files("../gradle/alphas.versions.toml"))
+        from(files("gradle/libs.versions.toml"))
     }
 }
 

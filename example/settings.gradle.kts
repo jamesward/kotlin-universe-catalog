@@ -12,6 +12,7 @@ dependencyResolutionManagement {
     repositories {
         mavenLocal()
         mavenCentral()
+        maven("https://oss.sonatype.org/content/groups/staging")  // since mavenCentral takes a little while
     }
 }
 
