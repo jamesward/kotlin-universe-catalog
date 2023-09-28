@@ -13,7 +13,7 @@ android-application = { id = "com.android.application", version = "8.1.0" }
 android-library = { id = "com.android.library", version = "8.1.0" }
 
 ksp = { id = "com.google.devtools.ksp", version = "1.9.10-1.0.13" }
-skie = { id = "co.touchlab.skie", version = "0.4.20" }
+skie = { id = "co.touchlab.skie", version = "0.5.0" }
 jib = { id = "com.google.cloud.tools.jib", version = "3.4.0" }
 
 gradle-plugin-publish = { id = "com.gradle.plugin-publish", version = "1.2.1" }
