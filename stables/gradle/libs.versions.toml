@@ -20,10 +20,18 @@ gradle-plugin-publish = { id = "com.gradle.plugin-publish", version = "1.2.1" }
 qoomon-git-versioning = { id = "me.qoomon.git-versioning", version = "6.4.2" }
 gradle-nexus-publish-plugin = { id = "io.github.gradle-nexus.publish-plugin", version = "1.3.0" }
 
+spring-boot = { id = "org.springframework.boot", version = "3.1.4" }
+spring-dependency-management = { id = "io.spring.dependency-management", version = "1.1.3" }
+graalvm-buildtools-native = { id = "org.graalvm.buildtools.native", version = "0.9.27" }
+
+plantir-graal = { id = "com.palantir.graal", version = "0.12.0" }
+
 [libraries]
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.10" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version = "1.7.3" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.6.0" }
+kotlinx-serialization-json-jvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json-jvm", version = "1.6.0" }
+kotlinx-coroutines-reactor = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactor" }
 
 jib-native-image-extension = { group = "com.google.cloud.tools", name = "jib-native-image-extension-gradle", version = "0.1.0" }
 
@@ -45,9 +53,32 @@ ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version = "2.
 ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version = "2.3.4" }
 ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version = "2.3.4" }
 ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version = "2.3.4" }
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version = "2.3.4" }
+ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version = "2.3.4" }
+ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.3.4" }
+ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version = "2.3.4" }
+ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.4" }
+ktor-client-curl = { group = "io.ktor", name = "ktor-client-curl", version = "2.3.4" }
+ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.4" }
 
 arrow-kt-suspendapp = { group = "io.arrow-kt", name = "suspendapp", version = "0.4.0" }
 arrow-kt-suspendapp-ktor = { group = "io.arrow-kt", name = "suspendapp-ktor", version = "0.4.0" }
 
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.10.0" }
 junit-platform-launcher = { group = "org.junit.platform" , name = "junit-platform-launcher", version = "1.10.0" }
+
+spring-boot-starter-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux" }
+spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator" }
+spring-boot-starter-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc" }
+spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
+r2dbc-postgresql = { group = "org.postgresql", name = "r2dbc-postgresql" }
+
+spring-data-commons = { group = "org.springframework.data", name = "spring-data-commons", version = "3.1.4" }
+
+testcontainers-postgresql = { group = "org.testcontainers", name = "postgresql", version = "1.19.1" }
+testcontainers-r2dbc = { group = "org.testcontainers", name = "r2dbc", version = "1.19.1" }
+
+slf4j-simple = { group = "org.slf4j", name = "slf4j-simple", version = "2.0.9" }
+postgresql = { group = "org.postgresql", name = "postgresql", version = "42.6.0" }
+
+kotter = { group = "com.varabyte.kotter", name = "kotter", version = "1.1.1" }

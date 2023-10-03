@@ -3,9 +3,14 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.20-Beta2" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.20-Beta2" }
 kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "1.9.20-Beta2" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1.9.20-Beta2" }
+kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.20-Beta2" }
+kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "1.9.20-Beta2" }
 
-android-application = { id = "com.android.application", version = "8.3.0-alpha04" }
-android-library = { id = "com.android.library", version = "8.3.0-alpha04" }
+android-application = { id = "com.android.application", version = "8.3.0-alpha06" }
+android-library = { id = "com.android.library", version = "8.3.0-alpha06" }
+android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version = "8.3.0-alpha06" }
+
+jetbrains-compose = { id = "org.jetbrains.compose", version = "1.5.10-beta02" }
 
 [libraries]
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.20-Beta2" }

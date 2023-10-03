@@ -34,3 +34,6 @@ dependencyResolutionManagement {
     }
 }
 ```
+
+TODO:
+- Compatibility Matrix (Library X needs plugin Y needs Kotlin Z)
