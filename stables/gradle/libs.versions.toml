@@ -57,7 +57,7 @@ ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version = "2.
 ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version = "2.3.4" }
 ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.3.4" }
 ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version = "2.3.4" }
-ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.4" }
+ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.5" }
 ktor-client-curl = { group = "io.ktor", name = "ktor-client-curl", version = "2.3.5" }
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.4" }
 
