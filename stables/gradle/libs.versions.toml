@@ -59,7 +59,7 @@ ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.
 ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version = "2.3.4" }
 ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.4" }
 ktor-client-curl = { group = "io.ktor", name = "ktor-client-curl", version = "2.3.5" }
-ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.4" }
+ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.5" }
 
 arrow-kt-suspendapp = { group = "io.arrow-kt", name = "suspendapp", version = "0.4.0" }
 arrow-kt-suspendapp-ktor = { group = "io.arrow-kt", name = "suspendapp-ktor", version = "0.4.0" }
