@@ -5,7 +5,7 @@ Usage:
 `settings.gradle.kts`
 ```
 plugins {
-    id("com.jamesward.kotlin-universe-catalog") version "2023.10.12-1"
+    id("com.jamesward.kotlin-universe-catalog") version "2023.10.12-2"
 }
 ```
 
@@ -29,7 +29,7 @@ If you'd rather not use the settings plugin you can depend directly on the Versi
 dependencyResolutionManagement {
     versionCatalogs {
         create("universe") {
-            from("com.jamesward.kotlin-universe-catalog:stables:2023.10.12-1")
+            from("com.jamesward.kotlin-universe-catalog:stables:2023.10.12-2")
         }
     }
 }
