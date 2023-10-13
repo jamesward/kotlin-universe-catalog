@@ -14,7 +14,10 @@ class GradlePluginTest {
     private val buildFile = testProjectDir / "build.gradle.kts"
     private val settingsFile = testProjectDir / "settings.gradle.kts"
 
-    //@Test
+    private val testRepo = System.getProperty("test-repo")
+    private val pluginVersion = System.getProperty("plugin-version")
+
+    @Test
     fun works() {
         buildFile.writeText("""
             plugins {
@@ -30,28 +33,26 @@ class GradlePluginTest {
         settingsFile.writeText("""
             pluginManagement {
                 repositories {
-                    mavenLocal()
+                    maven(uri("$testRepo"))
                     mavenCentral()
-                    gradlePluginPortal()
                 }
             }
             
             @Suppress("UnstableApiUsage")
             dependencyResolutionManagement {
                 repositories {
-                    mavenLocal()
+                    maven(uri("$testRepo"))
                     mavenCentral()
                 }
             }
             
             plugins {
-                id("com.jamesward.kotlin-universe-catalog") version "2023.09.27-1"
+                id("com.jamesward.kotlin-universe-catalog") version "$pluginVersion"
             }
         """.trimIndent())
 
         val result = GradleRunner.create()
             .withProjectDir(testProjectDir.toFile())
-            .withPluginClasspath()
             .withArguments("dependencies")
             .build()
 

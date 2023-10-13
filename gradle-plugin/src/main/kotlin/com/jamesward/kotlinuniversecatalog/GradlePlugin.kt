@@ -3,6 +3,7 @@ package com.jamesward.kotlinuniversecatalog
 import org.gradle.api.Plugin
 import org.gradle.api.initialization.Settings
 import java.lang.IllegalStateException
+import java.util.Properties
 
 @Suppress("UnstableApiUsage")
 class GradlePlugin : Plugin<Settings> {
@@ -14,23 +15,27 @@ class GradlePlugin : Plugin<Settings> {
                     repositories.google()
                 }
 
-                // so bad. how else to get the plugin version?
-                val maybePluginLine = settings.buildscript.sourceFile?.readLines()?.find {
-                    it.contains("id(\"com.jamesward.kotlin-universe-catalog\")")
+                val props = Properties()
+                GradlePlugin::class.java.getResourceAsStream("/META-INF/kotlin-universe-catalog.properties")?.use {
+                    props.load(it)
                 }
 
-                val maybeVersion = maybePluginLine?.substringAfter(" version \"")?.takeWhile { it != '"' }
-                maybeVersion?.let { version ->
+                val pluginVersion = props.getProperty("version")
+
+                if (pluginVersion.isNullOrEmpty()) {
+                    throw IllegalStateException("Could not find version of the plugin")
+                }
+                else {
                     versionCatalogs {
                         create("universe") {
-                            from("com.jamesward.kotlin-universe-catalog:stables:$version")
+                            from("com.jamesward.kotlin-universe-catalog:stables:$pluginVersion")
                         }
 
                         create("universeunstable") {
-                            from("com.jamesward.kotlin-universe-catalog:unstables:$version")
+                            from("com.jamesward.kotlin-universe-catalog:unstables:$pluginVersion")
                         }
                     }
-                } ?: throw IllegalStateException("Could not find version of the plugin")
+                }
             }
         }
     }

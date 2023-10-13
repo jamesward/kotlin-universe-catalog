@@ -23,12 +23,36 @@ dependencies {
 }
 
 tasks.named<Test>("test") {
+    dependsOn("publishAllPublicationsToMavenRepository")
+
     useJUnitPlatform()
 
     testLogging {
         showStandardStreams = true
         exceptionFormat = TestExceptionFormat.FULL
         events(STARTED, PASSED, SKIPPED, FAILED)
+    }
+
+    systemProperties["test-repo"] = uri(rootProject.layout.buildDirectory.dir("maven-repo"))
+    systemProperties["plugin-version"] = project.version
+}
+
+
+val generatedResourcesDir = layout.buildDirectory.dir("generated-resources")
+val writeprops = tasks.create<WriteProperties>("writeprops") {
+    destinationFile.set(generatedResourcesDir.map { it.file("META-INF/kotlin-universe-catalog.properties") })
+    property("version", project.version)
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir {
+                files(generatedResourcesDir) {
+                    builtBy(writeprops)
+                }
+            }
+        }
     }
 }
 

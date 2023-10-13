@@ -35,7 +35,6 @@ subprojects {
         plugin("signing")
     }
 
-    @Suppress("UnstableApiUsage")
     extensions.getByType<PublishingExtension>().publications {
         configureEach {
             (this as MavenPublication).pom {
@@ -68,6 +67,12 @@ subprojects {
         }
     }
 
+    extensions.getByType<PublishingExtension>().repositories {
+        maven {
+            url = uri(rootProject.layout.buildDirectory.dir("maven-repo"))
+        }
+    }
+
     extensions.getByType<SigningExtension>().useInMemoryPgpKeys(System.getenv("GPG_PRIVATE_KEY"), System.getenv("GPG_PASSPHRASE"))
 
     tasks.withType<Sign> {
@@ -75,7 +80,6 @@ subprojects {
     }
 }
 
-@Suppress("UnstableApiUsage")
 nexusPublishing.repositories {
     sonatype {
         username = System.getenv("SONATYPE_USERNAME")
