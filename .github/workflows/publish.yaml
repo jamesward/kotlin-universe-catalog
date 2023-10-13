@@ -12,12 +12,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Java
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'adopt'
-          java-version: '17'
-          cache: 'gradle'
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
 
       - name: Build
         run: |
