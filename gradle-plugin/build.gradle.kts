@@ -24,6 +24,8 @@ dependencies {
 
 tasks.named<Test>("test") {
     dependsOn("publishAllPublicationsToMavenRepository")
+    dependsOn(":stables:publishAllPublicationsToMavenRepository")
+    dependsOn(":unstables:publishAllPublicationsToMavenRepository")
 
     useJUnitPlatform()
 
