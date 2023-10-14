@@ -6,6 +6,7 @@ android-application = { id = "com.android.application", version = "8.1.0" }
 android-library = { id = "com.android.library", version = "8.1.0" }
 animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.1" }
 dokka = { id = "org.jetbrains.dokka", version = "1.9.0" }
+download = { id = "de.undercouch.download", version = "5.4.0" }
 errorprone = { id = "net.ltgt.errorprone", version = "3.1.0" }
 google-java-format = { id = "com.github.sherter.google-java-format", version = "0.9" }
 graalvm-buildtools-native = { id = "org.graalvm.buildtools.native", version = "0.9.27" }
@@ -26,24 +27,56 @@ spring-boot = { id = "org.springframework.boot", version = "3.1.4" }
 spring-dependency-management = { id = "io.spring.dependency-management", version = "1.1.3" }
 
 [libraries]
+accessibility-test-framework = { group = "com.google.android.apps.common.testing.accessibility.framework", name = "accessibility-test-framework", version = "4.0.0" }
+accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version = "0.30.1" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.7.2" }
 androidx-annotation = { group = "androidx.annotation", name = "annotation", version = "1.6.0" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
 androidx-appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version = "1.6.1" }
+androidx-arch-core-testing = { group = "androidx.arch.core", name = "core-testing", version = "2.2.0" }
 androidx-autofill = { group = "androidx.autofill", name = "autofill", version = "1.1.0" }
+androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version = "1.1.0" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2023.06.00" }
 androidx-compose-compile = { group = "androidx.compose.compiler", name = "compiler", version = "1.5.3" }
-androidx-compose-material = { group = "androidx.compose.material", name = "material" }
-androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
-androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
-androidx-core-ktx = { group = "androidx.core", name = "core-kts", version = "1.10.1" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version = "1.5.3" }
+androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version = "1.5.3" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material", version = "1.5.3" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.0.1" }
+androidx-compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version = "1.5.3" }
+androidx-compose-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version = "1.5.3" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version = "1.5.3" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version = "1.5.3" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version = "1.5.3" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version = "1.5.3" }
+androidx-compose-ui-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding", version = "1.5.3" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
+androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version = "1.0.1" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.7.0" }
+androidx-espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib", version = "3.4.0" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version = "3.4.0" }
+androidx-espresso-intents = { group = "androidx.test.espresso", name = "espresso-intents", version = "3.4.0" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version = "2.6.1" }
 androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version = "2.6.1" }
 androidx-lifecycle-runtime-kts = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.6.1" }
 androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version = "2.6.1" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version = "2.6.1" }
+androidx-monitor = { group = "androidx.test", name = "monitor", version = "1.6.0" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version = "2.5.3" }
+androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version = "3.2.1" }
+androidx-paging-runtime-ktx = { group = "androidx.paging", name = "paging-runtime-ktx", version = "3.1.1" }
+androidx-profileinstaller = { group = "androidx.profileinstaller", name = "profileinstaller", version = "1.2.0" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version = "2.5.2" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version = "2.5.2" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version = "2.5.2" }
 androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version = "1.1.0" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version = "1.1.5" }
 androidx-test-rules = { group = "androidx.test", name = "rules", version = "1.5.0" }
 androidx-test-runner = { group = "androidx.test", name = "runner", version = "1.5.0" }
+androidx-test-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version = "2.2.0" }
 androidx-tracing = { group = "androidx.tracing", name = "tracing", version = "1.1.0" }
+androidx-tracing-ktx = { group = "androidx.tracing", name = "tracing-ktx", version = "1.1.0" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version = "2.7.1" }
+androidx-work-testing = { group = "androidx.work", name = "work-testing", version = "2.7.1" }
 animalsniffer-annotations = { group = "org.codehaus.mojo", name = "animal-sniffer-annotations", version = "1.23" }
 arrow-kt-suspendapp = { group = "io.arrow-kt", name = "suspendapp", version = "0.4.0" }
 arrow-kt-suspendapp-ktor = { group = "io.arrow-kt", name = "suspendapp-ktor", version = "0.4.0" }
@@ -52,41 +85,60 @@ asm-commons = { group = "org.ow2.asm", name = "asm-commons", version = "9.5" }
 asm-tree = { group = "org.ow2.asm", name = "asm-tree", version = "9.5" }
 assertj = { group = "org.assertj", name = "assertj-core", version = "3.13.2" }
 awaitility = { group = "org.awaitility", name = "awaitility", version = "4.2.0" }
-aws-java-sdk-lambda = { group = "com.amazonaws", name = "aws-java-sdk-lambda" }
+aws-java-sdk-lambda = { group = "com.amazonaws", name = "aws-java-sdk-lambda", version = "1.12.565" }
 bcpkix = { group = "org.bouncycastle", name = "bcpkix-jdk15on", version = "1.70" }
 blaze-persistence-core = { group = "com.blazebit", name = "blaze-persistence-core-impl", version = "1.6.8" }
-groovy-bom = { group = "org.apache.groovy", name = "groovy-bom", version = "4.0.14" }
-jackson-bom = { group = "com.fasterxml.jackson", name = "jackson-bom", version = "2.15.2" }
-kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version = "1.9.10" }
-kotlinx-coroutines-bom = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-bom", version = "1.7.3" }
-netty-bom = { group = "io.netty", name = "netty-bom", version = "4.1.99.Final" }
 caffeine = { group = "com.github.ben-manes.caffeine", name = "caffeine", version = "2.9.3" }
 compile-testing = { group = "com.google.testing.compile", name = "compile-testing", version = "0.21.0" }
 errorprone-core = { group = "com.google.errorprone", name = "error_prone_core", version = "2.10.0" }
 errorprone-javac = { group = "com.google.errorprone", name = "javac", version = "9+181-r4173-1" }
+fbjni = { group = "com.facebook.fbjni", name = "fbjni", version = "0.5.1" }
 findbugs-annotations = { group = "com.google.code.findbugs", name = "jsr305", version = "3.0.2" }
+flipper = { group = "com.facebook.flipper", name = "flipper", version = "0.201.0" }
+flipper-fresco-plugin = { group = "com.facebook.fresco", name = "flipper-fresco-plugin", version = "3.0.0" }
+flipper-network-plugin = { group = "com.facebook.flipper", name = "flipper-network-plugin", version = "0.201.0" }
+fresco = { group = "com.facebook.fresco", name = "fresco", version = "3.0.0" }
+fresco-imagepipeline-okhttp3 = { group = "com.facebook.fresco", name = "imagepipeline-okhttp3", version = "3.0.0" }
+fresco-middleware = { group = "com.facebook.fresco", name = "middleware", version = "3.0.0" }
+fresco-ui-common = { group = "com.facebook.fresco", name = "ui-common", version = "3.0.0" }
 geb-spock = { group = "org.gebish", name = "geb-spock", version = "7.0" }
-grails-datastore-core = { group = "org.grails", name = "grails-datastore-core", version = "7.3.4" }
 graalvm-svm = { group = "org.graalvm.nativeimage", name = "svm", version = "23.0.0" }
+grails-datastore-core = { group = "org.grails", name = "grails-datastore-core", version = "7.3.4" }
+groovy-bom = { group = "org.apache.groovy", name = "groovy-bom", version = "4.0.14" }
 groovy-test-junit5 = { group = "org.apache.groovy", name = "groovy-test-junit5", version = "4.0.14" }
 gson = { group = "com.google.code.gson", name = "gson", version = "2.10.1" }
 guava = { group = "com.google.guava", name = "guava", version = "32.1.3-jre" }
 h2 = { group = "com.h2database", name = "h2", version = "2.1.214" }
 hibernate-core = { group = "org.hibernate", name = "hibernate-core", version = "5.5.9.Final" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version = "2.44.2" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version = "2.44.2" }
+hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version = "2.44.2" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version = "1.0.0" }
 htmlunit = { group = "net.sourceforge.htmlunit", name = "htmlunit", version = "2.70.0" }
 httpcomponents-client = { group = "org.apache.httpcomponents", name = "httpclient", version = "4.5.14" }
 httpcomponents-mime = { group = "org.apache.httpcomponents", name = "httpmime", version = "4.5.14" }
+infer-annotation = { group = "com.facebook.infer.annotation", name = "infer-annotation", version = "0.18.0" }
+jackson-annotations = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version = "2.15.2" }
+jackson-bom = { group = "com.fasterxml.jackson", name = "jackson-bom", version = "2.15.2" }
+jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version = "2.15.2" }
 jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.15.3" }
+jackson-dataformat-yaml = { group = "com.fasterxml.jackson.dataformat", name = "jackson-dataformat-yaml", version = "2.15.3" }
+jackson-datatype-jdk8 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jdk8", version = "2.15.2" }
+jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version = "2.15.2" }
+jackson-module-afterburner = { group = "com.fasterxml.jackson.module", name = "jackson-module-afterburner", version = "2.15.2" }
+jackson-module-kotlin = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version = "2.15.2" }
+jackson-module-parameterNames = { group = "com.fasterxml.jackson.module", name = "jackson-module-parameter-names", version = "2.15.2" }
+jakarta-annotation-api = { group = "jakarta.annotation", name = "jakarta.annotation-api", version = "2.1.1" }
 jakarta-el = { group = "jakarta.el", name = "jakarta.el-api", version = "5.0.1" }
-jakarta-el-impl = { group = "org.glassfish", name = "jakarta.el", version = "5.0.0-M1" }
 jakarta-inject-api = { group = "jakarta.inject", name = "jakarta.inject-api", version = "2.0.1" }
 jakarta-inject-tck = { group = "jakarta.inject", name = "jakarta.inject-tck", version = "2.0.1" }
+jakarta-xml-bind-api = { group = "jakarta.xml.bind", name = "jakarta.xml.bind-api", version = "3.0.1" }
+java-parser-core = { group = "com.github.javaparser", name = "javaparser-symbol-solver-core", version = "3.25.5" }
 javax-annotation-api = { group = "javax.annotation", name = "javax.annotation-api", version = "1.3.2" }
 javax-inject = { group = "javax.inject", name = "javax.inject", version = "1" }
-javax-persistence = { group = "javax.persistence", name = "javax.persistence-api", version = "2.2" }
-jakarta-xml-bind-api = { group = "jakarta.xml.bind", name = "jakarta.xml.bind-api", version = "3.0.1" }
-jaxb-impl = { group = "com.sun.xml.bind", name = "jaxb-impl", version = "3.0.2" }
 javax-jaxb-api = { group = "javax.xml.bind", name = "jaxb-api", version = "2.3.1" }
+javax-persistence = { group = "javax.persistence", name = "javax.persistence-api", version = "2.2" }
+jaxb-impl = { group = "com.sun.xml.bind", name = "jaxb-impl", version = "3.0.2" }
 jaxb-runtime = { group = "org.glassfish.jaxb", name = "jaxb-runtime", version = "4.0.3" }
 jcache = { group = "javax.cache", name = "cache-api", version = "1.1.1" }
 jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version = "23.0.0" }
@@ -97,6 +149,7 @@ jmh-generator-annprocess = { group = "org.openjdk.jmh", name = "jmh-generator-an
 jsoup = { group = "org.jsoup", name = "jsoup", version = "1.16.1" }
 jsr107 = { group = "org.jsr107.ri", name = "cache-ri-impl", version = "1.1.1" }
 junit = { group = "junit", name = "junit", version = "4.13.2" }
+junit-bom = { group = "org.junit", name = "junit-bom", version = "5.10.0" }
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.10.0" }
 junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version = "5.9.3" }
 junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version = "5.9.3" }
@@ -104,16 +157,31 @@ junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-para
 junit-platform-engine = { group = "org.junit.platform", name = "junit-platform-suite-engine", version = "1.9.3" }
 junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher", version = "1.10.0" }
 junit-vintage = { group = "org.junit.vintage", name = "junit-vintage-engine", version = "5.9.3" }
-kotest-junit5 = { group = "io.kotest", name = "kotest-runner-junit5-jvm" }
-kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.10" }
+kotest-junit5-jvm = { group = "io.kotest", name = "kotest-runner-junit5-jvm", version = "5.7.2" }
+kotlin-annotation-processing-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-annotation-processing-embeddable", version = "1.9.10" }
+kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version = "1.9.10" }
+kotlin-compiler-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-compiler-embeddable", version = "1.9.10" }
+kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version = "1.9.10" }
 kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version = "1.9.10" }
+kotlin-stdlib-jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version = "1.9.10" }
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.10" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version = "1.6.4" }
+kotlinx-coroutines-bom = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-bom", version = "1.7.3" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version = "1.7.3" }
-kotlinx-coroutines-reactor = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactor" }
+kotlinx-coroutines-guava = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-guava", version = "1.6.4" }
+kotlinx-coroutines-jdk8 = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-jdk8", version = "1.7.3" }
+kotlinx-coroutines-reactive = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactive", version = "1.7.3" }
+kotlinx-coroutines-reactor = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactor", version = "1.7.3" }
+kotlinx-coroutines-rx2 = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-rx2", version = "1.7.3" }
+kotlinx-coroutines-slf4j = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-slf4j", version = "1.7.3" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version = "1.6.4" }
 kotlinx-serialization-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version = "1.6.0" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.6.0" }
 kotlinx-serialization-json-jvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json-jvm", version = "1.6.0" }
 kotlinx-serialization-protobuf = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-protobuf", version = "1.6.0" }
 kotter = { group = "com.varabyte.kotter", name = "kotter", version = "1.1.1" }
+ksp = { group = "com.google.devtools.ksp", name = "symbol-processing", version = "1.9.10-1.0.13" }
+ksp-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version = "1.9.10-1.0.13" }
 ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version = "2.3.5" }
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.5" }
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version = "2.3.5" }
@@ -128,66 +196,60 @@ ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version = "2.
 log4j = { group = "org.apache.logging.log4j", name = "log4j-core", version = "2.20.0" }
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.4.11" }
 logbook-netty = { group = "org.zalando", name = "logbook-netty", version = "2.16.0" }
-jackson-annotations = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version = "2.15.2" }
-jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version = "2.15.2" }
-jackson-datatype-jdk8 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jdk8", version = "2.15.2" }
-jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version = "2.15.2" }
-jackson-module-afterburner = { group = "com.fasterxml.jackson.module", name = "jackson-module-afterburner", version = "2.15.2" }
-jackson-module-kotlin = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version = "2.15.2" }
-jackson-module-parameterNames = { group = "com.fasterxml.jackson.module", name = "jackson-module-parameter-names", version = "2.15.2" }
-jakarta-annotation-api = { group = "jakarta.annotation", name = "jakarta.annotation-api", version = "2.1.1" }
-java-parser-core = { group = "com.github.javaparser", name = "javaparser-symbol-solver-core", version = "3.25.5" }
-kotlin-annotation-processing-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-annotation-processing-embeddable", version = "1.9.10" }
-kotlin-compiler-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-compiler-embeddable", version = "1.9.10" }
-kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version = "1.9.10" }
-kotlin-stdlib-jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version = "1.9.10" }
-kotlinx-coroutines-jdk8 = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-jdk8", version = "1.7.3" }
-kotlinx-coroutines-reactive = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactive", version = "1.7.3" }
-kotlinx-coroutines-rx2 = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-rx2", version = "1.7.3" }
-kotlinx-coroutines-slf4j = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-slf4j", version = "1.7.3" }
-ksp = { group = "com.google.devtools.ksp", name = "symbol-processing", version = "1.9.10-1.0.13" }
-ksp-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version = "1.9.10-1.0.13" }
+material = { group = "com.google.android.material", name = "material", version = "1.10.0" }
 methvin-directoryWatcher = { group = "io.methvin", name = "directory-watcher", version = "0.18.0" }
+micronaut-docs = { group = "io.micronaut.docs", name = "micronaut-docs-asciidoc-config-props", version = "2.0.0" }
+micronaut-session = { group = "io.micronaut.session", name = "micronaut-session", version = "4.0.0" }
+micronaut-sql-jdbc = { group = "io.micronaut.sql", name = "micronaut-jdbc", version = "5.0.3" }
+micronaut-sql-jdbc-tomcat = { group = "io.micronaut.sql", name = "micronaut-jdbc-tomcat", version = "5.0.3" }
+micronaut-test-bom = { group = "io.micronaut.test", name = "micronaut-test-bom", version = "4.0.2" }
+micronaut-test-core = { group = "io.micronaut.test", name = "micronaut-test-core", version = "4.0.2" }
+micronaut-test-junit5 = { group = "io.micronaut.test", name = "micronaut-test-junit5", version = "4.0.2" }
+micronaut-test-kotest5 = { group = "io.micronaut.test", name = "micronaut-test-kotest5", version = "4.0.2" }
+micronaut-test-spock = { group = "io.micronaut.test", name = "micronaut-test-spock", version = "4.0.2" }
+micronaut-tracing-brave = { group = "io.micronaut.tracing", name = "micronaut-tracing-brave", version = "6.0.0" }
+micronaut-tracing-jaeger = { group = "io.micronaut.tracing", name = "micronaut-tracing-jaeger", version = "6.0.0" }
+micronaut-validation = { group = "io.micronaut.validation", name = "micronaut-validation", version = "4.0.3" }
+micronaut-validation-processor = { group = "io.micronaut.validation", name = "micronaut-validation-processor", version = "4.0.3" }
+mockito = { group = "org.mockito", name = "mockito-inline", version = "3.12.4" }
+mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version = "3.14.9" }
+moshi = { group = "com.squareup.moshi", name = "moshi", version = "1.15.0" }
+mysql-connector-java = { group = "mysql", name = "mysql-connector-java", version = "8.0.33" }
+neo4j-java-driver = { group = "org.neo4j.driver", name = "neo4j-java-driver", version = "1.4.5" }
+netty-bom = { group = "io.netty", name = "netty-bom", version = "4.1.99.Final" }
 netty-buffer = { group = "io.netty", name = "netty-buffer", version = "4.1.99.Final" }
 netty-codec-http = { group = "io.netty", name = "netty-codec-http", version = "4.1.99.Final" }
 netty-codec-http2 = { group = "io.netty", name = "netty-codec-http2", version = "4.1.99.Final" }
 netty-handler = { group = "io.netty", name = "netty-handler", version = "4.1.99.Final" }
 netty-handler-proxy = { group = "io.netty", name = "netty-handler-proxy", version = "4.1.99.Final" }
 netty-incubator-codec-http3 = { group = "io.netty.incubator", name = "netty-incubator-codec-http3", version = "0.0.21.Final" }
+netty-tcnative = { group = "io.netty", name = "netty-tcnative", version = "2.0.62.Final" }
 netty-tcnative-boringssl-static = { group = "io.netty", name = "netty-tcnative-boringssl-static", version = "2.0.62.Final" }
 netty-transport-native-epoll = { group = "io.netty", name = "netty-transport-native-epoll", version = "4.1.99.Final" }
 netty-transport-native-iouring = { group = "io.netty.incubator", name = "netty-incubator-transport-native-io_uring", version = "0.0.23.Final" }
 netty-transport-native-kqueue = { group = "io.netty", name = "netty-transport-native-kqueue", version = "4.1.99.Final" }
 netty-transport-native-unix-common = { group = "io.netty", name = "netty-transport-native-unix-common", version = "4.1.99.Final" }
-reactor-core = { group = "io.projectreactor", name = "reactor-core", version = "3.5.11" }
-reactor-test = { group = "io.projectreactor", name = "reactor-test", version = "3.5.11" }
-snakeyaml = { group = "org.yaml", name = "snakeyaml", version = "2.0" }
-micronaut-docs = { group = "io.micronaut.docs", name = "micronaut-docs-asciidoc-config-props", version = "2.0.0" }
-micronaut-session = { group = "io.micronaut.session", name = "micronaut-session", version = "4.0.0" }
-micronaut-sql-jdbc = { group = "io.micronaut.sql", name = "micronaut-jdbc", version = "5.0.0-M7" }
-micronaut-sql-jdbc-tomcat = { group = "io.micronaut.sql", name = "micronaut-jdbc-tomcat", version = "5.0.0-M7" }
-micronaut-test-bom = { group = "io.micronaut.test", name = "micronaut-test-bom", version = "4.0.2" }
-micronaut-test-core = { group = "io.micronaut.test", name = "micronaut-test-core", version = "4.0.2" }
-micronaut-test-junit5 = { group = "io.micronaut.test", name = "micronaut-test-junit5", version = "4.0.2" }
-micronaut-test-kotest5 = { group = "io.micronaut.test", name = "micronaut-test-kotest5", version = "4.0.2" }
-micronaut-test-spock = { group = "io.micronaut.test", name = "micronaut-test-spock", version = "4.0.2" }
-micronaut-tracing-brave = { group = "io.micronaut.tracing", name = "micronaut-tracing-brave" }
-micronaut-tracing-jaeger = { group = "io.micronaut.tracing", name = "micronaut-tracing-jaeger" }
-micronaut-validation = { group = "io.micronaut.validation", name = "micronaut-validation" }
-micronaut-validation-processor = { group = "io.micronaut.validation", name = "micronaut-validation-processor" }
-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version = "3.14.9" }
-moshi = { group = "com.squareup.moshi", name = "moshi", version = "1.15.0" }
-mysql-driver = { group = "mysql", name = "mysql-connector-java" }
-neo4j-bolt = { group = "org.neo4j.driver", name = "neo4j-java-driver", version = "1.4.5" }
-netty-tcnative = { group = "io.netty", name = "netty-tcnative" }
 okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version = "4.9.2" }
+okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "4.10.0" }
 okhttp3-urlconnection = { group = "com.squareup.okhttp3", name = "okhttp-urlconnection", version = "4.9.2" }
 okio = { group = "com.squareup.okio", name = "okio", version = "2.9.0" }
 postgresql = { group = "org.postgresql", name = "postgresql", version = "42.6.0" }
 protobuf-java = { group = "com.google.protobuf", name = "protobuf-java", version = "3.24.4" }
 protoc = { group = "com.google.protobuf", name = "protoc", version = "3.24.4" }
-r2dbc-postgresql = { group = "org.postgresql", name = "r2dbc-postgresql" }
+quarkus-bom = { group = "io.quarkus", name = "quarkus-bom", version = "3.4.3" }
+quarkus-bootstrap-core = { group = "io.quarkus", name = "quarkus-bootstrap-core", version = "3.4.3" }
+quarkus-bootstrap-gradle-resolver = { group = "io.quarkus", name = "quarkus-bootstrap-gradle-resolver", version = "3.4.3" }
+quarkus-core-deployment = { group = "io.quarkus", name = "quarkus-core-deployment", version = "3.4.3" }
+quarkus-devtools-common = { group = "io.quarkus", name = "quarkus-devtools-common", version = "3.4.3" }
+quarkus-devtools-testing = { group = "io.quarkus", name = "quarkus-devtools-testing", version = "3.4.3" }
+quarkus-project-core-extension-codestarts = { group = "io.quarkus", name = "quarkus-project-core-extension-codestarts", version = "3.4.3" }
+r2dbc-postgresql = { group = "org.postgresql", name = "r2dbc-postgresql", version = "0.8.13.RELEASE" }
 reactive-streams = { group = "org.reactivestreams", name = "reactive-streams", version = "1.0.4" }
+reactor-core = { group = "io.projectreactor", name = "reactor-core", version = "3.5.11" }
+reactor-test = { group = "io.projectreactor", name = "reactor-test", version = "3.5.11" }
+retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version = "2.9.0" }
+retrofit2-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version = "2.9.0" }
+robolectric = { group = "org.robolectric", name = "robolectric", version = "4.9.2" }
 robovm = { group = "com.mobidevelop.robovm", name = "robovm-rt", version = "2.3.14" }
 rxjava = { group = "io.reactivex", name = "rxjava", version = "1.3.8" }
 rxjava2 = { group = "io.reactivex.rxjava2", name = "rxjava", version = "2.2.21" }
@@ -203,18 +265,24 @@ simple-xml = { group = "org.simpleframework", name = "simple-xml", version = "2.
 slf4j-api = { group = "org.slf4j", name = "slf4j-api", version = "2.0.9" }
 slf4j-simple = { group = "org.slf4j", name = "slf4j-simple", version = "2.0.9" }
 smallrye = { group = "io.smallrye", name = "smallrye-fault-tolerance", version = "5.5.0" }
+smallrye-config-yaml = { group = "io.smallrye.config", name = "smallrye-config-source-yaml", version = "3.4.1" }
+snakeyaml = { group = "org.yaml", name = "snakeyaml", version = "2.0" }
+soloader = { group = "com.facebook.soloader", name = "soloader", version = "0.10.5" }
 spock-core = { group = "org.spockframework", name = "spock-core", version = "2.3-groovy-4.0" }
 spotbugs-annotations = { group = "com.github.spotbugs", name = "spotbugs-annotations", version = "4.7.1" }
-spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator" }
-spring-boot-starter-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc" }
-spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
-spring-boot-starter-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux" }
+spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator", version = "3.1.4" }
+spring-boot-starter-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc", version = "3.1.4" }
+spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test", version = "3.1.4" }
+spring-boot-starter-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux", version = "3.1.4" }
 spring-data-commons = { group = "org.springframework.data", name = "spring-data-commons", version = "3.1.4" }
 system-lambda = { group = "com.github.stefanbirkner", name = "system-lambda", version = "1.2.1" }
 testcontainers-postgresql = { group = "org.testcontainers", name = "postgresql", version = "1.19.1" }
 testcontainers-r2dbc = { group = "org.testcontainers", name = "r2dbc", version = "1.19.1" }
 testcontainers-spock = { group = "org.testcontainers", name = "spock", version = "1.18.3" }
+thoughtworks-xstream = { group = "com.thoughtworks.xstream", name = "xstream", version = "1.4.20" }
+tomlj = { group = "org.tomlj", name = "tomlj", version = "1.1.0" }
 vertx-core = { group = "io.vertx", name = "vertx-core", version = "3.9.13" }
 vertx-web-client = { group = "io.vertx", name = "vertx-web-client", version = "3.9.13" }
 wire-runtime = { group = "com.squareup.wire", name = "wire-runtime", version = "2.2.0" }
 wiremock = { group = "com.github.tomakehurst", name = "wiremock-jre8", version = "2.33.2" }
+yoga-proguard-annotations = { group = "com.facebook.yoga", name = "proguard-annotations", version = "1.19.0" }

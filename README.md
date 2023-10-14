@@ -1,15 +1,21 @@
 # Kotlin Universe Catalog
 
-Usage:
+Common dependencies in convenient catalogs so you can autocomplete your way to typed dependency bliss.
+- Based on Gradle Version Catalogs
+- One version that updates all your deps to the latest
 
-`settings.gradle.kts`
+Two Catalogs:
+*stable* ([view catalog](stables/gradle/libs.versions.toml)) - Follows the latest stable releases
+*unstable* - ([view catalog](unstables/gradle/libs.versions.toml)) - Follows the latest unstable releases (alphas, betas, rcs)
+
+Add the settings plugin to your Gradle `settings.gradle.kts` file:
 ```
 plugins {
     id("com.jamesward.kotlin-universe-catalog") version "2023.10.13-2"
 }
 ```
 
-`build.gradle.kts`
+Now in your Gradle build files, use version catalog references, like:
 ```
 plugins {
     alias(universe.plugins.kotlin.jvm)
@@ -37,3 +43,5 @@ dependencyResolutionManagement {
 
 TODO:
 - Compatibility Matrix (Library X needs plugin Y needs Kotlin Z)
+- BOMs
+  - Validate that when a bom is used, the resolution uses it instead of the catalog version

@@ -1,6 +1,5 @@
 import org.tomlj.Toml
 import org.tomlj.TomlParseResult
-import java.util.*
 
 buildscript {
     repositories {
@@ -52,6 +51,8 @@ tasks.create("test") {
 
             // no unstables
 
+            // no missing versions
+
             // resolve deps? - what about deps from bom versions
 
         }
@@ -79,7 +80,7 @@ data class Library(val key: String, val group: String, val name: String, val ver
             """$key = { group = "$group", name = "$name", version = "$version" }"""
         }
         else {
-            """$key = { group = "$group", name = "$name" }"""
+            """$key = { group = "$group", name = "$name", version = "TODO" }"""
         }
 
     override fun equals(other: Any?): Boolean =
