@@ -82,7 +82,7 @@ arrow-kt-suspendapp = { group = "io.arrow-kt", name = "suspendapp", version = "0
 arrow-kt-suspendapp-ktor = { group = "io.arrow-kt", name = "suspendapp-ktor", version = "0.4.0" }
 asm = { group = "org.ow2.asm", name = "asm", version = "9.5" }
 asm-commons = { group = "org.ow2.asm", name = "asm-commons", version = "9.6" }
-asm-tree = { group = "org.ow2.asm", name = "asm-tree", version = "9.5" }
+asm-tree = { group = "org.ow2.asm", name = "asm-tree", version = "9.6" }
 assertj = { group = "org.assertj", name = "assertj-core", version = "3.24.2" }
 awaitility = { group = "org.awaitility", name = "awaitility", version = "4.2.0" }
 aws-java-sdk-lambda = { group = "com.amazonaws", name = "aws-java-sdk-lambda", version = "1.12.566" }
