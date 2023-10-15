@@ -10,6 +10,7 @@ updates:
       interval: "daily"
   - package-ecosystem: "gradle"
     directory: "/stables"
+    open-pull-requests-limit: 100
     registries:
       - maven-central
       - maven-gradle
@@ -18,6 +19,11 @@ updates:
       interval: "daily"
   - package-ecosystem: "gradle"
     directory: "/unstables"
+    open-pull-requests-limit: 100
+    registries:
+      - maven-central
+      - maven-gradle
+      - maven-google
     schedule:
       interval: "daily"
 
