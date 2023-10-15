@@ -118,7 +118,7 @@ htmlunit = { group = "net.sourceforge.htmlunit", name = "htmlunit", version = "2
 httpcomponents-client = { group = "org.apache.httpcomponents", name = "httpclient", version = "4.5.14" }
 httpcomponents-mime = { group = "org.apache.httpcomponents", name = "httpmime", version = "4.5.14" }
 infer-annotation = { group = "com.facebook.infer.annotation", name = "infer-annotation", version = "0.18.0" }
-jackson-annotations = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version = "2.15.2" }
+jackson-annotations = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version = "2.15.3" }
 jackson-bom = { group = "com.fasterxml.jackson", name = "jackson-bom", version = "2.15.2" }
 jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version = "2.15.2" }
 jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.15.3" }
