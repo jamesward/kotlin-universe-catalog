@@ -16,3 +16,8 @@ updates:
     directory: "/unstables"
     schedule:
       interval: "daily"
+
+registries:
+  maven-google:
+    type: maven-repository
+    url: "https://dl.google.com/dl/android/maven2/"
