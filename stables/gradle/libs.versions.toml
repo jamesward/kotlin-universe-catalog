@@ -266,7 +266,7 @@ slf4j-api = { group = "org.slf4j", name = "slf4j-api", version = "2.0.9" }
 slf4j-simple = { group = "org.slf4j", name = "slf4j-simple", version = "2.0.9" }
 smallrye = { group = "io.smallrye", name = "smallrye-fault-tolerance", version = "5.5.0" }
 smallrye-config-yaml = { group = "io.smallrye.config", name = "smallrye-config-source-yaml", version = "3.4.1" }
-snakeyaml = { group = "org.yaml", name = "snakeyaml", version = "2.0" }
+snakeyaml = { group = "org.yaml", name = "snakeyaml", version = "2.2" }
 soloader = { group = "com.facebook.soloader", name = "soloader", version = "0.10.5" }
 spock-core = { group = "org.spockframework", name = "spock-core", version = "2.3-groovy-4.0" }
 spotbugs-annotations = { group = "com.github.spotbugs", name = "spotbugs-annotations", version = "4.8.0" }
