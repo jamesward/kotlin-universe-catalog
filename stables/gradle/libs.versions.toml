@@ -259,7 +259,7 @@ selenium-api = { group = "org.seleniumhq.selenium", name = "selenium-api", versi
 selenium-driver-chrome = { group = "org.seleniumhq.selenium", name = "selenium-chrome-driver", version = "4.9.1" }
 selenium-driver-firefox = { group = "org.seleniumhq.selenium", name = "selenium-firefox-driver", version = "4.9.1" }
 selenium-driver-htmlunit = { group = "org.seleniumhq.selenium", name = "htmlunit-driver", version = "4.13.0" }
-selenium-remote-driver = { group = "org.seleniumhq.selenium", name = "selenium-remote-driver", version = "4.9.1" }
+selenium-remote-driver = { group = "org.seleniumhq.selenium", name = "selenium-remote-driver", version = "4.14.1" }
 selenium-support = { group = "org.seleniumhq.selenium", name = "selenium-support", version = "4.9.1" }
 simple-xml = { group = "org.simpleframework", name = "simple-xml", version = "2.7.1" }
 slf4j-api = { group = "org.slf4j", name = "slf4j-api", version = "2.0.9" }
