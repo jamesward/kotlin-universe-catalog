@@ -29,7 +29,7 @@ spring-dependency-management = { id = "io.spring.dependency-management", version
 [libraries]
 accessibility-test-framework = { group = "com.google.android.apps.common.testing.accessibility.framework", name = "accessibility-test-framework", version = "4.0.0" }
 accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version = "0.32.0" }
-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.7.2" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.8.0" }
 androidx-annotation = { group = "androidx.annotation", name = "annotation", version = "1.7.0" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
 androidx-appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version = "1.6.1" }
