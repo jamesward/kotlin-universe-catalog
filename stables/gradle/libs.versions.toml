@@ -3,7 +3,7 @@ androidx-compose-compiler = "1.5.3"
 
 [plugins]
 android-application = { id = "com.android.application", version = "8.1.0" }
-android-library = { id = "com.android.library", version = "8.1.0" }
+android-library = { id = "com.android.library", version = "8.1.2" }
 animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.1" }
 dokka = { id = "org.jetbrains.dokka", version = "1.9.0" }
 download = { id = "de.undercouch.download", version = "5.4.0" }
