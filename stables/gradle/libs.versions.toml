@@ -145,7 +145,7 @@ jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version
 jetty-alpn-openjdk8-client = { group = "org.eclipse.jetty", name = "jetty-alpn-openjdk8-client", version = "9.4.53.v20231009" }
 jib-native-image-extension = { group = "com.google.cloud.tools", name = "jib-native-image-extension-gradle", version = "0.1.0" }
 jmh-core = { group = "org.openjdk.jmh", name = "jmh-core", version = "1.37" }
-jmh-generator-annprocess = { group = "org.openjdk.jmh", name = "jmh-generator-annprocess", version = "1.36" }
+jmh-generator-annprocess = { group = "org.openjdk.jmh", name = "jmh-generator-annprocess", version = "1.37" }
 jsoup = { group = "org.jsoup", name = "jsoup", version = "1.16.1" }
 jsr107 = { group = "org.jsr107.ri", name = "cache-ri-impl", version = "1.1.1" }
 junit = { group = "junit", name = "junit", version = "4.13.2" }
