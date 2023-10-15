@@ -227,7 +227,7 @@ netty-tcnative = { group = "io.netty", name = "netty-tcnative", version = "2.0.6
 netty-tcnative-boringssl-static = { group = "io.netty", name = "netty-tcnative-boringssl-static", version = "2.0.62.Final" }
 netty-transport-native-epoll = { group = "io.netty", name = "netty-transport-native-epoll", version = "4.1.99.Final" }
 netty-transport-native-iouring = { group = "io.netty.incubator", name = "netty-incubator-transport-native-io_uring", version = "0.0.23.Final" }
-netty-transport-native-kqueue = { group = "io.netty", name = "netty-transport-native-kqueue", version = "4.1.99.Final" }
+netty-transport-native-kqueue = { group = "io.netty", name = "netty-transport-native-kqueue", version = "4.1.100.Final" }
 netty-transport-native-unix-common = { group = "io.netty", name = "netty-transport-native-unix-common", version = "4.1.99.Final" }
 okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version = "4.9.2" }
 okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "4.10.0" }
