@@ -6,7 +6,7 @@ android-application = { id = "com.android.application", version = "8.1.0" }
 android-library = { id = "com.android.library", version = "8.1.0" }
 animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.1" }
 dokka = { id = "org.jetbrains.dokka", version = "1.9.0" }
-download = { id = "de.undercouch.download", version = "5.4.0" }
+download = { id = "de.undercouch.download", version = "5.5.0" }
 errorprone = { id = "net.ltgt.errorprone", version = "3.1.0" }
 google-java-format = { id = "com.github.sherter.google-java-format", version = "0.9" }
 graalvm-buildtools-native = { id = "org.graalvm.buildtools.native", version = "0.9.27" }
