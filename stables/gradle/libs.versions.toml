@@ -284,5 +284,5 @@ tomlj = { group = "org.tomlj", name = "tomlj", version = "1.1.0" }
 vertx-core = { group = "io.vertx", name = "vertx-core", version = "3.9.13" }
 vertx-web-client = { group = "io.vertx", name = "vertx-web-client", version = "4.4.6" }
 wire-runtime = { group = "com.squareup.wire", name = "wire-runtime", version = "2.2.0" }
-wiremock = { group = "com.github.tomakehurst", name = "wiremock-jre8", version = "2.33.2" }
+wiremock = { group = "com.github.tomakehurst", name = "wiremock-jre8", version = "3.0.1" }
 yoga-proguard-annotations = { group = "com.facebook.yoga", name = "proguard-annotations", version = "1.19.0" }
