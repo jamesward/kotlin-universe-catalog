@@ -90,7 +90,7 @@ bcpkix = { group = "org.bouncycastle", name = "bcpkix-jdk15on", version = "1.70"
 blaze-persistence-core = { group = "com.blazebit", name = "blaze-persistence-core-impl", version = "1.6.9" }
 caffeine = { group = "com.github.ben-manes.caffeine", name = "caffeine", version = "2.9.3" }
 compile-testing = { group = "com.google.testing.compile", name = "compile-testing", version = "0.21.0" }
-errorprone-core = { group = "com.google.errorprone", name = "error_prone_core", version = "2.10.0" }
+errorprone-core = { group = "com.google.errorprone", name = "error_prone_core", version = "2.22.0" }
 errorprone-javac = { group = "com.google.errorprone", name = "javac", version = "1+" }
 fbjni = { group = "com.facebook.fbjni", name = "fbjni", version = "0.5.1" }
 findbugs-annotations = { group = "com.google.code.findbugs", name = "jsr305", version = "3.0.2" }
