@@ -95,11 +95,11 @@ errorprone-javac = { group = "com.google.errorprone", name = "javac", version = 
 fbjni = { group = "com.facebook.fbjni", name = "fbjni", version = "0.5.1" }
 findbugs-annotations = { group = "com.google.code.findbugs", name = "jsr305", version = "3.0.2" }
 flipper = { group = "com.facebook.flipper", name = "flipper", version = "0.226.0" }
-flipper-fresco-plugin = { group = "com.facebook.fresco", name = "flipper-fresco-plugin", version = "3.0.0" }
+flipper-fresco-plugin = { group = "com.facebook.fresco", name = "flipper-fresco-plugin", version = "3.1.1" }
 flipper-network-plugin = { group = "com.facebook.flipper", name = "flipper-network-plugin", version = "0.226.0" }
-fresco = { group = "com.facebook.fresco", name = "fresco", version = "3.0.0" }
+fresco = { group = "com.facebook.fresco", name = "fresco", version = "3.1.1" }
 fresco-imagepipeline-okhttp3 = { group = "com.facebook.fresco", name = "imagepipeline-okhttp3", version = "3.1.1" }
-fresco-middleware = { group = "com.facebook.fresco", name = "middleware", version = "3.0.0" }
+fresco-middleware = { group = "com.facebook.fresco", name = "middleware", version = "3.1.1" }
 fresco-ui-common = { group = "com.facebook.fresco", name = "ui-common", version = "3.1.1" }
 geb-spock = { group = "org.gebish", name = "geb-spock", version = "7.0" }
 graalvm-svm = { group = "org.graalvm.nativeimage", name = "svm", version = "23.0.0" }
