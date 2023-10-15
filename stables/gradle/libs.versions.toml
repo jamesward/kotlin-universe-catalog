@@ -35,7 +35,7 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 androidx-appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version = "1.6.1" }
 androidx-arch-core-testing = { group = "androidx.arch.core", name = "core-testing", version = "2.2.0" }
 androidx-autofill = { group = "androidx.autofill", name = "autofill", version = "1.1.0" }
-androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version = "1.1.0" }
+androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version = "1.1.1" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2023.06.00" }
 androidx-compose-compile = { group = "androidx.compose.compiler", name = "compiler", version = "1.5.3" }
 androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version = "1.5.3" }
