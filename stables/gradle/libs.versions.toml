@@ -257,7 +257,7 @@ rxjava3 = { group = "io.reactivex.rxjava3", name = "rxjava", version = "3.1.8" }
 scala-library = { group = "org.scala-lang", name = "scala-library", version = "2.13.12" }
 selenium-api = { group = "org.seleniumhq.selenium", name = "selenium-api", version = "4.14.1" }
 selenium-driver-chrome = { group = "org.seleniumhq.selenium", name = "selenium-chrome-driver", version = "4.14.1" }
-selenium-driver-firefox = { group = "org.seleniumhq.selenium", name = "selenium-firefox-driver", version = "4.9.1" }
+selenium-driver-firefox = { group = "org.seleniumhq.selenium", name = "selenium-firefox-driver", version = "4.14.1" }
 selenium-driver-htmlunit = { group = "org.seleniumhq.selenium", name = "htmlunit-driver", version = "4.13.0" }
 selenium-remote-driver = { group = "org.seleniumhq.selenium", name = "selenium-remote-driver", version = "4.14.1" }
 selenium-support = { group = "org.seleniumhq.selenium", name = "selenium-support", version = "4.14.1" }
