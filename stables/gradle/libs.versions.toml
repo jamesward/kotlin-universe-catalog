@@ -153,7 +153,7 @@ junit-bom = { group = "org.junit", name = "junit-bom", version = "5.10.0" }
 junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.10.0" }
 junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version = "5.9.3" }
 junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version = "5.9.3" }
-junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version = "5.9.3" }
+junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version = "5.10.0" }
 junit-platform-engine = { group = "org.junit.platform", name = "junit-platform-suite-engine", version = "1.9.3" }
 junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher", version = "1.10.0" }
 junit-vintage = { group = "org.junit.vintage", name = "junit-vintage-engine", version = "5.9.3" }
