@@ -5,7 +5,7 @@ androidx-compose-compiler = "1.5.3"
 android-application = { id = "com.android.application", version = "8.1.2" }
 android-library = { id = "com.android.library", version = "8.1.2" }
 animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.1" }
-dokka = { id = "org.jetbrains.dokka", version = "1.9.0" }
+dokka = { id = "org.jetbrains.dokka", version = "1.9.10" }
 download = { id = "de.undercouch.download", version = "5.5.0" }
 errorprone = { id = "net.ltgt.errorprone", version = "3.1.0" }
 google-java-format = { id = "com.github.sherter.google-java-format", version = "0.9" }
