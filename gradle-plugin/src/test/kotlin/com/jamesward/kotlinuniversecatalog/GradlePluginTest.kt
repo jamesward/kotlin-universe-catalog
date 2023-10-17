@@ -29,7 +29,6 @@ class GradlePluginTest {
             }
         """.trimIndent())
 
-        // todo: removing the version won't work because it is used for the dependencies on the version catalog artifacts. but we need to find a better way
         settingsFile.writeText("""
             pluginManagement {
                 repositories {
@@ -58,6 +57,48 @@ class GradlePluginTest {
 
         assertTrue(result.output.contains("+--- org.jetbrains.kotlin:kotlin-stdlib-jdk8"))
         assertTrue(result.output.contains("\\--- org.jetbrains.kotlinx:kotlinx-coroutines-core"))
+    }
+
+    @Test
+    fun unstable_compose_kmp_kotlin_compat() {
+        buildFile.writeText("""
+            plugins {
+                alias(universeunstable.plugins.kotlin.multiplatform)
+                alias(universeunstable.plugins.jetbrains.compose)
+            }
+
+            kotlin {
+                jvm()
+            }
+        """.trimIndent())
+
+        settingsFile.writeText("""
+            pluginManagement {
+                repositories {
+                    maven(uri("$testRepo"))
+                    mavenCentral()
+                }
+            }
+
+            @Suppress("UnstableApiUsage")
+            dependencyResolutionManagement {
+                repositories {
+                    maven(uri("$testRepo"))
+                    mavenCentral()
+                }
+            }
+
+            plugins {
+                id("com.jamesward.kotlin-universe-catalog") version "$pluginVersion"
+            }
+        """.trimIndent())
+
+        val result = GradleRunner.create()
+            .withProjectDir(testProjectDir.toFile())
+            .withArguments("check")
+            .build()
+
+        assertTrue(result.output.contains("BUILD SUCCESSFUL"))
     }
 
 }
