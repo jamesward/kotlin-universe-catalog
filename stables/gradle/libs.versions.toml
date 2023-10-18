@@ -97,10 +97,10 @@ findbugs-annotations = { group = "com.google.code.findbugs", name = "jsr305", ve
 flipper = { group = "com.facebook.flipper", name = "flipper", version = "0.227.0" }
 flipper-fresco-plugin = { group = "com.facebook.fresco", name = "flipper-fresco-plugin", version = "3.1.2" }
 flipper-network-plugin = { group = "com.facebook.flipper", name = "flipper-network-plugin", version = "0.227.0" }
-fresco = { group = "com.facebook.fresco", name = "fresco", version = "3.1.1" }
-fresco-imagepipeline-okhttp3 = { group = "com.facebook.fresco", name = "imagepipeline-okhttp3", version = "3.1.1" }
+fresco = { group = "com.facebook.fresco", name = "fresco", version = "3.1.2" }
+fresco-imagepipeline-okhttp3 = { group = "com.facebook.fresco", name = "imagepipeline-okhttp3", version = "3.1.2" }
 fresco-middleware = { group = "com.facebook.fresco", name = "middleware", version = "3.1.2" }
-fresco-ui-common = { group = "com.facebook.fresco", name = "ui-common", version = "3.1.1" }
+fresco-ui-common = { group = "com.facebook.fresco", name = "ui-common", version = "3.1.2" }
 geb-spock = { group = "org.gebish", name = "geb-spock", version = "7.0" }
 graalvm-svm = { group = "org.graalvm.nativeimage", name = "svm", version = "23.1.0" }
 grails-datastore-core = { group = "org.grails", name = "grails-datastore-core", version = "8.0.2" }
