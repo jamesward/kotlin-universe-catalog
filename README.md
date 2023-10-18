@@ -5,8 +5,8 @@ Common dependencies in convenient catalogs so you can autocomplete your way to t
 - One version that updates all your deps to the latest
 
 Two Catalogs:
-*stable* ([view catalog](stables/gradle/libs.versions.toml)) - Follows the latest stable releases
-*unstable* - ([view catalog](unstables/gradle/libs.versions.toml)) - Follows the latest unstable releases (alphas, betas, rcs)
+ - *stable* ([view catalog](stables/gradle/libs.versions.toml)) - Follows the latest stable releases
+ - *unstable* - ([view catalog](unstables/gradle/libs.versions.toml)) - Follows the latest unstable releases (alphas, betas, rcs)
 
 Add the settings plugin to your Gradle `settings.gradle.kts` file:
 ```
