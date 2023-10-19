@@ -38,7 +38,7 @@ androidx-autofill = { group = "androidx.autofill", name = "autofill", version = 
 androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version = "1.2.0" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2023.10.00" }
 androidx-compose-compile = { group = "androidx.compose.compiler", name = "compiler", version = "1.5.3" }
-androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version = "1.5.3" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version = "1.5.4" }
 androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version = "1.5.4" }
 androidx-compose-material = { group = "androidx.compose.material", name = "material", version = "1.5.3" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.1.2" }
