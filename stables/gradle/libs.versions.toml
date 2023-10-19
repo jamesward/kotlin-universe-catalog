@@ -23,7 +23,7 @@ palantir-graal = { id = "com.palantir.graal", version = "0.12.0" }
 protobuf = { id = "com.google.protobuf", version = "0.9.4" }
 qoomon-git-versioning = { id = "me.qoomon.git-versioning", version = "6.4.2" }
 skie = { id = "co.touchlab.skie", version = "0.5.0" }
-spring-boot = { id = "org.springframework.boot", version = "3.1.4" }
+spring-boot = { id = "org.springframework.boot", version = "3.1.5" }
 spring-dependency-management = { id = "io.spring.dependency-management", version = "1.1.3" }
 
 [libraries]
@@ -270,10 +270,10 @@ snakeyaml = { group = "org.yaml", name = "snakeyaml", version = "2.2" }
 soloader = { group = "com.facebook.soloader", name = "soloader", version = "0.10.5" }
 spock-core = { group = "org.spockframework", name = "spock-core", version = "2.3-groovy-4.0" }
 spotbugs-annotations = { group = "com.github.spotbugs", name = "spotbugs-annotations", version = "4.8.0" }
-spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator", version = "3.1.4" }
-spring-boot-starter-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc", version = "3.1.4" }
-spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test", version = "3.1.4" }
-spring-boot-starter-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux", version = "3.1.4" }
+spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator", version = "3.1.5" }
+spring-boot-starter-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc", version = "3.1.5" }
+spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test", version = "3.1.5" }
+spring-boot-starter-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux", version = "3.1.5" }
 spring-data-commons = { group = "org.springframework.data", name = "spring-data-commons", version = "3.1.5" }
 system-lambda = { group = "com.github.stefanbirkner", name = "system-lambda", version = "1.2.1" }
 testcontainers-postgresql = { group = "org.testcontainers", name = "postgresql", version = "1.19.1" }
