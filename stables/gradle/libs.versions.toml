@@ -85,7 +85,7 @@ asm-commons = { group = "org.ow2.asm", name = "asm-commons", version = "9.6" }
 asm-tree = { group = "org.ow2.asm", name = "asm-tree", version = "9.6" }
 assertj = { group = "org.assertj", name = "assertj-core", version = "3.24.2" }
 awaitility = { group = "org.awaitility", name = "awaitility", version = "4.2.0" }
-aws-java-sdk-lambda = { group = "com.amazonaws", name = "aws-java-sdk-lambda", version = "1.12.570" }
+aws-java-sdk-lambda = { group = "com.amazonaws", name = "aws-java-sdk-lambda", version = "1.12.571" }
 bcpkix = { group = "org.bouncycastle", name = "bcpkix-jdk15on", version = "1.70" }
 blaze-persistence-core = { group = "com.blazebit", name = "blaze-persistence-core-impl", version = "1.6.9" }
 caffeine = { group = "com.github.ben-manes.caffeine", name = "caffeine", version = "3.1.8" }
