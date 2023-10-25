@@ -76,6 +76,7 @@ class GradlePluginTest {
             pluginManagement {
                 repositories {
                     maven(uri("$testRepo"))
+                    gradlePluginPortal()
                     mavenCentral()
                 }
             }
