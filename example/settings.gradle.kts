@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 }
 
 plugins {
-    id("com.jamesward.kotlin-universe-catalog") version "2023.10.27-1"
+    id("com.jamesward.kotlin-universe-catalog") version "2023.10.27-2"
 }
 
 /*
