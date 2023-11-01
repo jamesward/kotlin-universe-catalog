@@ -19,7 +19,7 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.20" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1.9.20" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.20" }
 kotlin-power-assert = { id = "com.bnorm.power.kotlin-power-assert", version = "0.13.0" }
-ksp = { id = "com.google.devtools.ksp", version = "1.9.10-1.0.13" }
+ksp = { id = "com.google.devtools.ksp", version = "1.9.20-1.0.13" }
 palantir-graal = { id = "com.palantir.graal", version = "0.12.0" }
 protobuf = { id = "com.google.protobuf", version = "0.9.4" }
 qoomon-git-versioning = { id = "me.qoomon.git-versioning", version = "6.4.2" }
@@ -184,7 +184,7 @@ kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-
 kotlinx-serialization-json-jvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json-jvm", version = "1.6.0" }
 kotlinx-serialization-protobuf = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-protobuf", version = "1.6.0" }
 kotter = { group = "com.varabyte.kotter", name = "kotter", version = "1.1.1" }
-ksp = { group = "com.google.devtools.ksp", name = "symbol-processing", version = "1.9.10-1.0.13" }
+ksp = { group = "com.google.devtools.ksp", name = "symbol-processing", version = "1.9.20-1.0.13" }
 ksp-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version = "1.9.20-1.0.13" }
 ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version = "2.3.5" }
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.5" }
