@@ -6,11 +6,11 @@ kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.20-RC2" }
 kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "1.9.20-RC2" }
 
-android-application = { id = "com.android.application", version = "8.3.0-alpha11" }
-android-library = { id = "com.android.library", version = "8.3.0-alpha11" }
-android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version = "8.3.0-alpha11" }
+android-application = { id = "com.android.application", version = "8.3.0-alpha12" }
+android-library = { id = "com.android.library", version = "8.3.0-alpha12" }
+android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version = "8.3.0-alpha12" }
 
-jetbrains-compose = { id = "org.jetbrains.compose", version = "1.5.10-dev1246" }
+jetbrains-compose = { id = "org.jetbrains.compose", version = "1.5.10-rc02" }
 
 [libraries]
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.20-RC2" }
