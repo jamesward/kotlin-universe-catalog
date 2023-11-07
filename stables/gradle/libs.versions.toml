@@ -207,7 +207,7 @@ methvin-directoryWatcher = { group = "io.methvin", name = "directory-watcher", v
 micronaut-docs = { group = "io.micronaut.docs", name = "micronaut-docs-asciidoc-config-props", version = "2.0.0" }
 micronaut-session = { group = "io.micronaut.session", name = "micronaut-session", version = "4.0.0" }
 micronaut-sql-jdbc = { group = "io.micronaut.sql", name = "micronaut-jdbc", version = "5.1.0" }
-micronaut-sql-jdbc-tomcat = { group = "io.micronaut.sql", name = "micronaut-jdbc-tomcat", version = "5.1.0" }
+micronaut-sql-jdbc-tomcat = { group = "io.micronaut.sql", name = "micronaut-jdbc-tomcat", version = "5.2.0" }
 micronaut-test-bom = { group = "io.micronaut.test", name = "micronaut-test-bom", version = "4.1.0" }
 micronaut-test-core = { group = "io.micronaut.test", name = "micronaut-test-core", version = "4.1.0" }
 micronaut-test-junit5 = { group = "io.micronaut.test", name = "micronaut-test-junit5", version = "4.1.0" }
