@@ -205,7 +205,7 @@ logbook-netty = { group = "org.zalando", name = "logbook-netty", version = "3.6.
 material = { group = "com.google.android.material", name = "material", version = "1.10.0" }
 methvin-directoryWatcher = { group = "io.methvin", name = "directory-watcher", version = "0.18.0" }
 micronaut-docs = { group = "io.micronaut.docs", name = "micronaut-docs-asciidoc-config-props", version = "2.0.0" }
-micronaut-session = { group = "io.micronaut.session", name = "micronaut-session", version = "4.0.0" }
+micronaut-session = { group = "io.micronaut.session", name = "micronaut-session", version = "4.1.0" }
 micronaut-sql-jdbc = { group = "io.micronaut.sql", name = "micronaut-jdbc", version = "5.2.0" }
 micronaut-sql-jdbc-tomcat = { group = "io.micronaut.sql", name = "micronaut-jdbc-tomcat", version = "5.2.0" }
 micronaut-test-bom = { group = "io.micronaut.test", name = "micronaut-test-bom", version = "4.1.0" }
