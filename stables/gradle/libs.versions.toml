@@ -195,7 +195,7 @@ ktor-client-curl = { group = "io.ktor", name = "ktor-client-curl", version = "2.
 ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.6" }
 ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.3.6" }
 ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version = "2.3.6" }
-ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version = "2.3.5" }
+ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version = "2.3.6" }
 ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version = "2.3.6" }
 ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version = "2.3.5" }
 ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version = "2.3.6" }
