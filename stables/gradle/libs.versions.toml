@@ -190,7 +190,7 @@ ksp = { group = "com.google.devtools.ksp", name = "symbol-processing", version =
 ksp-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version = "1.9.20-1.0.14" }
 ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version = "2.3.5" }
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.6" }
-ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version = "2.3.5" }
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version = "2.3.6" }
 ktor-client-curl = { group = "io.ktor", name = "ktor-client-curl", version = "2.3.6" }
 ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.5" }
 ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.3.5" }
