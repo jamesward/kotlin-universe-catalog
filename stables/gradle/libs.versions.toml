@@ -226,8 +226,8 @@ netty-bom = { group = "io.netty", name = "netty-bom", version = "4.1.100.Final" 
 netty-buffer = { group = "io.netty", name = "netty-buffer", version = "4.1.100.Final" }
 netty-codec-http = { group = "io.netty", name = "netty-codec-http", version = "4.1.100.Final" }
 netty-codec-http2 = { group = "io.netty", name = "netty-codec-http2", version = "4.1.100.Final" }
-netty-handler = { group = "io.netty", name = "netty-handler", version = "4.1.100.Final" }
-netty-handler-proxy = { group = "io.netty", name = "netty-handler-proxy", version = "4.1.100.Final" }
+netty-handler = { group = "io.netty", name = "netty-handler", version = "4.1.101.Final" }
+netty-handler-proxy = { group = "io.netty", name = "netty-handler-proxy", version = "4.1.101.Final" }
 netty-incubator-codec-http3 = { group = "io.netty.incubator", name = "netty-incubator-codec-http3", version = "0.0.22.Final" }
 netty-tcnative = { group = "io.netty", name = "netty-tcnative", version = "2.0.62.Final" }
 netty-tcnative-boringssl-static = { group = "io.netty", name = "netty-tcnative-boringssl-static", version = "2.0.62.Final" }
