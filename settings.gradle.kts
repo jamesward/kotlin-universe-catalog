@@ -19,7 +19,7 @@ dependencyResolutionManagement {
 }
 
 plugins {
-    id("com.jamesward.kotlin-universe-catalog") version "2023.11.14-3"
+    id("com.jamesward.kotlin-universe-catalog") version "2023.11.15-1"
 }
 
 include("stables", "unstables", "gradle-plugin")
