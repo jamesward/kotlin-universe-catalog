@@ -5,6 +5,7 @@ androidx-compose-compiler = "1.5.3"
 android-application = { id = "com.android.application", version = "8.1.4" }
 android-library = { id = "com.android.library", version = "8.1.4" }
 animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.1" }
+apollo = { id = "com.apollographql.apollo3", version = "3.8.2" }
 dokka = { id = "org.jetbrains.dokka", version = "1.9.10" }
 download = { id = "de.undercouch.download", version = "5.5.0" }
 errorprone = { id = "net.ltgt.errorprone", version = "3.1.0" }
@@ -81,6 +82,11 @@ androidx-tracing-ktx = { group = "androidx.tracing", name = "tracing-ktx", versi
 androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version = "2.8.1" }
 androidx-work-testing = { group = "androidx.work", name = "work-testing", version = "2.8.1" }
 animalsniffer-annotations = { group = "org.codehaus.mojo", name = "animal-sniffer-annotations", version = "1.23" }
+apollo-api = { group = "com.apollographql.apollo3", name = "apollo-api", version = "3.8.2" }
+apollo-ast = { group = "com.apollographql.apollo3", name = "apollo-ast", version = "3.8.2" }
+apollo-normalized-cache = { group = "com.apollographql.apollo3", name = "apollo-normalized-cache", version = "3.8.2" }
+apollo-normalized-cache-sqlite = { group = "com.apollographql.apollo3", name = "apollo-normalized-cache-sqlite", version = "3.8.2" }
+apollo-runtime = { group = "com.apollographql.apollo3", name = "apollo-runtime", version = "3.8.2" }
 arrow-kt-suspendapp = { group = "io.arrow-kt", name = "suspendapp", version = "0.4.0" }
 arrow-kt-suspendapp-ktor = { group = "io.arrow-kt", name = "suspendapp-ktor", version = "0.4.0" }
 asm = { group = "org.ow2.asm", name = "asm", version = "9.6" }
