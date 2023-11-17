@@ -1,6 +1,3 @@
-[versions]
-androidx-compose-compiler = "1.5.3"
-
 [plugins]
 android-application = { id = "com.android.application", version = "8.1.4" }
 android-library = { id = "com.android.library", version = "8.1.4" }
@@ -33,6 +30,7 @@ spring-dependency-management = { id = "io.spring.dependency-management", version
 [libraries]
 accessibility-test-framework = { group = "com.google.android.apps.common.testing.accessibility.framework", name = "accessibility-test-framework", version = "4.1.0" }
 accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version = "0.32.0" }
+android-gradle = { group = "com.android.tools.build", name = "gradle", version = "8.1.4" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.8.1" }
 androidx-annotation = { group = "androidx.annotation", name = "annotation", version = "1.7.0" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
@@ -41,7 +39,7 @@ androidx-arch-core-testing = { group = "androidx.arch.core", name = "core-testin
 androidx-autofill = { group = "androidx.autofill", name = "autofill", version = "1.1.0" }
 androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version = "1.2.1" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2023.10.01" }
-androidx-compose-compile = { group = "androidx.compose.compiler", name = "compiler", version = "1.5.4" }
+androidx-compose-compiler = { group = "androidx.compose.compiler", name = "compiler", version = "1.5.4" }
 androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version = "1.5.4" }
 androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version = "1.5.4" }
 androidx-compose-material = { group = "androidx.compose.material", name = "material", version = "1.5.4" }
