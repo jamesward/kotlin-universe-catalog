@@ -2,7 +2,7 @@
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.0-Beta1" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.0.0-Beta1" }
 kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "2.0.0-Beta1" }
-kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1.9.20-RC2" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "2.0.0-Beta1" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.0.0-Beta1" }
 kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "2.0.0-Beta1" }
 
