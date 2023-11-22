@@ -253,7 +253,7 @@ quarkus-bom = { group = "io.quarkus", name = "quarkus-bom", version = "3.5.2" }
 quarkus-bootstrap-core = { group = "io.quarkus", name = "quarkus-bootstrap-core", version = "3.5.3" }
 quarkus-bootstrap-gradle-resolver = { group = "io.quarkus", name = "quarkus-bootstrap-gradle-resolver", version = "3.5.2" }
 quarkus-core-deployment = { group = "io.quarkus", name = "quarkus-core-deployment", version = "3.5.2" }
-quarkus-devtools-common = { group = "io.quarkus", name = "quarkus-devtools-common", version = "3.5.2" }
+quarkus-devtools-common = { group = "io.quarkus", name = "quarkus-devtools-common", version = "3.5.3" }
 quarkus-devtools-testing = { group = "io.quarkus", name = "quarkus-devtools-testing", version = "3.5.2" }
 quarkus-project-core-extension-codestarts = { group = "io.quarkus", name = "quarkus-project-core-extension-codestarts", version = "3.5.2" }
 r2dbc-postgresql = { group = "org.postgresql", name = "r2dbc-postgresql", version = "1.0.2.RELEASE" }
