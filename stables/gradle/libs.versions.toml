@@ -249,7 +249,7 @@ okio = { group = "com.squareup.okio", name = "okio", version = "3.6.0" }
 postgresql = { group = "org.postgresql", name = "postgresql", version = "42.7.0" }
 protobuf-java = { group = "com.google.protobuf", name = "protobuf-java", version = "3.25.1" }
 protoc = { group = "com.google.protobuf", name = "protoc", version = "3.25.1" }
-quarkus-bom = { group = "io.quarkus", name = "quarkus-bom", version = "3.5.2" }
+quarkus-bom = { group = "io.quarkus", name = "quarkus-bom", version = "3.6.0" }
 quarkus-bootstrap-core = { group = "io.quarkus", name = "quarkus-bootstrap-core", version = "3.5.3" }
 quarkus-bootstrap-gradle-resolver = { group = "io.quarkus", name = "quarkus-bootstrap-gradle-resolver", version = "3.5.2" }
 quarkus-core-deployment = { group = "io.quarkus", name = "quarkus-core-deployment", version = "3.6.0" }
