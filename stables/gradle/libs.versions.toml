@@ -13,7 +13,7 @@ gradle-plugin-publish = { id = "com.gradle.plugin-publish", version = "1.2.1" }
 jib = { id = "com.google.cloud.tools.jib", version = "3.4.0" }
 jetbrains-compose = { id = "org.jetbrains.compose", version = "1.5.10" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.21" }
-kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "1.9.20" }
+kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "1.9.21" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.21" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1.9.21" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.20" }
