@@ -16,7 +16,7 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.21" }
 kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "1.9.20" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.21" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1.9.21" }
-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.20" }
+kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.21" }
 kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "1.9.21" }
 kotlin-power-assert = { id = "com.bnorm.power.kotlin-power-assert", version = "0.13.0" }
 ksp = { id = "com.google.devtools.ksp", version = "1.9.20-1.0.14" }
