@@ -94,6 +94,7 @@ assertj = { group = "org.assertj", name = "assertj-core", version = "3.24.2" }
 awaitility = { group = "org.awaitility", name = "awaitility", version = "4.2.0" }
 aws-java-sdk-lambda = { group = "com.amazonaws", name = "aws-java-sdk-lambda", version = "1.12.595" }
 bcpkix = { group = "org.bouncycastle", name = "bcpkix-jdk15on", version = "1.70" }
+benasher44-uuid = { group = "com.benasher44", name = "uuid", version = "0.8.2" }
 blaze-persistence-core = { group = "com.blazebit", name = "blaze-persistence-core-impl", version = "1.6.10" }
 caffeine = { group = "com.github.ben-manes.caffeine", name = "caffeine", version = "3.1.8" }
 compile-testing = { group = "com.google.testing.compile", name = "compile-testing", version = "0.21.0" }
