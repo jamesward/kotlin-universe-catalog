@@ -36,7 +36,7 @@ class GradlePluginTest {
                     mavenCentral()
                 }
             }
-            
+
             @Suppress("UnstableApiUsage")
             dependencyResolutionManagement {
                 repositories {
@@ -44,7 +44,7 @@ class GradlePluginTest {
                     mavenCentral()
                 }
             }
-            
+
             plugins {
                 id("com.jamesward.kotlin-universe-catalog") version "$pluginVersion"
             }
@@ -57,6 +57,119 @@ class GradlePluginTest {
 
         assertTrue(result.output.contains("+--- org.jetbrains.kotlin:kotlin-stdlib-jdk8"))
         assertTrue(result.output.contains("\\--- org.jetbrains.kotlinx:kotlinx-coroutines-core"))
+    }
+
+    @Test
+    fun stable_compose_android_kotlin_compat() {
+        buildFile.writeText("""
+            plugins {
+                application
+                alias(universe.plugins.kotlin.jvm)
+            }
+            
+            kotlin {
+                jvmToolchain(17)
+            }
+            
+            application {
+                mainClass = "MainKt"
+            }
+            
+            dependencies {
+                implementation(universe.androidx.compose.compiler)
+                implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:${'$'}{universe.plugins.kotlin.android.get().version}")
+            }
+        """.trimIndent())
+
+        settingsFile.writeText("""
+            pluginManagement {
+                repositories {
+                    maven(uri("$testRepo"))
+                    gradlePluginPortal()
+                    mavenCentral()
+                    google()
+                }
+            }
+
+            @Suppress("UnstableApiUsage")
+            dependencyResolutionManagement {
+                repositories {
+                    maven(uri("$testRepo"))
+                    mavenCentral()
+                    google()
+                }
+            }
+
+            plugins {
+                id("com.jamesward.kotlin-universe-catalog") version "$pluginVersion"
+            }
+        """.trimIndent())
+
+        val srcDir = testProjectDir / "src" / "main" / "kotlin"
+        srcDir.toFile().mkdirs()
+
+        (srcDir / "Main.kt").writeText("""
+            import androidx.compose.compiler.plugins.kotlin.ComposePluginRegistrar
+            import org.jetbrains.kotlin.config.CompilerConfiguration
+
+            fun main() {
+                val compilerConfiguration = CompilerConfiguration()
+                val compatible = ComposePluginRegistrar.checkCompilerVersion(compilerConfiguration)
+                if (!compatible) {
+                    throw Exception("Compose and Kotlin Versions are incompatible")
+                }
+            }
+        """.trimIndent())
+
+        val result = GradleRunner.create()
+            .withProjectDir(testProjectDir.toFile())
+            .withArguments("run")
+            .build()
+
+        assertTrue(result.output.contains("BUILD SUCCESSFUL"))
+    }
+
+    @Test
+    fun stable_compose_kmp_kotlin_compat() {
+        buildFile.writeText("""
+            plugins {
+                alias(universe.plugins.kotlin.multiplatform)
+                alias(universe.plugins.jetbrains.compose)
+            }
+
+            kotlin {
+                jvm()
+            }
+        """.trimIndent())
+
+        settingsFile.writeText("""
+            pluginManagement {
+                repositories {
+                    maven(uri("$testRepo"))
+                    gradlePluginPortal()
+                    mavenCentral()
+                }
+            }
+
+            @Suppress("UnstableApiUsage")
+            dependencyResolutionManagement {
+                repositories {
+                    maven(uri("$testRepo"))
+                    mavenCentral()
+                }
+            }
+
+            plugins {
+                id("com.jamesward.kotlin-universe-catalog") version "$pluginVersion"
+            }
+        """.trimIndent())
+
+        val result = GradleRunner.create()
+            .withProjectDir(testProjectDir.toFile())
+            .withArguments("check")
+            .build()
+
+        assertTrue(result.output.contains("BUILD SUCCESSFUL"))
     }
 
     @Test
