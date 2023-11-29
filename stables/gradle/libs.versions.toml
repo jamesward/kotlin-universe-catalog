@@ -114,6 +114,7 @@ fresco-ui-common = { group = "com.facebook.fresco", name = "ui-common", version 
 geb-spock = { group = "org.gebish", name = "geb-spock", version = "7.0" }
 graalvm-buildtools-native-gradle-plugin = { group = "org.graalvm.buildtools", name = "native-gradle-plugin", version = "0.9.28" }
 graalvm-svm = { group = "org.graalvm.nativeimage", name = "svm", version = "23.1.1" }
+gradle-wrapper-shared = { group = "org.gradle", "gradle-wrapper-shared", version = "8.4" }
 grails-datastore-core = { group = "org.grails", name = "grails-datastore-core", version = "8.0.3" }
 groovy-bom = { group = "org.apache.groovy", name = "groovy-bom", version = "4.0.15" }
 groovy-test-junit5 = { group = "org.apache.groovy", name = "groovy-test-junit5", version = "4.0.15" }
@@ -168,6 +169,7 @@ junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-para
 junit-platform-engine = { group = "org.junit.platform", name = "junit-platform-suite-engine", version = "1.10.1" }
 junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher", version = "1.10.1" }
 junit-vintage = { group = "org.junit.vintage", name = "junit-vintage-engine", version = "5.10.1" }
+kgit2-kommand = { group = "com.kgit2", name = "kommand", version = "1.1.0" }
 kotest-junit5-jvm = { group = "io.kotest", name = "kotest-runner-junit5-jvm", version = "5.8.0" }
 kotlin-allopen = { group = "org.jetbrains.kotlin", name = "kotlin-allopen", version = "1.9.21" }
 kotlin-annotation-processing-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-annotation-processing-embeddable", version = "1.9.21" }
@@ -200,10 +202,12 @@ ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version
 ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.6" }
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version = "2.3.6" }
 ktor-client-curl = { group = "io.ktor", name = "ktor-client-curl", version = "2.3.6" }
+ktor-client-darwin = { group = "io.ktor", name = "ktor-client-darwin", version = "2.3.6" }
 ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.6" }
 ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.3.6" }
 ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version = "2.3.6" }
 ktor-client-mock = { group = "io.ktor", name = "ktor-client-mock", version = "2.3.6" }
+ktor-client-winhttp = { group = "io.ktor", name = "ktor-client-winhttp", version = "2.3.6" }
 ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version = "2.3.6" }
 ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version = "2.3.6" }
 ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version = "2.3.6" }
