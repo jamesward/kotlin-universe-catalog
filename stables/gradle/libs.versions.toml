@@ -114,7 +114,7 @@ fresco-ui-common = { group = "com.facebook.fresco", name = "ui-common", version 
 geb-spock = { group = "org.gebish", name = "geb-spock", version = "7.0" }
 graalvm-buildtools-native-gradle-plugin = { group = "org.graalvm.buildtools", name = "native-gradle-plugin", version = "0.9.28" }
 graalvm-svm = { group = "org.graalvm.nativeimage", name = "svm", version = "23.1.1" }
-gradle-wrapper-shared = { group = "org.gradle", "gradle-wrapper-shared", version = "8.4" }
+gradle-wrapper-shared = { group = "org.gradle", name = "gradle-wrapper-shared", version = "8.4" }
 grails-datastore-core = { group = "org.grails", name = "grails-datastore-core", version = "8.0.3" }
 groovy-bom = { group = "org.apache.groovy", name = "groovy-bom", version = "4.0.15" }
 groovy-test-junit5 = { group = "org.apache.groovy", name = "groovy-test-junit5", version = "4.0.15" }
