@@ -213,7 +213,7 @@ ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version = "2.3.
 ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version = "2.3.6" }
 ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version = "2.3.6" }
 log4j = { group = "org.apache.logging.log4j", name = "log4j-core", version = "2.22.0" }
-logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.4.13" }
+logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.4.14" }
 logbook-netty = { group = "org.zalando", name = "logbook-netty", version = "3.6.0" }
 material = { group = "com.google.android.material", name = "material", version = "1.10.0" }
 methvin-directoryWatcher = { group = "io.methvin", name = "directory-watcher", version = "0.18.0" }
