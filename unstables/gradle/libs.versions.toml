@@ -10,7 +10,7 @@ android-application = { id = "com.android.application", version = "8.3.0-alpha16
 android-library = { id = "com.android.library", version = "8.3.0-alpha16" }
 android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version = "8.3.0-alpha16" }
 
-jetbrains-compose = { id = "org.jetbrains.compose", version = "1.6.0-dev1296" }
+jetbrains-compose = { id = "org.jetbrains.compose", version = "1.6.0-dev1323" }
 
 [libraries]
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "2.0.0-Beta1" }
