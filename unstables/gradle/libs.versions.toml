@@ -7,7 +7,7 @@ kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization"
 kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "2.0.0-Beta1" }
 
 android-application = { id = "com.android.application", version = "8.3.0-alpha17" }
-android-library = { id = "com.android.library", version = "8.3.0-alpha16" }
+android-library = { id = "com.android.library", version = "8.3.0-alpha17" }
 android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version = "8.3.0-alpha17" }
 
 jetbrains-compose = { id = "org.jetbrains.compose", version = "1.6.0-dev1323" }
