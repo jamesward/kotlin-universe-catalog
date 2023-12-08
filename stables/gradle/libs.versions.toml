@@ -211,7 +211,7 @@ ktor-client-winhttp = { group = "io.ktor", name = "ktor-client-winhttp", version
 ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version = "2.3.7" }
 ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version = "2.3.7" }
 ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version = "2.3.7" }
-ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version = "2.3.6" }
+ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version = "2.3.7" }
 log4j = { group = "org.apache.logging.log4j", name = "log4j-core", version = "2.22.0" }
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.4.14" }
 logbook-netty = { group = "org.zalando", name = "logbook-netty", version = "3.7.0" }
