@@ -207,7 +207,7 @@ ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.
 ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.3.7" }
 ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version = "2.3.7" }
 ktor-client-mock = { group = "io.ktor", name = "ktor-client-mock", version = "2.3.7" }
-ktor-client-winhttp = { group = "io.ktor", name = "ktor-client-winhttp", version = "2.3.6" }
+ktor-client-winhttp = { group = "io.ktor", name = "ktor-client-winhttp", version = "2.3.7" }
 ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version = "2.3.7" }
 ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version = "2.3.7" }
 ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version = "2.3.7" }
