@@ -237,7 +237,7 @@ moshi = { group = "com.squareup.moshi", name = "moshi", version = "1.15.0" }
 mysql-connector-java = { group = "mysql", name = "mysql-connector-java", version = "8.0.33" }
 neo4j-java-driver = { group = "org.neo4j.driver", name = "neo4j-java-driver", version = "5.15.0" }
 netty-bom = { group = "io.netty", name = "netty-bom", version = "4.1.102.Final" }
-netty-buffer = { group = "io.netty", name = "netty-buffer", version = "4.1.101.Final" }
+netty-buffer = { group = "io.netty", name = "netty-buffer", version = "4.1.102.Final" }
 netty-codec-http = { group = "io.netty", name = "netty-codec-http", version = "4.1.101.Final" }
 netty-codec-http2 = { group = "io.netty", name = "netty-codec-http2", version = "4.1.102.Final" }
 netty-handler = { group = "io.netty", name = "netty-handler", version = "4.1.101.Final" }
