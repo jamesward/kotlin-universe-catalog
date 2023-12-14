@@ -32,7 +32,7 @@ accessibility-test-framework = { group = "com.google.android.apps.common.testing
 accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version = "0.32.0" }
 android-gradle = { group = "com.android.tools.build", name = "gradle", version = "8.2.0" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.8.2" }
-androidx-annotation = { group = "androidx.annotation", name = "annotation", version = "1.7.0" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version = "1.7.1" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
 androidx-appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version = "1.6.1" }
 androidx-arch-core-testing = { group = "androidx.arch.core", name = "core-testing", version = "2.2.0" }
