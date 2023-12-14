@@ -303,7 +303,7 @@ testcontainers-r2dbc = { group = "org.testcontainers", name = "r2dbc", version =
 testcontainers-spock = { group = "org.testcontainers", name = "spock", version = "1.19.3" }
 thoughtworks-xstream = { group = "com.thoughtworks.xstream", name = "xstream", version = "1.4.20" }
 tomlj = { group = "org.tomlj", name = "tomlj", version = "1.1.0" }
-vertx-core = { group = "io.vertx", name = "vertx-core", version = "4.5.0" }
+vertx-core = { group = "io.vertx", name = "vertx-core", version = "4.5.1" }
 vertx-web-client = { group = "io.vertx", name = "vertx-web-client", version = "4.5.1" }
 wire-runtime = { group = "com.squareup.wire", name = "wire-runtime", version = "4.9.3" }
 wiremock = { group = "com.github.tomakehurst", name = "wiremock-jre8", version = "3.0.1" }
