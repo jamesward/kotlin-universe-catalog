@@ -7,7 +7,7 @@ permissions:
 jobs:
   dependabot:
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]' && !contains(github.event.pull_request.title, 'kotlin-universe-catalog')
+    if: ${{ github.actor == 'dependabot[bot]' && !contains(github.event.pull_request.title, 'kotlin-universe-catalog') }}
     steps:
       - name: Dependabot metadata
         id: metadata
