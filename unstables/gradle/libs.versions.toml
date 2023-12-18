@@ -1,10 +1,10 @@
 [plugins]
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.0-Beta2" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.0.0-Beta2" }
-kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "2.0.0-Beta2" }
-kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "2.0.0-Beta2" }
-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.0.0-Beta2" }
-kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "2.0.0-Beta2" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.0-Beta1" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "2.0.0-Beta1" }
+kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "2.0.0-Beta1" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "2.0.0-Beta1" }
+kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "2.0.0-Beta1" }
+kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "2.0.0-Beta1" }
 
 android-application = { id = "com.android.application", version = "8.3.0-alpha18" }
 android-library = { id = "com.android.library", version = "8.3.0-alpha18" }
@@ -13,7 +13,7 @@ android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.
 jetbrains-compose = { id = "org.jetbrains.compose", version = "1.6.0-dev1334" }
 
 [libraries]
-kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "2.0.0-Beta2" }
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "2.0.0-Beta1" }
 
 androidx-datastore-core-okio = { group = "androidx.datastore", name = "datastore-core-okio", version = "1.1.0-alpha04" }
 androidx-datastore-core-preferences-core = { group = "androidx.datastore", name = "datastore-preferences-core", version = "1.1.0-alpha04" }
