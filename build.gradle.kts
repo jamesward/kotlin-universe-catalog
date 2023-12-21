@@ -4,6 +4,9 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 plugins {
     alias(universe.plugins.qoomon.git.versioning)
     alias(universe.plugins.gradle.nexus.publish.plugin)
+    // todo: to universe catalog
+    id("com.github.ben-manes.versions") version "0.50.0"
+    id("nl.littlerobots.version-catalog-update") version "0.8.1"
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -77,6 +80,22 @@ subprojects {
 
     tasks.withType<Sign> {
         onlyIf { System.getenv("GPG_PRIVATE_KEY") != null && System.getenv("GPG_PASSPHRASE") != null }
+    }
+}
+
+versionCatalogUpdate {
+    keep {
+        keepUnusedVersions = true
+        keepUnusedLibraries = true
+        keepUnusedPlugins = true
+    }
+    versionCatalogs {
+        create("stables") {
+            catalogFile = file("stables/gradle/libs.versions.toml")
+        }
+        create("unstables") {
+            catalogFile = file("unstables/gradle/libs.versions.toml")
+        }
     }
 }
 
