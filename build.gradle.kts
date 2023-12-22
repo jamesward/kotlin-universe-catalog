@@ -1,4 +1,5 @@
 import me.qoomon.gitversioning.commons.GitUtil
+import nl.littlerobots.vcu.plugin.versionSelector
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 
 plugins {
@@ -6,7 +7,7 @@ plugins {
     alias(universe.plugins.gradle.nexus.publish.plugin)
     // todo: to universe catalog
     id("com.github.ben-manes.versions") version "0.50.0"
-    id("nl.littlerobots.version-catalog-update") version "0.8.1"
+    id("nl.littlerobots.version-catalog-update") version "0.8.2"
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -89,6 +90,14 @@ versionCatalogUpdate {
         keepUnusedLibraries = true
         keepUnusedPlugins = true
     }
+
+    // todo: nonStable for unstables, stable for stables
+    /*
+    versionSelector {
+        !isNonStable(it.candidate.version)
+    }
+     */
+
     versionCatalogs {
         create("stables") {
             catalogFile = file("stables/gradle/libs.versions.toml")
