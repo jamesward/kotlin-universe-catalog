@@ -172,7 +172,7 @@ junit-vintage = { group = "org.junit.vintage", name = "junit-vintage-engine", ve
 kgit2-kommand = { group = "com.kgit2", name = "kommand", version = "1.2.0" }
 kotest-junit5-jvm = { group = "io.kotest", name = "kotest-runner-junit5-jvm", version = "5.8.0" }
 kotlin-allopen = { group = "org.jetbrains.kotlin", name = "kotlin-allopen", version = "1.9.22" }
-kotlin-annotation-processing-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-annotation-processing-embeddable", version = "1.9.21" }
+kotlin-annotation-processing-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-annotation-processing-embeddable", version = "1.9.22" }
 kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version = "1.9.22" }
 kotlin-compiler-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-compiler-embeddable", version = "1.9.21" }
 kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version = "1.9.22" }
