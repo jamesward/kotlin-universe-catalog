@@ -12,7 +12,7 @@ gradle-nexus-publish-plugin = { id = "io.github.gradle-nexus.publish-plugin", ve
 gradle-plugin-publish = { id = "com.gradle.plugin-publish", version = "1.2.1" }
 jib = { id = "com.google.cloud.tools.jib", version = "3.4.0" }
 jetbrains-compose = { id = "org.jetbrains.compose", version = "1.5.11" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.21" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.22" }
 kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "1.9.22" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.22" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1.9.21" }
