@@ -177,7 +177,7 @@ kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version = "1
 kotlin-compiler-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-compiler-embeddable", version = "1.9.21" }
 kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version = "1.9.21" }
 kotlin-power-assert-gradle = { group = "com.bnorm.power", name = "kotlin-power-assert-gradle", version = "0.13.0" }
-kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version = "1.9.21" }
+kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version = "1.9.22" }
 kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version = "1.9.21" }
 kotlin-stdlib-jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version = "1.9.21" }
 kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.21" }
