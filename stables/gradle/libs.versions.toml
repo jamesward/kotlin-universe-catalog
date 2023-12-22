@@ -294,7 +294,7 @@ spring-gradle-dependency-management-plugin = { group = "io.spring.gradle", name 
 spring-boot-gradle-plugin = { group = "org.springframework.boot", name = "spring-boot-gradle-plugin", version = "3.2.1" }
 spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator", version = "3.2.0" }
 spring-boot-starter-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc", version = "3.2.0" }
-spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test", version = "3.2.0" }
+spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test", version = "3.2.1" }
 spring-boot-starter-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux", version = "3.2.0" }
 spring-data-commons = { group = "org.springframework.data", name = "spring-data-commons", version = "3.2.1" }
 system-lambda = { group = "com.github.stefanbirkner", name = "system-lambda", version = "1.2.1" }
