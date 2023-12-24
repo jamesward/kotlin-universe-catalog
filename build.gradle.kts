@@ -90,8 +90,14 @@ versionCatalogUpdate {
     }
 
     versionSelector {
-        // to prevent something like FINAL-SNAPSHOT as a version
-        !it.candidate.version.contains("-SNAPSHOT") && VersionSelectors.STABLE.select(it)
+        if (it.candidate.group == "com.google.errorprone" &&
+            it.candidate.module == "javac" &&
+            !it.candidate.version.contains("-dev")) {
+            true
+        } else {
+            // to prevent something like FINAL-SNAPSHOT as a version
+            !it.candidate.version.contains("-SNAPSHOT") && VersionSelectors.STABLE.select(it)
+        }
     }
 
     versionCatalogs {
