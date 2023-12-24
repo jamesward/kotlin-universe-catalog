@@ -1,4 +1,5 @@
 import me.qoomon.gitversioning.commons.GitUtil
+import nl.littlerobots.vcu.plugin.resolver.VersionSelectors
 import nl.littlerobots.vcu.plugin.versionSelector
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 
@@ -6,8 +7,7 @@ plugins {
     alias(universe.plugins.qoomon.git.versioning)
     alias(universe.plugins.gradle.nexus.publish.plugin)
     // todo: to universe catalog
-    id("com.github.ben-manes.versions") version "0.50.0"
-    id("nl.littlerobots.version-catalog-update") version "0.8.2"
+    id("nl.littlerobots.version-catalog-update") version "0.8.4-SNAPSHOT"
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -87,16 +87,18 @@ subprojects {
 versionCatalogUpdate {
     keep {
         keepUnusedVersions = true
-        keepUnusedLibraries = true
-        keepUnusedPlugins = true
     }
 
-    // todo: nonStable for unstables, stable for stables
-    /*
     versionSelector {
-        !isNonStable(it.candidate.version)
+        if (it.candidate.group == "com.google.errorprone" &&
+            it.candidate.module == "javac" &&
+            !it.candidate.version.contains("-dev")) {
+            true
+        } else {
+            // to prevent something like FINAL-SNAPSHOT as a version
+            !it.candidate.version.contains("-SNAPSHOT") && VersionSelectors.STABLE.select(it)
+        }
     }
-     */
 
     versionCatalogs {
         create("stables") {
@@ -104,6 +106,10 @@ versionCatalogUpdate {
         }
         create("unstables") {
             catalogFile = file("unstables/gradle/libs.versions.toml")
+			versionSelector {
+                // whatever is latest, except for snapshots
+				!it.candidate.version.endsWith("-SNAPSHOT")
+			}
         }
     }
 }
