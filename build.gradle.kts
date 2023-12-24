@@ -106,10 +106,10 @@ versionCatalogUpdate {
         }
         create("unstables") {
             catalogFile = file("unstables/gradle/libs.versions.toml")
-			versionSelector {
+            versionSelector {
                 // whatever is latest, except for snapshots
-				!it.candidate.version.endsWith("-SNAPSHOT")
-			}
+                !it.candidate.version.endsWith("-SNAPSHOT")
+            }
         }
     }
 }
