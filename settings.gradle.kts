@@ -3,6 +3,7 @@ pluginManagement {
     repositories {
         mavenLocal()
         mavenCentral()
+		google()
         gradlePluginPortal()
         maven("https://oss.sonatype.org/content/groups/staging")  // since mavenCentral takes a little while
     }
@@ -14,6 +15,9 @@ dependencyResolutionManagement {
     repositories {
         mavenLocal()
         mavenCentral()
+		google()
+        // for resolving plugins as libraries
+        gradlePluginPortal()
         maven("https://oss.sonatype.org/content/groups/staging")  // since mavenCentral takes a little while
     }
 }
