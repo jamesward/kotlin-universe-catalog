@@ -1,9 +1,13 @@
 import me.qoomon.gitversioning.commons.GitUtil
+import nl.littlerobots.vcu.plugin.resolver.VersionSelectors
+import nl.littlerobots.vcu.plugin.versionSelector
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 
 plugins {
     alias(universe.plugins.qoomon.git.versioning)
     alias(universe.plugins.gradle.nexus.publish.plugin)
+    // todo: to universe catalog
+    id("nl.littlerobots.version-catalog-update") version "0.8.4-SNAPSHOT"
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -77,6 +81,36 @@ subprojects {
 
     tasks.withType<Sign> {
         onlyIf { System.getenv("GPG_PRIVATE_KEY") != null && System.getenv("GPG_PASSPHRASE") != null }
+    }
+}
+
+versionCatalogUpdate {
+    keep {
+        keepUnusedVersions = true
+    }
+
+    versionSelector {
+        if (it.candidate.group == "com.google.errorprone" &&
+            it.candidate.module == "javac" &&
+            !it.candidate.version.contains("-dev")) {
+            true
+        } else {
+            // to prevent something like FINAL-SNAPSHOT as a version
+            !it.candidate.version.contains("-SNAPSHOT") && VersionSelectors.STABLE.select(it)
+        }
+    }
+
+    versionCatalogs {
+        create("stables") {
+            catalogFile = file("stables/gradle/libs.versions.toml")
+        }
+        create("unstables") {
+            catalogFile = file("unstables/gradle/libs.versions.toml")
+            versionSelector {
+                // whatever is latest, except for snapshots
+                !it.candidate.version.endsWith("-SNAPSHOT")
+            }
+        }
     }
 }
 

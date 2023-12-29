@@ -3,37 +3,4 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    directory: "/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    directory: "/stables"
-    open-pull-requests-limit: 100
-    registries:
-      - maven-central
-      - maven-gradle
-      - maven-google
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    directory: "/unstables"
-    open-pull-requests-limit: 100
-    registries:
-      - maven-central
-      - maven-gradle
-      - maven-google
-    schedule:
-      interval: "daily"
-
-registries:
-  maven-central:
-    type: maven-repository
-    url: "https://repo.maven.apache.org/maven2/"
-  maven-gradle:
-    type: maven-repository
-    url: "https://plugins.gradle.org/m2/"
-  maven-google:
-    type: maven-repository
-    url: "https://dl.google.com/dl/android/maven2/"
+      interval: "weekly"

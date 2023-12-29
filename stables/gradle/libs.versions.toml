@@ -1,310 +1,358 @@
 [plugins]
-android-application = { id = "com.android.application", version = "8.2.0" }
-android-library = { id = "com.android.library", version = "8.2.0" }
-animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.1" }
-apollo = { id = "com.apollographql.apollo3", version = "3.8.2" }
-dokka = { id = "org.jetbrains.dokka", version = "1.9.10" }
-download = { id = "de.undercouch.download", version = "5.5.0" }
-errorprone = { id = "net.ltgt.errorprone", version = "3.1.0" }
-google-java-format = { id = "com.github.sherter.google-java-format", version = "0.9" }
-graalvm-buildtools-native = { id = "org.graalvm.buildtools.native", version = "0.9.28" }
-gradle-nexus-publish-plugin = { id = "io.github.gradle-nexus.publish-plugin", version = "1.3.0" }
-gradle-plugin-publish = { id = "com.gradle.plugin-publish", version = "1.2.1" }
-jib = { id = "com.google.cloud.tools.jib", version = "3.4.0" }
-jetbrains-compose = { id = "org.jetbrains.compose", version = "1.5.11" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.21" }
-kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version = "1.9.22" }
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.22" }
-kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "1.9.21" }
-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.22" }
-kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version = "1.9.22" }
-kotlin-power-assert = { id = "com.bnorm.power.kotlin-power-assert", version = "0.13.0" }
-ksp = { id = "com.google.devtools.ksp", version = "1.9.21-1.0.16" }
-palantir-graal = { id = "com.palantir.graal", version = "0.12.0" }
-protobuf = { id = "com.google.protobuf", version = "0.9.4" }
-qoomon-git-versioning = { id = "me.qoomon.git-versioning", version = "6.4.3" }
-skie = { id = "co.touchlab.skie", version = "0.6.0" }
-spring-boot = { id = "org.springframework.boot", version = "3.2.1" }
-spring-dependency-management = { id = "io.spring.dependency-management", version = "1.1.4" }
+android-application = "com.android.application:8.2.0"
+android-library = "com.android.library:8.2.0"
+animalsniffer = "ru.vyarus.animalsniffer:1.7.1"
+apollo = "com.apollographql.apollo3:3.8.2"
+dokka = "org.jetbrains.dokka:1.9.10"
+download = "de.undercouch.download:5.5.0"
+errorprone = "net.ltgt.errorprone:3.1.0"
+google-java-format = "com.github.sherter.google-java-format:0.9"
+graalvm-buildtools-native = "org.graalvm.buildtools.native:0.9.28"
+gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:1.3.0"
+gradle-plugin-publish = "com.gradle.plugin-publish:1.2.1"
+jetbrains-compose = "org.jetbrains.compose:1.5.11"
+jib = "com.google.cloud.tools.jib:3.4.0"
+# @pin this library to version 1.9.21 for compose compat
+kotlin-android = "org.jetbrains.kotlin.android:1.9.21"
+kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:1.9.22"
+kotlin-jvm = "org.jetbrains.kotlin.jvm:1.9.22"
+# @pin this library to version 1.9.21 for compose compat
+kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:1.9.21"
+kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:1.9.22"
+kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:1.9.22"
+kotlin-power-assert = "com.bnorm.power.kotlin-power-assert:0.13.0"
+ksp = "com.google.devtools.ksp:1.9.22-1.0.16"
+palantir-graal = "com.palantir.graal:0.12.0"
+protobuf = "com.google.protobuf:0.9.4"
+qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
+skie = "co.touchlab.skie:0.6.1"
+spring-boot = "org.springframework.boot:3.2.1"
+spring-dependency-management = "io.spring.dependency-management:1.1.4"
 
 [libraries]
-accessibility-test-framework = { group = "com.google.android.apps.common.testing.accessibility.framework", name = "accessibility-test-framework", version = "4.1.0" }
-accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version = "0.32.0" }
-android-gradle = { group = "com.android.tools.build", name = "gradle", version = "8.2.0" }
-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.8.2" }
-androidx-annotation = { group = "androidx.annotation", name = "annotation", version = "1.7.1" }
-androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
-androidx-appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version = "1.6.1" }
-androidx-arch-core-testing = { group = "androidx.arch.core", name = "core-testing", version = "2.2.0" }
-androidx-autofill = { group = "androidx.autofill", name = "autofill", version = "1.1.0" }
-androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version = "1.2.2" }
-androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2023.10.01" }
-androidx-compose-compiler = { group = "androidx.compose.compiler", name = "compiler", version = "1.5.7" }
-androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version = "1.5.4" }
-androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version = "1.5.4" }
-androidx-compose-material = { group = "androidx.compose.material", name = "material", version = "1.5.4" }
-androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.1.2" }
-androidx-compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version = "1.5.4" }
-androidx-compose-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version = "1.5.4" }
-androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version = "1.5.4" }
-androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version = "1.5.4" }
-androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest", version = "1.5.4" }
-androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version = "1.5.4" }
-androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version = "1.5.4" }
-androidx-compose-ui-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding", version = "1.5.4" }
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
-androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version = "1.0.1" }
-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.12.0" }
-androidx-espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib", version = "3.5.1" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version = "3.5.1" }
-androidx-espresso-intents = { group = "androidx.test.espresso", name = "espresso-intents", version = "3.5.1" }
-androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version = "2.6.2" }
-androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version = "2.6.2" }
-androidx-lifecycle-runtime-kts = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.6.2" }
-androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version = "2.6.2" }
-androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version = "2.6.2" }
-androidx-monitor = { group = "androidx.test", name = "monitor", version = "1.6.1" }
-androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version = "2.7.6" }
-androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version = "3.2.1" }
-androidx-paging-runtime-ktx = { group = "androidx.paging", name = "paging-runtime-ktx", version = "3.2.1" }
-androidx-profileinstaller = { group = "androidx.profileinstaller", name = "profileinstaller", version = "1.3.1" }
-androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version = "2.6.1" }
-androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version = "2.6.1" }
-androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version = "2.6.1" }
-androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version = "1.1.0" }
-androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version = "1.1.5" }
-androidx-test-rules = { group = "androidx.test", name = "rules", version = "1.5.0" }
-androidx-test-runner = { group = "androidx.test", name = "runner", version = "1.5.2" }
-androidx-test-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version = "2.2.0" }
-androidx-tracing = { group = "androidx.tracing", name = "tracing", version = "1.2.0" }
-androidx-tracing-ktx = { group = "androidx.tracing", name = "tracing-ktx", version = "1.2.0" }
-androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version = "2.9.0" }
-androidx-work-testing = { group = "androidx.work", name = "work-testing", version = "2.9.0" }
-animalsniffer-annotations = { group = "org.codehaus.mojo", name = "animal-sniffer-annotations", version = "1.23" }
-apollo-api = { group = "com.apollographql.apollo3", name = "apollo-api", version = "3.8.2" }
-apollo-ast = { group = "com.apollographql.apollo3", name = "apollo-ast", version = "3.8.2" }
-apollo-normalized-cache = { group = "com.apollographql.apollo3", name = "apollo-normalized-cache", version = "3.8.2" }
-apollo-normalized-cache-sqlite = { group = "com.apollographql.apollo3", name = "apollo-normalized-cache-sqlite", version = "3.8.2" }
-apollo-runtime = { group = "com.apollographql.apollo3", name = "apollo-runtime", version = "3.8.2" }
-arrow-kt-suspendapp = { group = "io.arrow-kt", name = "suspendapp", version = "0.4.0" }
-arrow-kt-suspendapp-ktor = { group = "io.arrow-kt", name = "suspendapp-ktor", version = "0.4.0" }
-asm = { group = "org.ow2.asm", name = "asm", version = "9.6" }
-asm-commons = { group = "org.ow2.asm", name = "asm-commons", version = "9.6" }
-asm-tree = { group = "org.ow2.asm", name = "asm-tree", version = "9.6" }
-assertj = { group = "org.assertj", name = "assertj-core", version = "3.24.2" }
-awaitility = { group = "org.awaitility", name = "awaitility", version = "4.2.0" }
-aws-java-sdk-lambda = { group = "com.amazonaws", name = "aws-java-sdk-lambda", version = "1.12.624" }
-bcpkix = { group = "org.bouncycastle", name = "bcpkix-jdk15on", version = "1.70" }
-benasher44-uuid = { group = "com.benasher44", name = "uuid", version = "0.8.2" }
-blaze-persistence-core = { group = "com.blazebit", name = "blaze-persistence-core-impl", version = "1.6.10" }
-caffeine = { group = "com.github.ben-manes.caffeine", name = "caffeine", version = "3.1.8" }
-compile-testing = { group = "com.google.testing.compile", name = "compile-testing", version = "0.21.0" }
-errorprone-core = { group = "com.google.errorprone", name = "error_prone_core", version = "2.24.0" }
-errorprone-javac = { group = "com.google.errorprone", name = "javac", version = "1+" }
-fbjni = { group = "com.facebook.fbjni", name = "fbjni", version = "0.5.1" }
-findbugs-annotations = { group = "com.google.code.findbugs", name = "jsr305", version = "3.0.2" }
-flipper = { group = "com.facebook.flipper", name = "flipper", version = "0.243.0" }
-flipper-fresco-plugin = { group = "com.facebook.fresco", name = "flipper-fresco-plugin", version = "3.1.3" }
-flipper-network-plugin = { group = "com.facebook.flipper", name = "flipper-network-plugin", version = "0.243.0" }
-foojay-resolver = { group = "org.gradle.toolchains", name = "foojay-resolver", version = "0.7.0" }
-fresco = { group = "com.facebook.fresco", name = "fresco", version = "3.1.3" }
-fresco-imagepipeline-okhttp3 = { group = "com.facebook.fresco", name = "imagepipeline-okhttp3", version = "3.1.3" }
-fresco-middleware = { group = "com.facebook.fresco", name = "middleware", version = "3.1.3" }
-fresco-ui-common = { group = "com.facebook.fresco", name = "ui-common", version = "3.1.3" }
-geb-spock = { group = "org.gebish", name = "geb-spock", version = "7.0" }
-graalvm-buildtools-native-gradle-plugin = { group = "org.graalvm.buildtools", name = "native-gradle-plugin", version = "0.9.28" }
-graalvm-svm = { group = "org.graalvm.nativeimage", name = "svm", version = "23.1.1" }
-gradle-wrapper-shared = { group = "org.gradle", name = "gradle-wrapper-shared", version = "8.4" }
-grails-datastore-core = { group = "org.grails", name = "grails-datastore-core", version = "8.0.3" }
-groovy-bom = { group = "org.apache.groovy", name = "groovy-bom", version = "4.0.17" }
-groovy-test-junit5 = { group = "org.apache.groovy", name = "groovy-test-junit5", version = "4.0.17" }
-gson = { group = "com.google.code.gson", name = "gson", version = "2.10.1" }
-guava = { group = "com.google.guava", name = "guava", version = "33.0.0-jre" }
-h2 = { group = "com.h2database", name = "h2", version = "2.2.224" }
-hibernate-core = { group = "org.hibernate", name = "hibernate-core", version = "6.4.1.Final" }
-hilt-android = { group = "com.google.dagger", name = "hilt-android", version = "2.50" }
-hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version = "2.50" }
-hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version = "2.50" }
-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version = "1.1.0" }
-htmlunit = { group = "net.sourceforge.htmlunit", name = "htmlunit", version = "2.70.0" }
-httpcomponents-client = { group = "org.apache.httpcomponents", name = "httpclient", version = "4.5.14" }
-httpcomponents-mime = { group = "org.apache.httpcomponents", name = "httpmime", version = "4.5.14" }
-infer-annotation = { group = "com.facebook.infer.annotation", name = "infer-annotation", version = "0.18.0" }
-jackson-annotations = { group = "com.fasterxml.jackson.core", name = "jackson-annotations", version = "2.16.0" }
-jackson-bom = { group = "com.fasterxml.jackson", name = "jackson-bom", version = "2.16.0" }
-jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core", version = "2.16.0" }
-jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.16.0" }
-jackson-dataformat-yaml = { group = "com.fasterxml.jackson.dataformat", name = "jackson-dataformat-yaml", version = "2.16.0" }
-jackson-datatype-jdk8 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jdk8", version = "2.16.0" }
-jackson-datatype-jsr310 = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310", version = "2.16.0" }
-jackson-module-afterburner = { group = "com.fasterxml.jackson.module", name = "jackson-module-afterburner", version = "2.16.0" }
-jackson-module-kotlin = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin", version = "2.16.0" }
-jackson-module-parameterNames = { group = "com.fasterxml.jackson.module", name = "jackson-module-parameter-names", version = "2.16.0" }
-jakarta-annotation-api = { group = "jakarta.annotation", name = "jakarta.annotation-api", version = "2.1.1" }
-jakarta-el = { group = "jakarta.el", name = "jakarta.el-api", version = "5.0.1" }
-jakarta-inject-api = { group = "jakarta.inject", name = "jakarta.inject-api", version = "2.0.1" }
-jakarta-inject-tck = { group = "jakarta.inject", name = "jakarta.inject-tck", version = "2.0.1" }
-jakarta-xml-bind-api = { group = "jakarta.xml.bind", name = "jakarta.xml.bind-api", version = "4.0.1" }
-java-parser-core = { group = "com.github.javaparser", name = "javaparser-symbol-solver-core", version = "3.25.7" }
-javax-annotation-api = { group = "javax.annotation", name = "javax.annotation-api", version = "1.3.2" }
-javax-inject = { group = "javax.inject", name = "javax.inject", version = "1" }
-javax-jaxb-api = { group = "javax.xml.bind", name = "jaxb-api", version = "2.3.1" }
-javax-persistence = { group = "javax.persistence", name = "javax.persistence-api", version = "2.2" }
-jaxb-impl = { group = "com.sun.xml.bind", name = "jaxb-impl", version = "4.0.4" }
-jaxb-runtime = { group = "org.glassfish.jaxb", name = "jaxb-runtime", version = "4.0.4" }
-jcache = { group = "javax.cache", name = "cache-api", version = "1.1.1" }
-jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version = "24.1.0" }
-jetty-alpn-openjdk8-client = { group = "org.eclipse.jetty", name = "jetty-alpn-openjdk8-client", version = "9.4.53.v20231009" }
-jib-native-image-extension = { group = "com.google.cloud.tools", name = "jib-native-image-extension-gradle", version = "0.1.0" }
-jmh-core = { group = "org.openjdk.jmh", name = "jmh-core", version = "1.37" }
-jmh-generator-annprocess = { group = "org.openjdk.jmh", name = "jmh-generator-annprocess", version = "1.37" }
-jsoup = { group = "org.jsoup", name = "jsoup", version = "1.17.1" }
-jsr107 = { group = "org.jsr107.ri", name = "cache-ri-impl", version = "1.1.1" }
-junit = { group = "junit", name = "junit", version = "4.13.2" }
-junit-bom = { group = "org.junit", name = "junit-bom", version = "5.10.1" }
-junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version = "5.10.1" }
-junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version = "5.10.1" }
-junit-jupiter-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version = "5.10.1" }
-junit-jupiter-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version = "5.10.1" }
-junit-platform-engine = { group = "org.junit.platform", name = "junit-platform-suite-engine", version = "1.10.1" }
-junit-platform-launcher = { group = "org.junit.platform", name = "junit-platform-launcher", version = "1.10.1" }
-junit-vintage = { group = "org.junit.vintage", name = "junit-vintage-engine", version = "5.10.1" }
-kgit2-kommand = { group = "com.kgit2", name = "kommand", version = "1.2.0" }
-kotest-junit5-jvm = { group = "io.kotest", name = "kotest-runner-junit5-jvm", version = "5.8.0" }
-kotlin-allopen = { group = "org.jetbrains.kotlin", name = "kotlin-allopen", version = "1.9.22" }
-kotlin-annotation-processing-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-annotation-processing-embeddable", version = "1.9.22" }
-kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version = "1.9.22" }
-kotlin-compiler-embeddable = { group = "org.jetbrains.kotlin", name = "kotlin-compiler-embeddable", version = "1.9.22" }
-kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version = "1.9.22" }
-kotlin-power-assert-gradle = { group = "com.bnorm.power", name = "kotlin-power-assert-gradle", version = "0.13.0" }
-kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version = "1.9.22" }
-kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version = "1.9.22" }
-kotlin-stdlib-jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version = "1.9.22" }
-kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.9.22" }
-kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version = "1.7.3" }
-kotlinx-coroutines-bom = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-bom", version = "1.7.3" }
-kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version = "1.7.3" }
-kotlinx-coroutines-guava = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-guava", version = "1.7.3" }
-kotlinx-coroutines-jdk8 = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-jdk8", version = "1.7.3" }
-kotlinx-coroutines-reactive = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactive", version = "1.7.3" }
-kotlinx-coroutines-reactor = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactor", version = "1.7.3" }
-kotlinx-coroutines-rx2 = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-rx2", version = "1.7.3" }
-kotlinx-coroutines-slf4j = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-slf4j", version = "1.7.3" }
-kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version = "1.7.3" }
-kotlinx-serialization-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version = "1.6.2" }
-kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.6.2" }
-kotlinx-serialization-json-jvm = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json-jvm", version = "1.6.2" }
-kotlinx-serialization-protobuf = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-protobuf", version = "1.6.2" }
-kotter = { group = "com.varabyte.kotter", name = "kotter", version = "1.1.1" }
-ksp = { group = "com.google.devtools.ksp", name = "symbol-processing", version = "1.9.21-1.0.16" }
-ksp-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version = "1.9.21-1.0.16" }
-ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version = "2.3.7" }
-ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version = "2.3.7" }
-ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version = "2.3.7" }
-ktor-client-curl = { group = "io.ktor", name = "ktor-client-curl", version = "2.3.7" }
-ktor-client-darwin = { group = "io.ktor", name = "ktor-client-darwin", version = "2.3.7" }
-ktor-client-ios = { group = "io.ktor", name = "ktor-client-ios", version = "2.3.7" }
-ktor-client-java = { group = "io.ktor", name = "ktor-client-java", version = "2.3.7" }
-ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version = "2.3.7" }
-ktor-client-mock = { group = "io.ktor", name = "ktor-client-mock", version = "2.3.7" }
-ktor-client-winhttp = { group = "io.ktor", name = "ktor-client-winhttp", version = "2.3.7" }
-ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version = "2.3.7" }
-ktor-server-cio = { group = "io.ktor", name = "ktor-server-cio", version = "2.3.7" }
-ktor-server-content-negotiation = { group = "io.ktor", name = "ktor-server-content-negotiation", version = "2.3.7" }
-ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version = "2.3.7" }
-ktor-server-html-builder = { group = "io.ktor", name = "ktor-server-html-builder", version = "2.3.7" }
-log4j = { group = "org.apache.logging.log4j", name = "log4j-core", version = "2.22.0" }
-logback-classic = { group = "ch.qos.logback", name = "logback-classic", version = "1.4.14" }
-logbook-netty = { group = "org.zalando", name = "logbook-netty", version = "3.7.2" }
-material = { group = "com.google.android.material", name = "material", version = "1.11.0" }
-methvin-directoryWatcher = { group = "io.methvin", name = "directory-watcher", version = "0.18.0" }
-micronaut-docs = { group = "io.micronaut.docs", name = "micronaut-docs-asciidoc-config-props", version = "2.0.0" }
-micronaut-session = { group = "io.micronaut.session", name = "micronaut-session", version = "4.1.0" }
-micronaut-sql-jdbc = { group = "io.micronaut.sql", name = "micronaut-jdbc", version = "5.4.0" }
-micronaut-sql-jdbc-tomcat = { group = "io.micronaut.sql", name = "micronaut-jdbc-tomcat", version = "5.4.0" }
-micronaut-test-bom = { group = "io.micronaut.test", name = "micronaut-test-bom", version = "4.1.1" }
-micronaut-test-core = { group = "io.micronaut.test", name = "micronaut-test-core", version = "4.1.1" }
-micronaut-test-junit5 = { group = "io.micronaut.test", name = "micronaut-test-junit5", version = "4.1.1" }
-micronaut-test-kotest5 = { group = "io.micronaut.test", name = "micronaut-test-kotest5", version = "4.1.1" }
-micronaut-test-spock = { group = "io.micronaut.test", name = "micronaut-test-spock", version = "4.1.1" }
-micronaut-tracing-brave = { group = "io.micronaut.tracing", name = "micronaut-tracing-brave", version = "6.2.0" }
-micronaut-tracing-jaeger = { group = "io.micronaut.tracing", name = "micronaut-tracing-jaeger", version = "6.2.0" }
-micronaut-validation = { group = "io.micronaut.validation", name = "micronaut-validation", version = "4.2.0" }
-micronaut-validation-processor = { group = "io.micronaut.validation", name = "micronaut-validation-processor", version = "4.2.0" }
-mockito = { group = "org.mockito", name = "mockito-inline", version = "5.2.0" }
-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version = "4.12.0" }
-moshi = { group = "com.squareup.moshi", name = "moshi", version = "1.15.0" }
-mysql-connector-java = { group = "mysql", name = "mysql-connector-java", version = "8.0.33" }
-neo4j-java-driver = { group = "org.neo4j.driver", name = "neo4j-java-driver", version = "5.15.0" }
-netty-bom = { group = "io.netty", name = "netty-bom", version = "4.1.104.Final" }
-netty-buffer = { group = "io.netty", name = "netty-buffer", version = "4.1.104.Final" }
-netty-codec-http = { group = "io.netty", name = "netty-codec-http", version = "4.1.104.Final" }
-netty-codec-http2 = { group = "io.netty", name = "netty-codec-http2", version = "4.1.104.Final" }
-netty-handler = { group = "io.netty", name = "netty-handler", version = "4.1.104.Final" }
-netty-handler-proxy = { group = "io.netty", name = "netty-handler-proxy", version = "4.1.104.Final" }
-netty-incubator-codec-http3 = { group = "io.netty.incubator", name = "netty-incubator-codec-http3", version = "0.0.23.Final" }
-netty-tcnative = { group = "io.netty", name = "netty-tcnative", version = "2.0.62.Final" }
-netty-tcnative-boringssl-static = { group = "io.netty", name = "netty-tcnative-boringssl-static", version = "2.0.62.Final" }
-netty-transport-native-epoll = { group = "io.netty", name = "netty-transport-native-epoll", version = "4.1.104.Final" }
-netty-transport-native-iouring = { group = "io.netty.incubator", name = "netty-incubator-transport-native-io_uring", version = "0.0.24.Final" }
-netty-transport-native-kqueue = { group = "io.netty", name = "netty-transport-native-kqueue", version = "4.1.104.Final" }
-netty-transport-native-unix-common = { group = "io.netty", name = "netty-transport-native-unix-common", version = "4.1.104.Final" }
-okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version = "4.12.0" }
-okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "4.12.0" }
-okhttp3-urlconnection = { group = "com.squareup.okhttp3", name = "okhttp-urlconnection", version = "4.12.0" }
-okio = { group = "com.squareup.okio", name = "okio", version = "3.7.0" }
-postgresql = { group = "org.postgresql", name = "postgresql", version = "42.7.1" }
-protobuf-java = { group = "com.google.protobuf", name = "protobuf-java", version = "3.25.1" }
-protoc = { group = "com.google.protobuf", name = "protoc", version = "3.25.1" }
-quarkus-bom = { group = "io.quarkus", name = "quarkus-bom", version = "3.6.4" }
-quarkus-bootstrap-core = { group = "io.quarkus", name = "quarkus-bootstrap-core", version = "3.6.4" }
-quarkus-bootstrap-gradle-resolver = { group = "io.quarkus", name = "quarkus-bootstrap-gradle-resolver", version = "3.6.4" }
-quarkus-core-deployment = { group = "io.quarkus", name = "quarkus-core-deployment", version = "3.6.4" }
-quarkus-devtools-common = { group = "io.quarkus", name = "quarkus-devtools-common", version = "3.6.4" }
-quarkus-devtools-testing = { group = "io.quarkus", name = "quarkus-devtools-testing", version = "3.6.4" }
-quarkus-project-core-extension-codestarts = { group = "io.quarkus", name = "quarkus-project-core-extension-codestarts", version = "3.6.4" }
-r2dbc-postgresql = { group = "org.postgresql", name = "r2dbc-postgresql", version = "1.0.3.RELEASE" }
-reactive-streams = { group = "org.reactivestreams", name = "reactive-streams", version = "1.0.4" }
-reactor-core = { group = "io.projectreactor", name = "reactor-core", version = "3.6.1" }
-reactor-test = { group = "io.projectreactor", name = "reactor-test", version = "3.6.1" }
-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version = "2.9.0" }
-retrofit2-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version = "2.9.0" }
-robolectric = { group = "org.robolectric", name = "robolectric", version = "4.11.1" }
-robovm = { group = "com.mobidevelop.robovm", name = "robovm-rt", version = "2.3.20" }
-rxjava = { group = "io.reactivex", name = "rxjava", version = "1.3.8" }
-rxjava2 = { group = "io.reactivex.rxjava2", name = "rxjava", version = "2.2.21" }
-rxjava3 = { group = "io.reactivex.rxjava3", name = "rxjava", version = "3.1.8" }
-scala-library = { group = "org.scala-lang", name = "scala-library", version = "2.13.12" }
-selenium-api = { group = "org.seleniumhq.selenium", name = "selenium-api", version = "4.16.1" }
-selenium-driver-chrome = { group = "org.seleniumhq.selenium", name = "selenium-chrome-driver", version = "4.16.1" }
-selenium-driver-firefox = { group = "org.seleniumhq.selenium", name = "selenium-firefox-driver", version = "4.16.1" }
-selenium-driver-htmlunit = { group = "org.seleniumhq.selenium", name = "htmlunit-driver", version = "4.13.0" }
-selenium-remote-driver = { group = "org.seleniumhq.selenium", name = "selenium-remote-driver", version = "4.16.1" }
-selenium-support = { group = "org.seleniumhq.selenium", name = "selenium-support", version = "4.16.1" }
-simple-xml = { group = "org.simpleframework", name = "simple-xml", version = "2.7.1" }
-slf4j-api = { group = "org.slf4j", name = "slf4j-api", version = "2.0.9" }
-slf4j-simple = { group = "org.slf4j", name = "slf4j-simple", version = "2.0.9" }
-smallrye = { group = "io.smallrye", name = "smallrye-fault-tolerance", version = "6.2.6" }
-smallrye-config-yaml = { group = "io.smallrye.config", name = "smallrye-config-source-yaml", version = "3.4.4" }
-snakeyaml = { group = "org.yaml", name = "snakeyaml", version = "2.2" }
-soloader = { group = "com.facebook.soloader", name = "soloader", version = "0.10.5" }
-spock-core = { group = "org.spockframework", name = "spock-core", version = "2.3-groovy-4.0" }
-spotbugs-annotations = { group = "com.github.spotbugs", name = "spotbugs-annotations", version = "4.8.3" }
-spring-gradle-dependency-management-plugin = { group = "io.spring.gradle", name = "dependency-management-plugin", version = "1.1.4" }
-spring-boot-gradle-plugin = { group = "org.springframework.boot", name = "spring-boot-gradle-plugin", version = "3.2.1" }
-spring-boot-starter-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator", version = "3.2.1" }
-spring-boot-starter-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc", version = "3.2.1" }
-spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-boot-starter-test", version = "3.2.1" }
-spring-boot-starter-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux", version = "3.2.1" }
-spring-data-commons = { group = "org.springframework.data", name = "spring-data-commons", version = "3.2.1" }
-system-lambda = { group = "com.github.stefanbirkner", name = "system-lambda", version = "1.2.1" }
-testcontainers-postgresql = { group = "org.testcontainers", name = "postgresql", version = "1.19.3" }
-testcontainers-r2dbc = { group = "org.testcontainers", name = "r2dbc", version = "1.19.3" }
-testcontainers-spock = { group = "org.testcontainers", name = "spock", version = "1.19.3" }
-thoughtworks-xstream = { group = "com.thoughtworks.xstream", name = "xstream", version = "1.4.20" }
-tomlj = { group = "org.tomlj", name = "tomlj", version = "1.1.0" }
-vertx-core = { group = "io.vertx", name = "vertx-core", version = "4.5.1" }
-vertx-web-client = { group = "io.vertx", name = "vertx-web-client", version = "4.5.1" }
-wire-runtime = { group = "com.squareup.wire", name = "wire-runtime", version = "4.9.3" }
-wiremock = { group = "com.github.tomakehurst", name = "wiremock-jre8", version = "3.0.1" }
-yoga-proguard-annotations = { group = "com.facebook.yoga", name = "proguard-annotations", version = "1.19.0" }
+accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.0"
+accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.32.0"
+android-gradle = "com.android.tools.build:gradle:8.2.0"
+androidx-activity-compose = "androidx.activity:activity-compose:1.8.2"
+androidx-annotation = "androidx.annotation:annotation:1.7.1"
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "androidx-appcompat" }
+androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
+androidx-autofill = "androidx.autofill:autofill:1.1.0"
+androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.2.2"
+androidx-compose-bom = "androidx.compose:compose-bom:2023.10.01"
+androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.7"
+androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
+androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
+androidx-compose-material = "androidx.compose.material:material:1.5.4"
+androidx-compose-material3 = "androidx.compose.material3:material3:1.1.2"
+androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "androidx-compose-runtime" }
+androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "androidx-compose-runtime" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidx-compose-ui" }
+androidx-compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "androidx-compose-ui" }
+androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "androidx-compose-ui" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose-ui" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidx-compose-ui" }
+androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "androidx-compose-ui" }
+androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+androidx-core-ktx = "androidx.core:core-ktx:1.12.0"
+androidx-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-test-espresso" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-test-espresso" }
+androidx-espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "androidx-test-espresso" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime-kts = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
+androidx-monitor = "androidx.test:monitor:1.6.1"
+androidx-navigation-compose = "androidx.navigation:navigation-compose:2.7.6"
+androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "androidx-paging" }
+androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
+androidx-profileinstaller = "androidx.profileinstaller:profileinstaller:1.3.1"
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "androidx-room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "androidx-room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "androidx-room" }
+androidx-swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+androidx-test-ext-junit = "androidx.test.ext:junit:1.1.5"
+androidx-test-rules = "androidx.test:rules:1.5.0"
+androidx-test-runner = "androidx.test:runner:1.5.2"
+androidx-test-uiautomator = "androidx.test.uiautomator:uiautomator:2.2.0"
+androidx-tracing = { module = "androidx.tracing:tracing", version.ref = "androidx-tracing" }
+androidx-tracing-ktx = { module = "androidx.tracing:tracing-ktx", version.ref = "androidx-tracing" }
+androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-work" }
+androidx-work-testing = { module = "androidx.work:work-testing", version.ref = "androidx-work" }
+animalsniffer-annotations = "org.codehaus.mojo:animal-sniffer-annotations:1.23"
+apollo-api = { module = "com.apollographql.apollo3:apollo-api", version.ref = "com-apollographql-apollo3" }
+apollo-ast = { module = "com.apollographql.apollo3:apollo-ast", version.ref = "com-apollographql-apollo3" }
+apollo-normalized-cache = { module = "com.apollographql.apollo3:apollo-normalized-cache", version.ref = "com-apollographql-apollo3" }
+apollo-normalized-cache-sqlite = { module = "com.apollographql.apollo3:apollo-normalized-cache-sqlite", version.ref = "com-apollographql-apollo3" }
+apollo-runtime = { module = "com.apollographql.apollo3:apollo-runtime", version.ref = "com-apollographql-apollo3" }
+arrow-kt-suspendapp = { module = "io.arrow-kt:suspendapp", version.ref = "io-arrow-kt" }
+arrow-kt-suspendapp-ktor = { module = "io.arrow-kt:suspendapp-ktor", version.ref = "io-arrow-kt" }
+asm = { module = "org.ow2.asm:asm", version.ref = "org-ow2-asm" }
+asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" }
+asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
+assertj = "org.assertj:assertj-core:3.24.2"
+awaitility = "org.awaitility:awaitility:4.2.0"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.628"
+bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
+benasher44-uuid = "com.benasher44:uuid:0.8.2"
+blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.10"
+caffeine = "com.github.ben-manes.caffeine:caffeine:3.1.8"
+compile-testing = "com.google.testing.compile:compile-testing:0.21.0"
+errorprone-core = "com.google.errorprone:error_prone_core:2.24.0"
+errorprone-javac = "com.google.errorprone:javac:9+181-r4173-1"
+fbjni = "com.facebook.fbjni:fbjni:0.5.1"
+findbugs-annotations = "com.google.code.findbugs:jsr305:3.0.2"
+flipper = { module = "com.facebook.flipper:flipper", version.ref = "com-facebook-flipper" }
+flipper-fresco-plugin = { module = "com.facebook.fresco:flipper-fresco-plugin", version.ref = "com-facebook-fresco" }
+flipper-network-plugin = { module = "com.facebook.flipper:flipper-network-plugin", version.ref = "com-facebook-flipper" }
+foojay-resolver = "org.gradle.toolchains:foojay-resolver:0.7.0"
+fresco = { module = "com.facebook.fresco:fresco", version.ref = "com-facebook-fresco" }
+fresco-imagepipeline-okhttp3 = { module = "com.facebook.fresco:imagepipeline-okhttp3", version.ref = "com-facebook-fresco" }
+fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "com-facebook-fresco" }
+fresco-ui-common = { module = "com.facebook.fresco:ui-common", version.ref = "com-facebook-fresco" }
+geb-spock = "org.gebish:geb-spock:7.0"
+graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.9.28"
+graalvm-svm = "org.graalvm.nativeimage:svm:23.1.1"
+gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
+grails-datastore-core = "org.grails:grails-datastore-core:8.0.3"
+groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apache-groovy" }
+groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.ref = "org-apache-groovy" }
+gson = "com.google.code.gson:gson:2.10.1"
+guava = "com.google.guava:guava:23.0"
+h2 = "com.h2database:h2:2.2.224"
+hibernate-core = "org.hibernate:hibernate-core:6.4.1.Final"
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
+hilt-navigation-compose = "androidx.hilt:hilt-navigation-compose:1.1.0"
+htmlunit = "net.sourceforge.htmlunit:htmlunit:2.70.0"
+httpcomponents-client = { module = "org.apache.httpcomponents:httpclient", version.ref = "org-apache-httpcomponents" }
+httpcomponents-mime = { module = "org.apache.httpcomponents:httpmime", version.ref = "org-apache-httpcomponents" }
+infer-annotation = "com.facebook.infer.annotation:infer-annotation:0.18.0"
+jackson-annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "com-fasterxml-jackson-core" }
+jackson-bom = "com.fasterxml.jackson:jackson-bom:2.16.1"
+jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "com-fasterxml-jackson-core" }
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "com-fasterxml-jackson-core" }
+jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.16.1"
+jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
+jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
+jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
+jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
+jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
+jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:2.1.1"
+jakarta-el = "jakarta.el:jakarta.el-api:5.0.1"
+jakarta-inject-api = { module = "jakarta.inject:jakarta.inject-api", version.ref = "jakarta-inject" }
+jakarta-inject-tck = { module = "jakarta.inject:jakarta.inject-tck", version.ref = "jakarta-inject" }
+jakarta-xml-bind-api = "jakarta.xml.bind:jakarta.xml.bind-api:4.0.1"
+java-parser-core = "com.github.javaparser:javaparser-symbol-solver-core:3.25.7"
+javax-annotation-api = "javax.annotation:javax.annotation-api:1.3.2"
+javax-inject = "javax.inject:javax.inject:1"
+javax-jaxb-api = "javax.xml.bind:jaxb-api:2.3.1"
+javax-persistence = "javax.persistence:javax.persistence-api:2.2"
+jaxb-impl = "com.sun.xml.bind:jaxb-impl:4.0.4"
+jaxb-runtime = "org.glassfish.jaxb:jaxb-runtime:4.0.4"
+jcache = "javax.cache:cache-api:1.1.1"
+jetbrains-annotations = "org.jetbrains:annotations:24.1.0"
+jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.53.v20231009"
+jib-native-image-extension = "com.google.cloud.tools:jib-native-image-extension-gradle:0.1.0"
+jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "org-openjdk-jmh" }
+jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "org-openjdk-jmh" }
+jsoup = "org.jsoup:jsoup:1.17.2"
+jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
+junit = "junit:junit:4.13.2"
+junit-bom = "org.junit:junit-bom:5.10.1"
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "org-junit-jupiter" }
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "org-junit-jupiter" }
+junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "org-junit-jupiter" }
+junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "org-junit-jupiter" }
+junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
+junit-vintage = "org.junit.vintage:junit-vintage-engine:5.10.1"
+kgit2-kommand = "com.kgit2:kommand:2.0.1"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.8.0"
+kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
+kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
+kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
+kotlin-compiler-embeddable = { module = "org.jetbrains.kotlin:kotlin-compiler-embeddable", version.ref = "org-jetbrains-kotlin" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "org-jetbrains-kotlin" }
+kotlin-power-assert-gradle = "com.bnorm.power:kotlin-power-assert-gradle:0.13.0"
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "org-jetbrains-kotlin" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "org-jetbrains-kotlin" }
+kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "org-jetbrains-kotlin" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "org-jetbrains-kotlin" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-bom = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-bom", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-guava = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-guava", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-jdk8 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-reactive = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactive", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.2"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.2"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.2"
+kotter = "com.varabyte.kotter:kotter:1.1.1"
+ksp = { module = "com.google.devtools.ksp:symbol-processing", version.ref = "com-google-devtools-ksp" }
+ksp-api = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "com-google-devtools-ksp" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "io-ktor" }
+ktor-client-curl = { module = "io.ktor:ktor-client-curl", version.ref = "io-ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "io-ktor" }
+ktor-client-ios = { module = "io.ktor:ktor-client-ios", version.ref = "io-ktor" }
+ktor-client-java = { module = "io.ktor:ktor-client-java", version.ref = "io-ktor" }
+ktor-client-js = { module = "io.ktor:ktor-client-js", version.ref = "io-ktor" }
+ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "io-ktor" }
+ktor-client-winhttp = { module = "io.ktor:ktor-client-winhttp", version.ref = "io-ktor" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "io-ktor" }
+ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" }
+ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
+ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
+ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
+log4j = "org.apache.logging.log4j:log4j-core:2.22.1"
+logback-classic = "ch.qos.logback:logback-classic:1.4.14"
+logbook-netty = "org.zalando:logbook-netty:3.7.2"
+material = "com.google.android.material:material:1.11.0"
+methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
+micronaut-docs = "io.micronaut.docs:micronaut-docs-asciidoc-config-props:2.0.0"
+micronaut-session = "io.micronaut.session:micronaut-session:4.1.0"
+micronaut-sql-jdbc = { module = "io.micronaut.sql:micronaut-jdbc", version.ref = "io-micronaut-sql" }
+micronaut-sql-jdbc-tomcat = { module = "io.micronaut.sql:micronaut-jdbc-tomcat", version.ref = "io-micronaut-sql" }
+micronaut-test-bom = { module = "io.micronaut.test:micronaut-test-bom", version.ref = "io-micronaut-test" }
+micronaut-test-core = { module = "io.micronaut.test:micronaut-test-core", version.ref = "io-micronaut-test" }
+micronaut-test-junit5 = { module = "io.micronaut.test:micronaut-test-junit5", version.ref = "io-micronaut-test" }
+micronaut-test-kotest5 = { module = "io.micronaut.test:micronaut-test-kotest5", version.ref = "io-micronaut-test" }
+micronaut-test-spock = { module = "io.micronaut.test:micronaut-test-spock", version.ref = "io-micronaut-test" }
+micronaut-tracing-brave = { module = "io.micronaut.tracing:micronaut-tracing-brave", version.ref = "io-micronaut-tracing" }
+micronaut-tracing-jaeger = { module = "io.micronaut.tracing:micronaut-tracing-jaeger", version.ref = "io-micronaut-tracing" }
+micronaut-validation = { module = "io.micronaut.validation:micronaut-validation", version.ref = "io-micronaut-validation" }
+micronaut-validation-processor = { module = "io.micronaut.validation:micronaut-validation-processor", version.ref = "io-micronaut-validation" }
+mockito = "org.mockito:mockito-inline:5.2.0"
+mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "com-squareup-okhttp3" }
+moshi = "com.squareup.moshi:moshi:1.15.0"
+mysql-connector-java = "mysql:mysql-connector-java:8.0.33"
+neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:5.15.0"
+netty-bom = { module = "io.netty:netty-bom", version.ref = "io-netty" }
+netty-buffer = { module = "io.netty:netty-buffer", version.ref = "io-netty" }
+netty-codec-http = { module = "io.netty:netty-codec-http", version.ref = "io-netty" }
+netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-netty" }
+netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
+netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
+netty-incubator-codec-http3 = "io.netty.incubator:netty-incubator-codec-http3:0.0.23.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.62.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.62.Final"
+netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
+netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.24.Final"
+netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
+netty-transport-native-unix-common = { module = "io.netty:netty-transport-native-unix-common", version.ref = "io-netty" }
+okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
+okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
+okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
+okio = "com.squareup.okio:okio:3.7.0"
+postgresql = "org.postgresql:postgresql:42.7.1"
+protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
+protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
+quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "io-quarkus" }
+quarkus-bootstrap-core = { module = "io.quarkus:quarkus-bootstrap-core", version.ref = "io-quarkus" }
+quarkus-bootstrap-gradle-resolver = { module = "io.quarkus:quarkus-bootstrap-gradle-resolver", version.ref = "io-quarkus" }
+quarkus-core-deployment = { module = "io.quarkus:quarkus-core-deployment", version.ref = "io-quarkus" }
+quarkus-devtools-common = { module = "io.quarkus:quarkus-devtools-common", version.ref = "io-quarkus" }
+quarkus-devtools-testing = { module = "io.quarkus:quarkus-devtools-testing", version.ref = "io-quarkus" }
+quarkus-project-core-extension-codestarts = { module = "io.quarkus:quarkus-project-core-extension-codestarts", version.ref = "io-quarkus" }
+r2dbc-postgresql = "org.postgresql:r2dbc-postgresql:1.0.3.RELEASE"
+reactive-streams = "org.reactivestreams:reactive-streams:1.0.4"
+reactor-core = { module = "io.projectreactor:reactor-core", version.ref = "io-projectreactor" }
+reactor-test = { module = "io.projectreactor:reactor-test", version.ref = "io-projectreactor" }
+retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "com-squareup-retrofit2" }
+retrofit2-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "com-squareup-retrofit2" }
+robolectric = "org.robolectric:robolectric:4.11.1"
+robovm = "com.mobidevelop.robovm:robovm-rt:2.3.20"
+rxjava = "io.reactivex:rxjava:1.3.8"
+rxjava2 = "io.reactivex.rxjava2:rxjava:2.2.21"
+rxjava3 = "io.reactivex.rxjava3:rxjava:3.1.8"
+scala-library = "org.scala-lang:scala-library:2.13.12"
+selenium-api = { module = "org.seleniumhq.selenium:selenium-api", version.ref = "org-seleniumhq-selenium" }
+selenium-driver-chrome = { module = "org.seleniumhq.selenium:selenium-chrome-driver", version.ref = "org-seleniumhq-selenium" }
+selenium-driver-firefox = { module = "org.seleniumhq.selenium:selenium-firefox-driver", version.ref = "org-seleniumhq-selenium" }
+selenium-driver-htmlunit = "org.seleniumhq.selenium:htmlunit-driver:4.13.0"
+selenium-remote-driver = { module = "org.seleniumhq.selenium:selenium-remote-driver", version.ref = "org-seleniumhq-selenium" }
+selenium-support = { module = "org.seleniumhq.selenium:selenium-support", version.ref = "org-seleniumhq-selenium" }
+simple-xml = "org.simpleframework:simple-xml:2.7.1"
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.2.6"
+smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.5.0"
+snakeyaml = "org.yaml:snakeyaml:2.2"
+soloader = "com.facebook.soloader:soloader:0.10.5"
+spock-core = "org.spockframework:spock-core:0.3"
+spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.8.3"
+spring-boot-gradle-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "org-springframework-boot" }
+spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "org-springframework-boot" }
+spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
+spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
+spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
+spring-data-commons = "org.springframework.data:spring-data-commons:3.2.1"
+spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.4"
+system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
+testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
+testcontainers-r2dbc = { module = "org.testcontainers:r2dbc", version.ref = "org-testcontainers" }
+testcontainers-spock = { module = "org.testcontainers:spock", version.ref = "org-testcontainers" }
+thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.20"
+tomlj = "org.tomlj:tomlj:1.1.0"
+vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
+vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
+wire-runtime = "com.squareup.wire:wire-runtime:4.9.3"
+wiremock = "com.github.tomakehurst:wiremock-jre8:3.0.1"
+yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
+
+[versions]
+androidx-appcompat = "1.6.1"
+androidx-compose-foundation = "1.5.4"
+androidx-compose-runtime = "1.5.4"
+androidx-compose-ui = "1.5.4"
+androidx-lifecycle = "2.6.2"
+androidx-paging = "3.2.1"
+androidx-room = "2.6.1"
+androidx-test-espresso = "3.5.1"
+androidx-tracing = "1.2.0"
+androidx-work = "2.9.0"
+com-apollographql-apollo3 = "3.8.2"
+com-facebook-flipper = "0.243.0"
+com-facebook-fresco = "3.1.3"
+com-fasterxml-jackson-core = "2.16.1"
+com-fasterxml-jackson-datatype = "2.16.1"
+com-fasterxml-jackson-module = "2.16.1"
+com-google-dagger = "2.50"
+com-google-devtools-ksp = "1.9.22-1.0.16"
+com-google-protobuf = "3.25.1"
+com-squareup-okhttp3 = "4.12.0"
+com-squareup-retrofit2 = "2.9.0"
+io-arrow-kt = "0.4.0"
+io-ktor = "2.3.7"
+io-micronaut-sql = "5.4.0"
+io-micronaut-test = "4.1.1"
+io-micronaut-tracing = "6.2.0"
+io-micronaut-validation = "4.2.0"
+io-netty = "4.1.104.Final"
+io-projectreactor = "3.6.1"
+io-quarkus = "3.6.4"
+io-vertx = "4.5.1"
+jakarta-inject = "2.0.1"
+org-apache-groovy = "4.0.17"
+org-apache-httpcomponents = "4.5.14"
+org-jetbrains-kotlin = "1.9.22"
+org-jetbrains-kotlinx = "1.7.3"
+org-junit-jupiter = "5.10.1"
+org-junit-platform = "1.10.1"
+org-openjdk-jmh = "1.37"
+org-ow2-asm = "9.6"
+org-seleniumhq-selenium = "4.16.1"
+org-slf4j = "2.0.10"
+org-springframework-boot = "3.2.1"
+org-testcontainers = "1.19.3"
