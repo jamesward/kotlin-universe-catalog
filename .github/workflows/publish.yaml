@@ -1,14 +1,32 @@
 on:
   push:
     branches:
-      - '**'
+      - 'main'
+
 concurrency: ci-${{ github.ref }}
 
 jobs:
-  build:
-    name: publish
+  check-env:
+    outputs:
+      credentials-defined: ${{ steps.get-credentials.outputs.defined }}
     runs-on: ubuntu-latest
-    if: ${{ !contains(github.event.head_commit.message, 'Update version') }} # avoid recursion from this action updating versions in README, etc
+    steps:
+      - id: get-credentials
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+          SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+          SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+          GRADLE_PUBLISH_KEY: ${{ secrets.GRADLE_PUBLISH_KEY }}
+          GRADLE_PUBLISH_SECRET: ${{ secrets.GRADLE_PUBLISH_SECRET }}
+        if: ${{ env.GPG_PRIVATE_KEY != '' && env.GPG_PASSPHRASE != '' && env.SONATYPE_USERNAME != '' && env.SONATYPE_PASSWORD != '' && env.GRADLE_PUBLISH_KEY != '' && env.GRADLE_PUBLISH_SECRET != '' }}
+        run: |
+          echo "defined=true" >> $GITHUB_OUTPUT
+
+  publish:
+    needs: [ check-env ]
+    if: needs.check-env.outputs.credentials-defined == 'true'
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -18,19 +36,6 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
-
-      - name: Build
-        run: |
-          ./gradlew build
-
-      - id: secret-check
-        name: Check for Secret Availability
-        run: |
-          if [ "${{ secrets.GRADLE_PUBLISH_KEY }}" != '' ] && [ "${{ secrets.GRADLE_PUBLISH_SECRET }}" != '' ]; then
-            echo "available=true" >> $GITHUB_OUTPUT;
-          else
-            echo "available=false" >> $GITHUB_OUTPUT;
-          fi
 
       - name: Publish
         if: ${{ steps.secret-check.outputs.available == 'true' }}
@@ -42,7 +47,6 @@ jobs:
         run: |
           ./gradlew publishPlugins -Pgradle.publish.key=${{ secrets.GRADLE_PUBLISH_KEY }} -Pgradle.publish.secret=${{ secrets.GRADLE_PUBLISH_SECRET }}
           ./gradlew publishToSonatype closeAndReleaseSonatypeStagingRepository
-
 
       - id: get-version
         name: Get Version
@@ -64,7 +68,6 @@ jobs:
         with:
           file-path: |
             README.md
-            settings.gradle.kts
             example/settings.gradle.kts
           commit-msg: Update version
           github-token: ${{ secrets.READ_WRITE_PAT }}

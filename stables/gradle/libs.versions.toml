@@ -21,7 +21,7 @@ kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:1.9.21"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:1.9.22"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:1.9.22"
 kotlin-power-assert = "com.bnorm.power.kotlin-power-assert:0.13.0"
-ksp = "com.google.devtools.ksp:1.9.21-1.0.16"
+ksp = "com.google.devtools.ksp:1.9.22-1.0.16"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.24.2"
 awaitility = "org.awaitility:awaitility:4.2.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.625"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.628"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.2"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.10"
@@ -160,7 +160,7 @@ jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.5
 jib-native-image-extension = "com.google.cloud.tools:jib-native-image-extension-gradle:0.1.0"
 jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "org-openjdk-jmh" }
 jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "org-openjdk-jmh" }
-jsoup = "org.jsoup:jsoup:1.17.1"
+jsoup = "org.jsoup:jsoup:1.17.2"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
 junit-bom = "org.junit:junit-bom:5.10.1"
@@ -171,7 +171,7 @@ junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", vers
 junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:5.10.1"
-kgit2-kommand = "com.kgit2:kommand:1.2.0"
+kgit2-kommand = "com.kgit2:kommand:2.0.1"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.8.0"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
@@ -215,7 +215,7 @@ ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" 
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
-log4j = "org.apache.logging.log4j:log4j-core:2.22.0"
+log4j = "org.apache.logging.log4j:log4j-core:2.22.1"
 logback-classic = "ch.qos.logback:logback-classic:1.4.14"
 logbook-netty = "org.zalando:logbook-netty:3.7.2"
 material = "com.google.android.material:material:1.11.0"
@@ -329,7 +329,7 @@ com-fasterxml-jackson-core = "2.16.1"
 com-fasterxml-jackson-datatype = "2.16.1"
 com-fasterxml-jackson-module = "2.16.1"
 com-google-dagger = "2.50"
-com-google-devtools-ksp = "1.9.21-1.0.16"
+com-google-devtools-ksp = "1.9.22-1.0.16"
 com-google-protobuf = "3.25.1"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.9.0"
@@ -353,6 +353,6 @@ org-junit-platform = "1.10.1"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.6"
 org-seleniumhq-selenium = "4.16.1"
-org-slf4j = "2.0.9"
+org-slf4j = "2.0.10"
 org-springframework-boot = "3.2.1"
 org-testcontainers = "1.19.3"
