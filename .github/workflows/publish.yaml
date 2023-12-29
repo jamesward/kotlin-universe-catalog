@@ -38,7 +38,6 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Publish
-        if: ${{ steps.secret-check.outputs.available == 'true' }}
         env:
           SONATYPE_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
           SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
@@ -50,12 +49,10 @@ jobs:
 
       - id: get-version
         name: Get Version
-        if: ${{ steps.secret-check.outputs.available == 'true' }}
         run: |
           echo "version=$(./gradlew :version -q)" >> $GITHUB_OUTPUT
 
       - name: Update README
-        if: ${{ steps.secret-check.outputs.available == 'true' }}
         run: |
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" README.md
           sed -ie "s/stables:[^\"]*\"/stables:${{ steps.get-version.outputs.version }}\"/" README.md
@@ -63,7 +60,6 @@ jobs:
           sed -ie "s/version \"[^\"]*\"/version \"${{ steps.get-version.outputs.version }}\"/" example/settings.gradle.kts
 
       - name: Commit README
-        if: ${{ steps.secret-check.outputs.available == 'true' }}
         uses: test-room-7/action-update-file@v1
         with:
           file-path: |
@@ -73,7 +69,6 @@ jobs:
           github-token: ${{ secrets.READ_WRITE_PAT }}
 
       - name: Create Git Tag
-        if: ${{ steps.secret-check.outputs.available == 'true' }}
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.get-version.outputs.version }}
