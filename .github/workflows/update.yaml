@@ -29,3 +29,6 @@ jobs:
             unstables/gradle/libs.versions.toml
           commit-msg: Update Catalogs
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  publish:
+    uses: ./.github/workflows/publish.yaml
