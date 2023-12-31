@@ -6,6 +6,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,3 +28,4 @@ jobs:
             stables/gradle/libs.versions.toml
             unstables/gradle/libs.versions.toml
           commit-msg: Update Catalogs
+          github-token: ${{ secrets.GITHUB_TOKEN }}
