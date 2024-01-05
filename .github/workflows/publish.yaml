@@ -3,6 +3,19 @@ on:
     branches:
       - 'main'
   workflow_call:
+    secrets:
+      GPG_PRIVATE_KEY:
+        required: true
+      GPG_PASSPHRASE:
+        required: true
+      SONATYPE_USERNAME:
+        required: true
+      SONATYPE_PASSWORD:
+        required: true
+      GRADLE_PUBLISH_KEY:
+        required: true
+      GRADLE_PUBLISH_SECRET:
+        required: true
 
 concurrency: ci-${{ github.ref }}
 
