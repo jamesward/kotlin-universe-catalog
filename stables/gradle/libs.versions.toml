@@ -1,5 +1,6 @@
 [plugins]
 android-application = "com.android.application:8.2.1"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.2.1"
 android-library = "com.android.library:8.2.1"
 animalsniffer = "ru.vyarus.animalsniffer:1.7.1"
 apollo = "com.apollographql.apollo3:3.8.2"
