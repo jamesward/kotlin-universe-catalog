@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.1"
 awaitility = "org.awaitility:awaitility:4.2.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.635"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.636"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.2"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -108,7 +108,7 @@ findbugs-annotations = "com.google.code.findbugs:jsr305:3.0.2"
 flipper = { module = "com.facebook.flipper:flipper", version.ref = "com-facebook-flipper" }
 flipper-fresco-plugin = { module = "com.facebook.fresco:flipper-fresco-plugin", version.ref = "com-facebook-fresco" }
 flipper-network-plugin = { module = "com.facebook.flipper:flipper-network-plugin", version.ref = "com-facebook-flipper" }
-foojay-resolver = "org.gradle.toolchains:foojay-resolver:0.7.0"
+foojay-resolver = "org.gradle.toolchains:foojay-resolver:0.8.0"
 fresco = { module = "com.facebook.fresco:fresco", version.ref = "com-facebook-fresco" }
 fresco-imagepipeline-okhttp3 = { module = "com.facebook.fresco:imagepipeline-okhttp3", version.ref = "com-facebook-fresco" }
 fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "com-facebook-fresco" }
@@ -297,7 +297,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.2.1"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.2.2"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.4"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
