@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.1"
 awaitility = "org.awaitility:awaitility:4.2.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.637"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.638"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.2"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -244,11 +244,11 @@ netty-codec-http = { module = "io.netty:netty-codec-http", version.ref = "io-net
 netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-netty" }
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
-netty-incubator-codec-http3 = "io.netty.incubator:netty-incubator-codec-http3:0.0.23.Final"
+netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
 netty-tcnative = "io.netty:netty-tcnative:2.0.62.Final"
 netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.62.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
-netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.24.Final"
+netty-transport-native-iouring = { module = "io.netty.incubator:netty-incubator-transport-native-io_uring", version.ref = "io-netty-incubator" }
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
 netty-transport-native-unix-common = { module = "io.netty:netty-transport-native-unix-common", version.ref = "io-netty" }
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
@@ -339,9 +339,10 @@ io-micronaut-sql = "5.4.0"
 io-micronaut-test = "4.2.0"
 io-micronaut-tracing = "6.2.0"
 io-micronaut-validation = "4.2.0"
-io-netty = "4.1.104.Final"
+io-netty = "4.1.105.Final"
+io-netty-incubator = "0.0.24.Final"
 io-projectreactor = "3.6.2"
-io-quarkus = "3.6.5"
+io-quarkus = "3.6.6"
 io-vertx = "4.5.1"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.17"
