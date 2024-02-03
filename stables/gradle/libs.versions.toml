@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.2"
 awaitility = "org.awaitility:awaitility:4.2.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.650"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.651"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.2"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -123,7 +123,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.10.1"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.2.224"
-hibernate-core = "org.hibernate:hibernate-core:6.4.2.Final"
+hibernate-core = "org.hibernate:hibernate-core:6.4.3.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -307,7 +307,7 @@ thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.20"
 tomlj = "org.tomlj:tomlj:1.1.1"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
 vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
-wire-runtime = "com.squareup.wire:wire-runtime:4.9.5"
+wire-runtime = "com.squareup.wire:wire-runtime:4.9.6"
 wiremock = "com.github.tomakehurst:wiremock-jre8:3.0.1"
 yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
