@@ -1,8 +1,8 @@
 [plugins]
-android-application = "com.android.application:8.4.0-alpha07"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.4.0-alpha07"
-android-library = "com.android.library:8.4.0-alpha07"
-jetbrains-compose = "org.jetbrains.compose:1.6.0-beta01"
+android-application = "com.android.application:8.4.0-alpha08"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.4.0-alpha08"
+android-library = "com.android.library:8.4.0-alpha08"
+jetbrains-compose = "org.jetbrains.compose:1.6.0-beta02"
 kotlin-android = "org.jetbrains.kotlin.android:2.0.0-Beta3"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.0.0-Beta3"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:2.0.0-Beta3"
