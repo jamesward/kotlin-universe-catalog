@@ -55,7 +55,7 @@ class GradlePluginTest {
             .withArguments("dependencies")
             .build()
 
-        assertTrue(result.output.contains("+--- org.jetbrains.kotlin:kotlin-stdlib-jdk8"))
+        assertTrue(result.output.contains("+--- org.jetbrains.kotlin:kotlin-stdlib"))
         assertTrue(result.output.contains("\\--- org.jetbrains.kotlinx:kotlinx-coroutines-core"))
     }
 

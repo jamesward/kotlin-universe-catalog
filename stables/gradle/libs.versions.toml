@@ -8,7 +8,7 @@ dokka = "org.jetbrains.dokka:1.9.10"
 download = "de.undercouch.download:5.5.0"
 errorprone = "net.ltgt.errorprone:3.1.0"
 google-java-format = "com.github.sherter.google-java-format:0.9"
-graalvm-buildtools-native = "org.graalvm.buildtools.native:0.10.0"
+graalvm-buildtools-native = "org.graalvm.buildtools.native:0.10.1"
 gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:1.3.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:1.2.1"
 jetbrains-compose = "org.jetbrains.compose:1.5.12"
@@ -16,8 +16,8 @@ jib = "com.google.cloud.tools.jib:3.4.0"
 kotlin-android = "org.jetbrains.kotlin.android:1.9.22"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:1.9.22"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:1.9.22"
-# @pin this library to version 1.9.21 for compose compat
-kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:1.9.21"
+# @pin this library to version 1.9.22 for compose compat
+kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:1.9.22"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:1.9.22"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:1.9.22"
 kotlin-power-assert = "com.bnorm.power.kotlin-power-assert:0.13.0"
@@ -26,7 +26,7 @@ palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
 skie = "co.touchlab.skie:0.6.1"
-spring-boot = "org.springframework.boot:3.2.2"
+spring-boot = "org.springframework.boot:3.2.3"
 spring-dependency-management = "io.spring.dependency-management:1.1.4"
 
 [libraries]
@@ -40,11 +40,11 @@ androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resource
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.1.0"
 androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.2.3"
-androidx-compose-bom = "androidx.compose:compose-bom:2024.02.00"
-androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.9"
+androidx-compose-bom = "androidx.compose:compose-bom:2024.02.01"
+androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.10"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
-androidx-compose-material = "androidx.compose.material:material:1.6.1"
+androidx-compose-material = "androidx.compose.material:material:1.6.2"
 androidx-compose-material3 = "androidx.compose.material3:material3:1.2.0"
 androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "androidx-compose-runtime" }
 androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "androidx-compose-runtime" }
@@ -77,7 +77,7 @@ androidx-swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.
 androidx-test-ext-junit = "androidx.test.ext:junit:1.1.5"
 androidx-test-rules = "androidx.test:rules:1.5.0"
 androidx-test-runner = "androidx.test:runner:1.5.2"
-androidx-test-uiautomator = "androidx.test.uiautomator:uiautomator:2.2.0"
+androidx-test-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
 androidx-tracing = { module = "androidx.tracing:tracing", version.ref = "androidx-tracing" }
 androidx-tracing-ktx = { module = "androidx.tracing:tracing-ktx", version.ref = "androidx-tracing" }
 androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-work" }
@@ -95,13 +95,13 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.659"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.666"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.2"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
 caffeine = "com.github.ben-manes.caffeine:caffeine:3.1.8"
 compile-testing = "com.google.testing.compile:compile-testing:0.21.0"
-errorprone-core = "com.google.errorprone:error_prone_core:2.24.1"
+errorprone-core = "com.google.errorprone:error_prone_core:2.25.0"
 errorprone-javac = "com.google.errorprone:javac:9+181-r4173-1"
 fbjni = "com.facebook.fbjni:fbjni:0.6.0"
 findbugs-annotations = "com.google.code.findbugs:jsr305:3.0.2"
@@ -114,7 +114,7 @@ fresco-imagepipeline-okhttp3 = { module = "com.facebook.fresco:imagepipeline-okh
 fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "com-facebook-fresco" }
 fresco-ui-common = { module = "com.facebook.fresco:ui-common", version.ref = "com-facebook-fresco" }
 geb-spock = "org.gebish:geb-spock:7.0"
-graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.10.0"
+graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.10.1"
 graalvm-svm = "org.graalvm.nativeimage:svm:23.1.2"
 gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
 grails-datastore-core = "org.grails:grails-datastore-core:8.0.4"
@@ -127,7 +127,7 @@ hibernate-core = "org.hibernate:hibernate-core:6.4.4.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
-hilt-navigation-compose = "androidx.hilt:hilt-navigation-compose:1.1.0"
+hilt-navigation-compose = "androidx.hilt:hilt-navigation-compose:1.2.0"
 htmlunit = "net.sourceforge.htmlunit:htmlunit:2.70.0"
 httpcomponents-client = { module = "org.apache.httpcomponents:httpclient", version.ref = "org-apache-httpcomponents" }
 httpcomponents-mime = { module = "org.apache.httpcomponents:httpmime", version.ref = "org-apache-httpcomponents" }
@@ -193,11 +193,11 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.2"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2"
-kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.2"
-kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.2"
-kotter = "com.varabyte.kotter:kotter:1.1.1"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.3"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.3"
+kotter = "com.varabyte.kotter:kotter:1.1.2"
 ksp = { module = "com.google.devtools.ksp:symbol-processing", version.ref = "com-google-devtools-ksp" }
 ksp-api = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "com-google-devtools-ksp" }
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
@@ -215,8 +215,8 @@ ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" 
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
-log4j = "org.apache.logging.log4j:log4j-core:2.22.1"
-logback-classic = "ch.qos.logback:logback-classic:1.4.14"
+log4j = "org.apache.logging.log4j:log4j-core:2.23.0"
+logback-classic = "ch.qos.logback:logback-classic:1.5.0"
 logbook-netty = "org.zalando:logbook-netty:3.7.2"
 material = "com.google.android.material:material:1.11.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
@@ -245,17 +245,17 @@ netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-n
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
 netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
-netty-tcnative = "io.netty:netty-tcnative:2.0.62.Final"
-netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.62.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.63.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.63.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
-netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.24.Final"
+netty-transport-native-iouring = { module = "io.netty.incubator:netty-incubator-transport-native-io_uring", version.ref = "io-netty-incubator" }
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
 netty-transport-native-unix-common = { module = "io.netty:netty-transport-native-unix-common", version.ref = "io-netty" }
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
 okio = "com.squareup.okio:okio:3.8.0"
-postgresql = "org.postgresql:postgresql:42.7.1"
+postgresql = "org.postgresql:postgresql:42.7.2"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
 quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "io-quarkus" }
@@ -276,7 +276,7 @@ robovm = "com.mobidevelop.robovm:robovm-rt:2.3.20"
 rxjava = "io.reactivex:rxjava:1.3.8"
 rxjava2 = "io.reactivex.rxjava2:rxjava:2.2.21"
 rxjava3 = "io.reactivex.rxjava3:rxjava:3.1.8"
-scala-library = "org.scala-lang:scala-library:2.13.12"
+scala-library = "org.scala-lang:scala-library:2.13.13"
 selenium-api = { module = "org.seleniumhq.selenium:selenium-api", version.ref = "org-seleniumhq-selenium" }
 selenium-driver-chrome = { module = "org.seleniumhq.selenium:selenium-chrome-driver", version.ref = "org-seleniumhq-selenium" }
 selenium-driver-firefox = { module = "org.seleniumhq.selenium:selenium-firefox-driver", version.ref = "org-seleniumhq-selenium" }
@@ -297,7 +297,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.2.2"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.2.3"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.4"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -313,9 +313,9 @@ yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
 [versions]
 androidx-appcompat = "1.6.1"
-androidx-compose-foundation = "1.6.1"
-androidx-compose-runtime = "1.6.1"
-androidx-compose-ui = "1.6.1"
+androidx-compose-foundation = "1.6.2"
+androidx-compose-runtime = "1.6.2"
+androidx-compose-ui = "1.6.2"
 androidx-lifecycle = "2.7.0"
 androidx-paging = "3.2.1"
 androidx-room = "2.6.1"
@@ -330,30 +330,30 @@ com-fasterxml-jackson-datatype = "2.16.1"
 com-fasterxml-jackson-module = "2.16.1"
 com-google-dagger = "2.50"
 com-google-devtools-ksp = "1.9.22-1.0.17"
-com-google-protobuf = "3.25.2"
+com-google-protobuf = "3.25.3"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.9.0"
 io-arrow-kt = "0.4.0"
 io-ktor = "2.3.8"
 io-micronaut-sql = "5.5.1"
-io-micronaut-test = "4.2.0"
+io-micronaut-test = "4.2.1"
 io-micronaut-tracing = "6.4.1"
 io-micronaut-validation = "4.4.0"
 io-netty = "4.1.107.Final"
 io-netty-incubator = "0.0.25.Final"
 io-projectreactor = "3.6.2"
-io-quarkus = "3.7.3"
-io-vertx = "4.5.3"
+io-quarkus = "3.8.0"
+io-vertx = "4.5.4"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.18"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "1.9.22"
-org-jetbrains-kotlinx = "1.7.3"
+org-jetbrains-kotlinx = "1.8.0"
 org-junit-jupiter = "5.10.2"
 org-junit-platform = "1.10.2"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.6"
-org-seleniumhq-selenium = "4.17.0"
+org-seleniumhq-selenium = "4.18.1"
 org-slf4j = "2.0.12"
-org-springframework-boot = "3.2.2"
-org-testcontainers = "1.19.5"
+org-springframework-boot = "3.2.3"
+org-testcontainers = "1.19.6"

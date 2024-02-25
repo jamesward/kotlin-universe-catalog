@@ -1,16 +1,15 @@
 [plugins]
-android-application = "com.android.application:8.4.0-alpha09"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.4.0-alpha09"
-android-library = "com.android.library:8.4.0-alpha09"
-jetbrains-compose = "org.jetbrains.compose:1.6.0-rc01"
+android-application = "com.android.application:8.4.0-alpha11"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.4.0-alpha11"
+android-library = "com.android.library:8.4.0-alpha11"
+jetbrains-compose = "org.jetbrains.compose:1.6.0-rc03"
 kotlin-android = "org.jetbrains.kotlin.android:2.0.0-Beta4"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.0.0-Beta4"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:2.0.0-Beta4"
 # @pin this library to version 2.0.0-Beta1 for compose compat
-kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:2.0.0-Beta1"
+kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:2.0.0-Beta4"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.0.0-Beta4"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.0.0-Beta4"
-version-catalog-update = "nl.littlerobots.version-catalog-update:0.8.4"
 
 [libraries]
 androidx-datastore-core-okio = { module = "androidx.datastore:datastore-core-okio", version.ref = "androidx-datastore" }

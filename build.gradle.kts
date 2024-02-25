@@ -6,8 +6,9 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 plugins {
     alias(universe.plugins.qoomon.git.versioning)
     alias(universe.plugins.gradle.nexus.publish.plugin)
-    // todo: to universe catalog
-    id("nl.littlerobots.version-catalog-update") version "0.8.4-SNAPSHOT"
+    // causes an issue with gradle-plugin using kotlin-dsl
+    //alias(universe.plugins.kotlin.power.assert)
+    alias(universeunstable.plugins.version.catalog.update)
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -32,6 +33,12 @@ gitVersioning.apply {
 ext["pluginName"] = "Kotlin Universe Catalog"
 ext["pluginDescription"] = "Gradle convention plugin that defines version catalogs for the universe of Kotlin Gradle plugins and libraries"
 ext["pluginUrl"] = "https://github.com/jamesward/kotlin-universe-catalog"
+
+/*
+configure<com.bnorm.power.PowerAssertGradleExtension> {
+    functions = listOf("kotlin.test.assertTrue")
+}
+ */
 
 subprojects {
     apply {
