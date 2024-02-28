@@ -2,7 +2,7 @@
 android-application = "com.android.application:8.4.0-alpha11"
 android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.4.0-alpha11"
 android-library = "com.android.library:8.4.0-alpha11"
-jetbrains-compose = "org.jetbrains.compose:1.6.0-rc03"
+jetbrains-compose = "org.jetbrains.compose:1.6.0"
 kotlin-android = "org.jetbrains.kotlin.android:2.0.0-Beta4"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.0.0-Beta4"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:2.0.0-Beta4"
