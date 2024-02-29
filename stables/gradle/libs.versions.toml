@@ -117,7 +117,7 @@ geb-spock = "org.gebish:geb-spock:7.0"
 graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.10.1"
 graalvm-svm = "org.graalvm.nativeimage:svm:23.1.2"
 gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
-grails-datastore-core = "org.grails:grails-datastore-core:8.0.4"
+grails-datastore-core = "org.grails:grails-datastore-core:8.1.0"
 groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apache-groovy" }
 groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.ref = "org-apache-groovy" }
 gson = "com.google.code.gson:gson:2.10.1"
@@ -216,7 +216,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.23.0"
-logback-classic = "ch.qos.logback:logback-classic:1.5.0"
+logback-classic = "ch.qos.logback:logback-classic:1.5.1"
 logbook-netty = "org.zalando:logbook-netty:3.7.2"
 material = "com.google.android.material:material:1.11.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
@@ -287,7 +287,7 @@ simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
 smallrye = "io.smallrye:smallrye-fault-tolerance:6.2.6"
-smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.5.4"
+smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.6.0"
 snakeyaml = "org.yaml:snakeyaml:2.2"
 soloader = "com.facebook.soloader:soloader:0.11.0"
 spock-core = "org.spockframework:spock-core:0.3"
@@ -342,7 +342,7 @@ io-micronaut-validation = "4.4.0"
 io-netty = "4.1.107.Final"
 io-netty-incubator = "0.0.25.Final"
 io-projectreactor = "3.6.2"
-io-quarkus = "3.8.0"
+io-quarkus = "3.8.1"
 io-vertx = "4.5.4"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.18"
