@@ -13,15 +13,21 @@ gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:1.3.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:1.2.1"
 jetbrains-compose = "org.jetbrains.compose:1.6.0"
 jib = "com.google.cloud.tools.jib:3.4.1"
+# @pin this library for compose compat
 kotlin-android = "org.jetbrains.kotlin.android:1.9.22"
+# @pin this library for compose compat
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:1.9.22"
+# @pin this library for compose compat
 kotlin-jvm = "org.jetbrains.kotlin.jvm:1.9.22"
-# @pin this library to version 1.9.22 for compose compat
+# @pin this library for compose compat
 kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:1.9.22"
+# @pin this library for compose compat
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:1.9.22"
+# @pin this library for compose compat
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:1.9.22"
 kotlin-power-assert = "com.bnorm.power.kotlin-power-assert:0.13.0"
-ksp = "com.google.devtools.ksp:1.9.22-1.0.18"
+# @pin this library for compose compat
+ksp = "com.google.devtools.ksp:1.9.22-1.0.19"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
@@ -95,7 +101,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.674"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.676"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.2"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -133,10 +139,10 @@ httpcomponents-client = { module = "org.apache.httpcomponents:httpclient", versi
 httpcomponents-mime = { module = "org.apache.httpcomponents:httpmime", version.ref = "org-apache-httpcomponents" }
 infer-annotation = "com.facebook.infer.annotation:infer-annotation:0.18.0"
 jackson-annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "com-fasterxml-jackson-core" }
-jackson-bom = "com.fasterxml.jackson:jackson-bom:2.16.1"
+jackson-bom = "com.fasterxml.jackson:jackson-bom:2.16.2"
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "com-fasterxml-jackson-core" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "com-fasterxml-jackson-core" }
-jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.16.1"
+jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.16.2"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
@@ -146,14 +152,14 @@ jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:2.1.1"
 jakarta-el = "jakarta.el:jakarta.el-api:5.0.1"
 jakarta-inject-api = { module = "jakarta.inject:jakarta.inject-api", version.ref = "jakarta-inject" }
 jakarta-inject-tck = { module = "jakarta.inject:jakarta.inject-tck", version.ref = "jakarta-inject" }
-jakarta-xml-bind-api = "jakarta.xml.bind:jakarta.xml.bind-api:4.0.1"
+jakarta-xml-bind-api = "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
 java-parser-core = "com.github.javaparser:javaparser-symbol-solver-core:3.25.9"
 javax-annotation-api = "javax.annotation:javax.annotation-api:1.3.2"
 javax-inject = "javax.inject:javax.inject:1"
 javax-jaxb-api = "javax.xml.bind:jaxb-api:2.3.1"
 javax-persistence = "javax.persistence:javax.persistence-api:2.2"
-jaxb-impl = "com.sun.xml.bind:jaxb-impl:4.0.4"
-jaxb-runtime = "org.glassfish.jaxb:jaxb-runtime:4.0.4"
+jaxb-impl = "com.sun.xml.bind:jaxb-impl:4.0.5"
+jaxb-runtime = "org.glassfish.jaxb:jaxb-runtime:4.0.5"
 jcache = "javax.cache:cache-api:1.1.1"
 jetbrains-annotations = "org.jetbrains:annotations:24.1.0"
 jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.54.v20240208"
@@ -173,32 +179,54 @@ junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher
 junit-vintage = "org.junit.vintage:junit-vintage-engine:5.10.2"
 kgit2-kommand = "com.kgit2:kommand:2.0.1"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.8.0"
+# @pin this library for compose compat
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-compiler-embeddable = { module = "org.jetbrains.kotlin:kotlin-compiler-embeddable", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-power-assert-gradle = "com.bnorm.power:kotlin-power-assert-gradle:0.13.0"
+# @pin this library for compose compat
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "org-jetbrains-kotlin" }
+# @pin this library for compose compat
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-bom = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-bom", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-guava = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-guava", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-jdk8 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-reactive = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactive", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
+# @pin this library for compose compat
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.3"
 kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
 kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3"
 kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.3"
 kotter = "com.varabyte.kotter:kotter:1.1.2"
+# @pin this library for compose compat
 ksp = { module = "com.google.devtools.ksp:symbol-processing", version.ref = "com-google-devtools-ksp" }
+# @pin this library for compose compat
 ksp-api = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "com-google-devtools-ksp" }
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
@@ -245,8 +273,8 @@ netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-n
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
 netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
-netty-tcnative = "io.netty:netty-tcnative:2.0.63.Final"
-netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.63.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.65.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.65.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
 netty-transport-native-iouring = { module = "io.netty.incubator:netty-incubator-transport-native-io_uring", version.ref = "io-netty-incubator" }
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
@@ -287,7 +315,7 @@ simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
 smallrye = "io.smallrye:smallrye-fault-tolerance:6.2.6"
-smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.6.0"
+smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.6.1"
 snakeyaml = "org.yaml:snakeyaml:2.2"
 soloader = "com.facebook.soloader:soloader:0.11.0"
 spock-core = "org.spockframework:spock-core:0.3"
@@ -325,11 +353,11 @@ androidx-work = "2.9.0"
 com-apollographql-apollo3 = "3.8.2"
 com-facebook-flipper = "0.249.0"
 com-facebook-fresco = "3.1.3"
-com-fasterxml-jackson-core = "2.16.1"
-com-fasterxml-jackson-datatype = "2.16.1"
-com-fasterxml-jackson-module = "2.16.1"
+com-fasterxml-jackson-core = "2.16.2"
+com-fasterxml-jackson-datatype = "2.16.2"
+com-fasterxml-jackson-module = "2.16.2"
 com-google-dagger = "2.51"
-com-google-devtools-ksp = "1.9.22-1.0.18"
+com-google-devtools-ksp = "1.9.22-1.0.19"
 com-google-protobuf = "3.25.3"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.9.0"
@@ -342,7 +370,7 @@ io-micronaut-validation = "4.4.3"
 io-netty = "4.1.107.Final"
 io-netty-incubator = "0.0.25.Final"
 io-projectreactor = "3.6.2"
-io-quarkus = "3.8.1"
+io-quarkus = "3.8.2"
 io-vertx = "4.5.4"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.19"

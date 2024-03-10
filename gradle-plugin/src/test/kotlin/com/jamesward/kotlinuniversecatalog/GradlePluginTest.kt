@@ -102,6 +102,7 @@ class GradlePluginTest {
 
             plugins {
                 id("com.jamesward.kotlin-universe-catalog") version "$pluginVersion"
+                id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
             }
         """.trimIndent())
 
