@@ -11,7 +11,7 @@ Two Catalogs:
 Add the settings plugin to your Gradle `settings.gradle.kts` file:
 ```
 plugins {
-    id("com.jamesward.kotlin-universe-catalog") version "2024.03.12-2"
+    id("com.jamesward.kotlin-universe-catalog") version "2024.03.13-2"
 }
 ```
 
@@ -35,7 +35,7 @@ If you'd rather not use the settings plugin you can depend directly on the Versi
 dependencyResolutionManagement {
     versionCatalogs {
         create("universe") {
-            from("com.jamesward.kotlin-universe-catalog:stables:2024.03.12-2")
+            from("com.jamesward.kotlin-universe-catalog:stables:2024.03.13-2")
         }
     }
 }
