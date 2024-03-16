@@ -100,8 +100,8 @@ asm = { module = "org.ow2.asm:asm", version.ref = "org-ow2-asm" }
 asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" }
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
-awaitility = "org.awaitility:awaitility:4.2.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.680"
+awaitility = "org.awaitility:awaitility:4.2.1"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.681"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.2"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -123,7 +123,7 @@ geb-spock = "org.gebish:geb-spock:7.0"
 graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.10.1"
 graalvm-svm = "org.graalvm.nativeimage:svm:23.1.2"
 gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
-grails-datastore-core = "org.grails:grails-datastore-core:8.1.1"
+grails-datastore-core = "org.grails:grails-datastore-core:8.1.2"
 groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apache-groovy" }
 groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.ref = "org-apache-groovy" }
 gson = "com.google.code.gson:gson:2.10.1"
@@ -325,7 +325,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.2.3"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.2.4"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.4"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -370,7 +370,7 @@ io-micronaut-validation = "4.4.4"
 io-netty = "4.1.107.Final"
 io-netty-incubator = "0.0.27.Final"
 io-projectreactor = "3.6.4"
-io-quarkus = "3.8.2"
+io-quarkus = "3.8.3"
 io-vertx = "4.5.5"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.20"
