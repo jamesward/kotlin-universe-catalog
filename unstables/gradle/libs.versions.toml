@@ -2,7 +2,7 @@
 android-application = "com.android.application:8.5.0-alpha03"
 android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.5.0-alpha03"
 android-library = "com.android.library:8.5.0-alpha03"
-jetbrains-compose = "org.jetbrains.compose:1.6.10-dev1557"
+jetbrains-compose = "org.jetbrains.compose:1.6.10-dev1561"
 kotlin-android = "org.jetbrains.kotlin.android:2.0.0-Beta5"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.0.0-Beta5"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:2.0.0-Beta5"
@@ -17,4 +17,4 @@ androidx-datastore-core-preferences-core = { module = "androidx.datastore:datast
 kotlin-test = "org.jetbrains.kotlin:kotlin-test:2.0.0-Beta5"
 
 [versions]
-androidx-datastore = "1.1.0-beta02"
+androidx-datastore = "1.1.0-rc01"
