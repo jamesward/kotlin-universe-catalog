@@ -148,7 +148,7 @@ jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-dat
 jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
-jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:2.1.1"
+jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:3.0.0"
 jakarta-el = "jakarta.el:jakarta.el-api:5.0.1"
 jakarta-inject-api = { module = "jakarta.inject:jakarta.inject-api", version.ref = "jakarta-inject" }
 jakarta-inject-tck = { module = "jakarta.inject:jakarta.inject-tck", version.ref = "jakarta-inject" }
@@ -319,7 +319,7 @@ smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.7.1"
 snakeyaml = "org.yaml:snakeyaml:2.2"
 soloader = "com.facebook.soloader:soloader:0.11.0"
 spock-core = "org.spockframework:spock-core:0.3"
-spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.8.3"
+spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.8.4"
 spring-boot-gradle-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "org-springframework-boot" }
 spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "org-springframework-boot" }
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
@@ -364,7 +364,7 @@ com-squareup-retrofit2 = "2.11.0"
 io-arrow-kt = "0.4.0"
 io-ktor = "2.3.9"
 io-micronaut-sql = "5.6.0"
-io-micronaut-test = "4.2.1"
+io-micronaut-test = "4.3.0"
 io-micronaut-tracing = "6.5.0"
 io-micronaut-validation = "4.5.0"
 io-netty = "4.1.108.Final"
