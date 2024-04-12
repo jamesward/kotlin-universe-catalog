@@ -101,7 +101,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.699"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.700"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -314,7 +314,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.2.6"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.3.0"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.7.1"
 snakeyaml = "org.yaml:snakeyaml:2.2"
 soloader = "com.facebook.soloader:soloader:0.11.0"
