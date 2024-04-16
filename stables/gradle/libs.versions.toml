@@ -31,7 +31,7 @@ ksp = "com.google.devtools.ksp:1.9.23-1.0.19"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
-skie = "co.touchlab.skie:0.6.2"
+skie = "co.touchlab.skie:0.6.3"
 spring-boot = "org.springframework.boot:3.2.4"
 spring-dependency-management = "io.spring.dependency-management:1.1.4"
 
@@ -149,7 +149,7 @@ jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-mo
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
 jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:3.0.0"
-jakarta-el = "jakarta.el:jakarta.el-api:5.0.1"
+jakarta-el = "jakarta.el:jakarta.el-api:6.0.0"
 jakarta-inject-api = { module = "jakarta.inject:jakarta.inject-api", version.ref = "jakarta-inject" }
 jakarta-inject-tck = { module = "jakarta.inject:jakarta.inject-tck", version.ref = "jakarta-inject" }
 jakarta-xml-bind-api = "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
@@ -365,9 +365,9 @@ io-arrow-kt = "0.4.0"
 io-ktor = "2.3.10"
 io-micronaut-sql = "5.6.0"
 io-micronaut-test = "4.3.0"
-io-micronaut-tracing = "6.5.0"
+io-micronaut-tracing = "6.5.1"
 io-micronaut-validation = "4.5.0"
-io-netty = "4.1.108.Final"
+io-netty = "4.1.109.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.6.5"
 io-quarkus = "3.9.3"
