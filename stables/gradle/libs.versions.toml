@@ -31,7 +31,7 @@ ksp = "com.google.devtools.ksp:1.9.23-1.0.19"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
-skie = "co.touchlab.skie:0.6.3"
+skie = "co.touchlab.skie:0.6.4"
 spring-boot = "org.springframework.boot:3.2.4"
 spring-dependency-management = "io.spring.dependency-management:1.1.4"
 
@@ -39,18 +39,18 @@ spring-dependency-management = "io.spring.dependency-management:1.1.4"
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.34.0"
 android-gradle = "com.android.tools.build:gradle:8.3.2"
-androidx-activity-compose = "androidx.activity:activity-compose:1.8.2"
+androidx-activity-compose = "androidx.activity:activity-compose:1.9.0"
 androidx-annotation = "androidx.annotation:annotation:1.7.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
 androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "androidx-appcompat" }
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.1.0"
-androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.2.3"
-androidx-compose-bom = "androidx.compose:compose-bom:2024.04.00"
-androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.11"
+androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.2.4"
+androidx-compose-bom = "androidx.compose:compose-bom:2024.04.01"
+androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.12"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
-androidx-compose-material = "androidx.compose.material:material:1.6.5"
+androidx-compose-material = "androidx.compose.material:material:1.6.6"
 androidx-compose-material3 = "androidx.compose.material3:material3:1.2.1"
 androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "androidx-compose-runtime" }
 androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "androidx-compose-runtime" }
@@ -62,7 +62,7 @@ androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling
 androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "androidx-compose-ui" }
 androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
 androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
-androidx-core-ktx = "androidx.core:core-ktx:1.12.0"
+androidx-core-ktx = "androidx.core:core-ktx:1.13.0"
 androidx-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-test-espresso" }
 androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-test-espresso" }
 androidx-espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "androidx-test-espresso" }
@@ -101,7 +101,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.702"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.703"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -244,7 +244,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.23.1"
-logback-classic = "ch.qos.logback:logback-classic:1.5.5"
+logback-classic = "ch.qos.logback:logback-classic:1.5.6"
 logbook-netty = "org.zalando:logbook-netty:3.8.0"
 material = "com.google.android.material:material:1.11.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
@@ -341,9 +341,9 @@ yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
 [versions]
 androidx-appcompat = "1.6.1"
-androidx-compose-foundation = "1.6.5"
-androidx-compose-runtime = "1.6.5"
-androidx-compose-ui = "1.6.5"
+androidx-compose-foundation = "1.6.6"
+androidx-compose-runtime = "1.6.6"
+androidx-compose-ui = "1.6.6"
 androidx-lifecycle = "2.7.0"
 androidx-paging = "3.2.1"
 androidx-room = "2.6.1"
