@@ -101,7 +101,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.704"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.705"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
