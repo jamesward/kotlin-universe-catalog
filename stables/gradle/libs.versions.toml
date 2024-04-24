@@ -101,7 +101,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.706"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.707"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -129,7 +129,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.10.1"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.2.224"
-hibernate-core = "org.hibernate:hibernate-core:6.4.4.Final"
+hibernate-core = "org.hibernate:hibernate-core:6.4.5.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -315,7 +315,7 @@ simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
 smallrye = "io.smallrye:smallrye-fault-tolerance:6.3.0"
-smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.7.1"
+smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.8.0"
 snakeyaml = "org.yaml:snakeyaml:2.2"
 soloader = "com.facebook.soloader:soloader:0.11.0"
 spock-core = "org.spockframework:spock-core:0.3"
@@ -370,7 +370,7 @@ io-micronaut-validation = "4.5.0"
 io-netty = "4.1.109.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.6.5"
-io-quarkus = "3.9.4"
+io-quarkus = "3.10.0"
 io-vertx = "4.5.7"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.21"
