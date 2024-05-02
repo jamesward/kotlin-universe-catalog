@@ -17,4 +17,4 @@ androidx-datastore-core-preferences-core = { module = "androidx.datastore:datast
 kotlin-test = "org.jetbrains.kotlin:kotlin-test:2.0.0-RC2"
 
 [versions]
-androidx-datastore = "1.1.0"
+androidx-datastore = "1.1.1"
