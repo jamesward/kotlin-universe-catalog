@@ -246,7 +246,7 @@ ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", versio
 log4j = "org.apache.logging.log4j:log4j-core:2.23.1"
 logback-classic = "ch.qos.logback:logback-classic:1.5.6"
 logbook-netty = "org.zalando:logbook-netty:3.8.0"
-material = "com.google.android.material:material:1.11.0"
+material = "com.google.android.material:material:1.12.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
 micronaut-docs = "io.micronaut.docs:micronaut-docs-asciidoc-config-props:2.0.0"
 micronaut-session = "io.micronaut.session:micronaut-session:4.3.0"
