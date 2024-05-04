@@ -33,7 +33,7 @@ protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
 skie = "co.touchlab.skie:0.6.4"
 spring-boot = "org.springframework.boot:3.2.5"
-spring-dependency-management = "io.spring.dependency-management:1.1.4"
+spring-dependency-management = "io.spring.dependency-management:1.1.5"
 
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
@@ -101,7 +101,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.713"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.715"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -319,14 +319,14 @@ smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.8.1"
 snakeyaml = "org.yaml:snakeyaml:2.2"
 soloader = "com.facebook.soloader:soloader:0.11.0"
 spock-core = "org.spockframework:spock-core:0.3"
-spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.8.4"
+spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.8.5"
 spring-boot-gradle-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "org-springframework-boot" }
 spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "org-springframework-boot" }
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
 spring-data-commons = "org.springframework.data:spring-data-commons:3.2.5"
-spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.4"
+spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.5"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
 testcontainers-r2dbc = { module = "org.testcontainers:r2dbc", version.ref = "org-testcontainers" }
@@ -365,7 +365,7 @@ io-arrow-kt = "0.4.0"
 io-ktor = "2.3.10"
 io-micronaut-sql = "5.6.0"
 io-micronaut-test = "4.3.0"
-io-micronaut-tracing = "6.5.1"
+io-micronaut-tracing = "6.5.2"
 io-micronaut-validation = "4.5.0"
 io-netty = "4.1.109.Final"
 io-netty-incubator = "0.0.28.Final"
