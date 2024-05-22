@@ -25,6 +25,7 @@ dependencyResolutionManagement {
 
 plugins {
     id("com.jamesward.kotlin-universe-catalog") version "2024.02.14-2"
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
 
 include("stables", "unstables", "gradle-plugin")

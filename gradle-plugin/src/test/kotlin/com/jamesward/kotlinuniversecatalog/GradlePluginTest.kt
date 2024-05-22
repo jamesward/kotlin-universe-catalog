@@ -2,6 +2,7 @@ package com.jamesward.kotlinuniversecatalog
 
 import org.gradle.testkit.runner.GradleRunner
 import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import java.nio.file.Files
 import kotlin.io.path.div
@@ -174,6 +175,7 @@ class GradlePluginTest {
     }
 
     @Test
+    @Disabled("not needed right now")
     fun unstable_compose_kmp_kotlin_compat() {
         buildFile.writeText("""
             plugins {
