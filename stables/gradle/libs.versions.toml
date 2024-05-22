@@ -1,53 +1,47 @@
 [plugins]
-android-application = "com.android.application:8.4.0"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.4.0"
-android-library = "com.android.library:8.4.0"
+android-application = "com.android.application:8.4.1"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.4.1"
+android-library = "com.android.library:8.4.1"
 animalsniffer = "ru.vyarus.animalsniffer:1.7.1"
 apollo = "com.apollographql.apollo3:3.8.4"
 dokka = "org.jetbrains.dokka:1.9.20"
 download = "de.undercouch.download:5.6.0"
 errorprone = "net.ltgt.errorprone:3.1.0"
 google-java-format = "com.github.sherter.google-java-format:0.9"
-graalvm-buildtools-native = "org.graalvm.buildtools.native:0.10.1"
+graalvm-buildtools-native = "org.graalvm.buildtools.native:0.10.2"
 gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:2.0.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:1.2.1"
-jetbrains-compose = "org.jetbrains.compose:1.6.2"
+jetbrains-compose = "org.jetbrains.compose:1.6.10"
 jib = "com.google.cloud.tools.jib:3.4.2"
-# @pin this library for compose compat
-kotlin-android = "org.jetbrains.kotlin.android:1.9.23"
-# @pin this library for compose compat
-kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:1.9.23"
-# @pin this library for compose compat
-kotlin-jvm = "org.jetbrains.kotlin.jvm:1.9.23"
-# @pin this library for compose compat
-kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:1.9.23"
-# @pin this library for compose compat
-kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:1.9.23"
-# @pin this library for compose compat
-kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:1.9.23"
-kotlin-power-assert = "com.bnorm.power.kotlin-power-assert:0.13.0"
-# @pin this library for compose compat
-ksp = "com.google.devtools.ksp:1.9.23-1.0.19"
+kotlin-android = "org.jetbrains.kotlin.android:2.0.0"
+kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.0.0"
+kotlin-jvm = "org.jetbrains.kotlin.jvm:2.0.0"
+kotlin-multiplatform = "org.jetbrains.kotlin.multiplatform:2.0.0"
+kotlin-plugin-compose = "org.jetbrains.kotlin.plugin.compose:2.0.0"
+kotlin-plugin-power-assert = "org.jetbrains.kotlin.plugin.power-assert:2.0.0"
+kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.0.0"
+kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.0.0"
+ksp = "com.google.devtools.ksp:2.0.0-1.0.21"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
-skie = "co.touchlab.skie:0.7.0"
+skie = "co.touchlab.skie:0.8.0"
 spring-boot = "org.springframework.boot:3.2.5"
 spring-dependency-management = "io.spring.dependency-management:1.1.5"
 
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.34.0"
-android-gradle = "com.android.tools.build:gradle:8.4.0"
+android-gradle = "com.android.tools.build:gradle:8.4.1"
 androidx-activity-compose = "androidx.activity:activity-compose:1.9.0"
-androidx-annotation = "androidx.annotation:annotation:1.7.1"
+androidx-annotation = "androidx.annotation:annotation:1.8.0"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
 androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "androidx-appcompat" }
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.1.0"
 androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.2.4"
 androidx-compose-bom = "androidx.compose:compose-bom:2024.05.00"
-androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.13"
+androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.14"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
 androidx-compose-material = "androidx.compose.material:material:1.6.7"
@@ -101,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.25.3"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.721"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.727"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -120,16 +114,16 @@ fresco-imagepipeline-okhttp3 = { module = "com.facebook.fresco:imagepipeline-okh
 fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "com-facebook-fresco" }
 fresco-ui-common = { module = "com.facebook.fresco:ui-common", version.ref = "com-facebook-fresco" }
 geb-spock = "org.gebish:geb-spock:7.0"
-graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.10.1"
+graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.10.2"
 graalvm-svm = "org.graalvm.nativeimage:svm:24.0.1"
 gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
 grails-datastore-core = "org.grails:grails-datastore-core:8.1.2"
 groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apache-groovy" }
 groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.ref = "org-apache-groovy" }
-gson = "com.google.code.gson:gson:2.10.1"
+gson = "com.google.code.gson:gson:2.11.0"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.2.224"
-hibernate-core = "org.hibernate:hibernate-core:6.5.1.Final"
+hibernate-core = "org.hibernate:hibernate-core:6.5.2.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -179,55 +173,31 @@ junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher
 junit-vintage = "org.junit.vintage:junit-vintage-engine:5.10.2"
 kgit2-kommand = "com.kgit2:kommand:2.0.1"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.0"
-# @pin this library for compose compat
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
 kotlin-compiler-embeddable = { module = "org.jetbrains.kotlin:kotlin-compiler-embeddable", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
+kotlin-compose-compiler-plugin = { module = "org.jetbrains.kotlin:kotlin-compose-compiler-plugin", version.ref = "org-jetbrains-kotlin" }
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
-kotlin-power-assert-gradle = "com.bnorm.power:kotlin-power-assert-gradle:0.13.0"
-# @pin this library for compose compat
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "org-jetbrains-kotlin" }
-# @pin this library for compose compat
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-bom = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-bom", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-guava = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-guava", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-jdk8 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-reactive = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactive", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
-# @pin this library for compose compat
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.3"
 kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
 kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3"
 kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.3"
 kotter = "com.varabyte.kotter:kotter:1.1.2"
-# @pin this library for compose compat
-ksp = { module = "com.google.devtools.ksp:symbol-processing", version.ref = "com-google-devtools-ksp" }
-# @pin this library for compose compat
-ksp-api = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "com-google-devtools-ksp" }
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "io-ktor" }
@@ -299,7 +269,7 @@ reactor-core = { module = "io.projectreactor:reactor-core", version.ref = "io-pr
 reactor-test = { module = "io.projectreactor:reactor-test", version.ref = "io-projectreactor" }
 retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "com-squareup-retrofit2" }
 retrofit2-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "com-squareup-retrofit2" }
-robolectric = "org.robolectric:robolectric:4.12.1"
+robolectric = "org.robolectric:robolectric:4.12.2"
 robovm = "com.mobidevelop.robovm:robovm-rt:2.3.21"
 rxjava = "io.reactivex:rxjava:1.3.8"
 rxjava2 = "io.reactivex.rxjava2:rxjava:2.2.21"
@@ -325,7 +295,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.2.5"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.3.0"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.5"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -344,8 +314,8 @@ androidx-appcompat = "1.6.1"
 androidx-compose-foundation = "1.6.7"
 androidx-compose-runtime = "1.6.7"
 androidx-compose-ui = "1.6.7"
-androidx-lifecycle = "2.7.0"
-androidx-paging = "3.2.1"
+androidx-lifecycle = "2.8.0"
+androidx-paging = "3.3.0"
 androidx-room = "2.6.1"
 androidx-test-espresso = "3.5.1"
 androidx-tracing = "1.2.0"
@@ -357,7 +327,6 @@ com-fasterxml-jackson-core = "2.17.1"
 com-fasterxml-jackson-datatype = "2.17.1"
 com-fasterxml-jackson-module = "2.17.1"
 com-google-dagger = "2.51.1"
-com-google-devtools-ksp = "1.9.23-1.0.19"
 com-google-protobuf = "4.26.1"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
@@ -369,19 +338,19 @@ io-micronaut-tracing = "6.5.2"
 io-micronaut-validation = "4.5.0"
 io-netty = "4.1.109.Final"
 io-netty-incubator = "0.0.28.Final"
-io-projectreactor = "3.6.5"
-io-quarkus = "3.10.0"
+io-projectreactor = "3.6.6"
+io-quarkus = "3.10.1"
 io-vertx = "4.5.7"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.21"
 org-apache-httpcomponents = "4.5.14"
-org-jetbrains-kotlin = "1.9.23"
-org-jetbrains-kotlinx = "1.8.0"
+org-jetbrains-kotlin = "2.0.0"
+org-jetbrains-kotlinx = "1.8.1"
 org-junit-jupiter = "5.10.2"
 org-junit-platform = "1.10.2"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.7"
-org-seleniumhq-selenium = "4.20.0"
+org-seleniumhq-selenium = "4.21.0"
 org-slf4j = "2.0.13"
 org-springframework-boot = "3.2.5"
 org-testcontainers = "1.19.8"
