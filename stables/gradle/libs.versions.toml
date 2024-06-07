@@ -25,7 +25,7 @@ ksp = "com.google.devtools.ksp:2.0.0-1.0.22"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
-skie = "co.touchlab.skie:0.8.1"
+skie = "co.touchlab.skie:0.8.2"
 spring-boot = "org.springframework.boot:3.3.0"
 spring-dependency-management = "io.spring.dependency-management:1.1.5"
 
@@ -172,7 +172,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:5.10.2"
 kgit2-kommand = "com.kgit2:kommand:2.0.1"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.0"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.1"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
@@ -193,10 +193,10 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.3"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
-kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.6.3"
-kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.3"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.0"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.0"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.7.0"
 kotter = "com.varabyte.kotter:kotter:1.1.2"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
@@ -327,7 +327,7 @@ com-fasterxml-jackson-core = "2.17.1"
 com-fasterxml-jackson-datatype = "2.17.1"
 com-fasterxml-jackson-module = "2.17.1"
 com-google-dagger = "2.51.1"
-com-google-protobuf = "4.27.0"
+com-google-protobuf = "4.27.1"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
 io-arrow-kt = "0.4.0"
