@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.26.0"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.749"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.750"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -193,10 +193,10 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.0"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0"
-kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.0"
-kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.7.0"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.1"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.1"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.7.1"
 kotter = "com.varabyte.kotter:kotter:1.1.2"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
@@ -328,7 +328,7 @@ com-fasterxml-jackson-core = "2.17.1"
 com-fasterxml-jackson-datatype = "2.17.1"
 com-fasterxml-jackson-module = "2.17.1"
 com-google-dagger = "2.51.1"
-com-google-protobuf = "4.27.1"
+com-google-protobuf = "4.27.2"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
 io-arrow-kt = "0.4.0"
