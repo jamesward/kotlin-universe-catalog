@@ -65,7 +65,7 @@ androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-ru
 androidx-lifecycle-runtime-kts = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
-androidx-monitor = "androidx.test:monitor:1.7.0"
+androidx-monitor = "androidx.test:monitor:1.7.1"
 androidx-navigation-compose = "androidx.navigation:navigation-compose:2.7.7"
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "androidx-paging" }
 androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
@@ -74,7 +74,7 @@ androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref =
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "androidx-room" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "androidx-room" }
 androidx-swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
-androidx-test-ext-junit = "androidx.test.ext:junit:1.2.0"
+androidx-test-ext-junit = "androidx.test.ext:junit:1.2.1"
 androidx-test-rules = { module = "androidx.test:rules", version.ref = "androidx-test" }
 androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidx-test" }
 androidx-test-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.26.0"
 awaitility = "org.awaitility:awaitility:4.2.1"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.750"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.751"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.11"
@@ -317,8 +317,8 @@ androidx-compose-ui = "1.6.8"
 androidx-lifecycle = "2.8.2"
 androidx-paging = "3.3.0"
 androidx-room = "2.6.1"
-androidx-test = "1.6.0"
-androidx-test-espresso = "3.6.0"
+androidx-test = "1.6.1"
+androidx-test-espresso = "3.6.1"
 androidx-tracing = "1.2.0"
 androidx-work = "2.9.0"
 com-apollographql-apollo3 = "3.8.4"
