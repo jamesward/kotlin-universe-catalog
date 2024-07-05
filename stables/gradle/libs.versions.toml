@@ -82,7 +82,7 @@ androidx-tracing = { module = "androidx.tracing:tracing", version.ref = "android
 androidx-tracing-ktx = { module = "androidx.tracing:tracing-ktx", version.ref = "androidx-tracing" }
 androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-work" }
 androidx-work-testing = { module = "androidx.work:work-testing", version.ref = "androidx-work" }
-animalsniffer-annotations = "org.codehaus.mojo:animal-sniffer-annotations:1.23"
+animalsniffer-annotations = "org.codehaus.mojo:animal-sniffer-annotations:1.24"
 apollo-api = { module = "com.apollographql.apollo3:apollo-api", version.ref = "com-apollographql-apollo3" }
 apollo-ast = { module = "com.apollographql.apollo3:apollo-ast", version.ref = "com-apollographql-apollo3" }
 apollo-normalized-cache = { module = "com.apollographql.apollo3:apollo-normalized-cache", version.ref = "com-apollographql-apollo3" }
