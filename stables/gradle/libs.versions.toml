@@ -25,7 +25,7 @@ ksp = "com.google.devtools.ksp:2.0.10-1.0.24"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.3"
-skie = "co.touchlab.skie:0.9.0"
+skie = "co.touchlab.skie:0.8.4"
 spring-boot = "org.springframework.boot:3.3.2"
 spring-dependency-management = "io.spring.dependency-management:1.1.6"
 
@@ -123,7 +123,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.11.0"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.3.230"
-hibernate-core = "org.hibernate:hibernate-core:6.5.2.Final"
+hibernate-core = "org.hibernate:hibernate-core:6.6.0.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -352,6 +352,6 @@ org-junit-platform = "1.10.3"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.7"
 org-seleniumhq-selenium = "4.23.0"
-org-slf4j = "2.0.14"
+org-slf4j = "2.0.15"
 org-springframework-boot = "3.3.2"
 org-testcontainers = "1.20.1"
