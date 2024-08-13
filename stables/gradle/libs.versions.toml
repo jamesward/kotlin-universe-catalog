@@ -122,7 +122,7 @@ groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apach
 groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.ref = "org-apache-groovy" }
 gson = "com.google.code.gson:gson:2.11.0"
 guava = "com.google.guava:guava:23.0"
-h2 = "com.h2database:h2:2.3.230"
+h2 = "com.h2database:h2:2.3.232"
 hibernate-core = "org.hibernate:hibernate-core:6.6.0.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
