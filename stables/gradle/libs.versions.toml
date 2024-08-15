@@ -65,7 +65,7 @@ androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-ru
 androidx-lifecycle-runtime-kts = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
-androidx-monitor = "androidx.test:monitor:1.7.1"
+androidx-monitor = "androidx.test:monitor:1.7.2"
 androidx-navigation-compose = "androidx.navigation:navigation-compose:2.7.7"
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "androidx-paging" }
 androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
@@ -76,7 +76,7 @@ androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "
 androidx-swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 androidx-test-ext-junit = "androidx.test.ext:junit:1.2.1"
 androidx-test-rules = { module = "androidx.test:rules", version.ref = "androidx-test" }
-androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidx-test" }
+androidx-test-runner = "androidx.test:runner:1.6.2"
 androidx-test-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
 androidx-tracing = { module = "androidx.tracing:tracing", version.ref = "androidx-tracing" }
 androidx-tracing-ktx = { module = "androidx.tracing:tracing-ktx", version.ref = "androidx-tracing" }
@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.26.3"
 awaitility = "org.awaitility:awaitility:4.2.2"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.767"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.768"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.12"
@@ -163,14 +163,14 @@ jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess"
 jsoup = "org.jsoup:jsoup:1.18.1"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
-junit-bom = "org.junit:junit-bom:5.10.3"
+junit-bom = "org.junit:junit-bom:5.11.0"
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "org-junit-jupiter" }
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "org-junit-jupiter" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "org-junit-jupiter" }
 junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "org-junit-jupiter" }
 junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
-junit-vintage = "org.junit.vintage:junit-vintage-engine:5.10.3"
+junit-vintage = "org.junit.vintage:junit-vintage-engine:5.11.0"
 kgit2-kommand = "com.kgit2:kommand:2.1.2"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.1"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
@@ -335,8 +335,8 @@ io-arrow-kt = "0.4.0"
 io-ktor = "2.3.12"
 io-micronaut-sql = "5.7.0"
 io-micronaut-test = "4.4.0"
-io-micronaut-tracing = "6.7.0"
-io-micronaut-validation = "4.6.1"
+io-micronaut-tracing = "6.8.0"
+io-micronaut-validation = "4.7.0"
 io-netty = "4.1.112.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.6.9"
@@ -347,8 +347,8 @@ org-apache-groovy = "4.0.22"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.0.10"
 org-jetbrains-kotlinx = "1.8.1"
-org-junit-jupiter = "5.10.3"
-org-junit-platform = "1.10.3"
+org-junit-jupiter = "5.11.0"
+org-junit-platform = "1.11.0"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.7"
 org-seleniumhq-selenium = "4.23.1"
