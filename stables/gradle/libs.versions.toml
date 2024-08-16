@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.26.3"
 awaitility = "org.awaitility:awaitility:4.2.2"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.768"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.769"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.12"
@@ -214,7 +214,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.23.1"
-logback-classic = "ch.qos.logback:logback-classic:1.5.6"
+logback-classic = "ch.qos.logback:logback-classic:1.5.7"
 logbook-netty = "org.zalando:logbook-netty:3.9.0"
 material = "com.google.android.material:material:1.12.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
