@@ -171,7 +171,7 @@ junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", vers
 junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:5.11.0"
-kgit2-kommand = "com.kgit2:kommand:2.1.2"
+kgit2-kommand = "com.kgit2:kommand:2.2.1"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.1"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
@@ -295,7 +295,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.3.2"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.3.3"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.6"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -333,7 +333,7 @@ com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
 io-arrow-kt = "0.4.0"
 io-ktor = "2.3.12"
-io-micronaut-sql = "5.7.0"
+io-micronaut-sql = "5.8.0"
 io-micronaut-test = "4.4.0"
 io-micronaut-tracing = "6.8.0"
 io-micronaut-validation = "4.7.0"
