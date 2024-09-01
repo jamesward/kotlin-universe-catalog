@@ -286,7 +286,7 @@ slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
 smallrye = "io.smallrye:smallrye-fault-tolerance:6.4.0"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.9.1"
-snakeyaml = "org.yaml:snakeyaml:2.2"
+snakeyaml = "org.yaml:snakeyaml:2.3"
 soloader = "com.facebook.soloader:soloader:0.11.0"
 spock-core = "org.spockframework:spock-core:0.3"
 spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.8.6"
