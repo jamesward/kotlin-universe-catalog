@@ -156,7 +156,7 @@ jaxb-impl = "com.sun.xml.bind:jaxb-impl:4.0.5"
 jaxb-runtime = "org.glassfish.jaxb:jaxb-runtime:4.0.5"
 jcache = "javax.cache:cache-api:1.1.1"
 jetbrains-annotations = "org.jetbrains:annotations:24.1.0"
-jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.55.v20240627"
+jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.56.v20240826"
 jib-native-image-extension = "com.google.cloud.tools:jib-native-image-extension-gradle:0.1.0"
 jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "org-openjdk-jmh" }
 jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "org-openjdk-jmh" }
