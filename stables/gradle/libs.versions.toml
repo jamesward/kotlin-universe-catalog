@@ -213,8 +213,8 @@ ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" 
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
-log4j = "org.apache.logging.log4j:log4j-core:2.23.1"
-logback-classic = "ch.qos.logback:logback-classic:1.5.7"
+log4j = "org.apache.logging.log4j:log4j-core:2.24.0"
+logback-classic = "ch.qos.logback:logback-classic:1.5.8"
 logbook-netty = "org.zalando:logbook-netty:3.9.0"
 material = "com.google.android.material:material:1.12.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
