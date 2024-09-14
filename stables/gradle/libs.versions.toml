@@ -295,7 +295,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.3.3"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.3.4"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.6"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -346,7 +346,7 @@ jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.23"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.0.20"
-org-jetbrains-kotlinx = "1.8.1"
+org-jetbrains-kotlinx = "1.9.0"
 org-junit-jupiter = "5.11.0"
 org-junit-platform = "1.11.0"
 org-openjdk-jmh = "1.37"
