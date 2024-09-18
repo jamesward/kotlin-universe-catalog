@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:8.6.0"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.6.0"
-android-library = "com.android.library:8.6.0"
+android-application = "com.android.application:8.6.1"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.6.1"
+android-library = "com.android.library:8.6.1"
 animalsniffer = "ru.vyarus.animalsniffer:1.7.1"
 apollo = "com.apollographql.apollo3:3.8.5"
 dokka = "org.jetbrains.dokka:1.9.20"
@@ -32,7 +32,7 @@ spring-dependency-management = "io.spring.dependency-management:1.1.6"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:8.6.0"
+android-gradle = "com.android.tools.build:gradle:8.6.1"
 androidx-activity-compose = "androidx.activity:activity-compose:1.9.2"
 androidx-annotation = "androidx.annotation:annotation:1.8.2"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -115,7 +115,7 @@ fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "
 fresco-ui-common = { module = "com.facebook.fresco:ui-common", version.ref = "com-facebook-fresco" }
 geb-spock = "org.gebish:geb-spock:7.0"
 graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.10.3"
-graalvm-svm = "org.graalvm.nativeimage:svm:24.0.2"
+graalvm-svm = "org.graalvm.nativeimage:svm:24.1.0"
 gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
 grails-datastore-core = "org.grails:grails-datastore-core:8.1.2"
 groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apache-groovy" }
@@ -123,7 +123,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.11.0"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.3.232"
-hibernate-core = "org.hibernate:hibernate-core:6.6.0.Final"
+hibernate-core = "org.hibernate:hibernate-core:6.6.1.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
