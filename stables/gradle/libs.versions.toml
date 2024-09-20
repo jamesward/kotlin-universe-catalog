@@ -26,7 +26,7 @@ palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.8.4"
-spring-boot = "org.springframework.boot:3.3.3"
+spring-boot = "org.springframework.boot:3.3.4"
 spring-dependency-management = "io.spring.dependency-management:1.1.6"
 
 [libraries]
@@ -193,10 +193,10 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.2"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.2"
-kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.2"
-kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.7.2"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.3"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.3"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.7.3"
 kotter = "com.varabyte.kotter:kotter:1.1.2"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
@@ -353,5 +353,5 @@ org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.7"
 org-seleniumhq-selenium = "4.24.0"
 org-slf4j = "2.0.16"
-org-springframework-boot = "3.3.3"
+org-springframework-boot = "3.3.4"
 org-testcontainers = "1.20.1"
