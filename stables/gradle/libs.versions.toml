@@ -25,7 +25,7 @@ ksp = "com.google.devtools.ksp:2.0.20-1.0.25"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
-skie = "co.touchlab.skie:0.8.4"
+skie = "co.touchlab.skie:0.9.0"
 spring-boot = "org.springframework.boot:3.3.4"
 spring-dependency-management = "io.spring.dependency-management:1.1.6"
 
@@ -103,7 +103,7 @@ caffeine = "com.github.ben-manes.caffeine:caffeine:3.1.8"
 compile-testing = "com.google.testing.compile:compile-testing:0.21.0"
 errorprone-core = "com.google.errorprone:error_prone_core:2.32.0"
 errorprone-javac = "com.google.errorprone:javac:9+181-r4173-1"
-fbjni = "com.facebook.fbjni:fbjni:0.6.0"
+fbjni = "com.facebook.fbjni:fbjni:0.7.0"
 findbugs-annotations = "com.google.code.findbugs:jsr305:3.0.2"
 flipper = { module = "com.facebook.flipper:flipper", version.ref = "com-facebook-flipper" }
 flipper-fresco-plugin = { module = "com.facebook.fresco:flipper-fresco-plugin", version.ref = "com-facebook-fresco" }
