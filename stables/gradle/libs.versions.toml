@@ -21,7 +21,7 @@ kotlin-plugin-compose = "org.jetbrains.kotlin.plugin.compose:2.0.21"
 kotlin-plugin-power-assert = "org.jetbrains.kotlin.plugin.power-assert:2.0.21"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.0.21"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.0.21"
-ksp = "com.google.devtools.ksp:2.0.20-1.0.25"
+ksp = "com.google.devtools.ksp:2.0.21-1.0.25"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
@@ -284,7 +284,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.4.1"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.5.0"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.9.1"
 snakeyaml = "org.yaml:snakeyaml:2.3"
 soloader = "com.facebook.soloader:soloader:0.12.1"
