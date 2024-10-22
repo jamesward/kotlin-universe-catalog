@@ -95,7 +95,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.26.3"
 awaitility = "org.awaitility:awaitility:4.2.2"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.776"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.777"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.12"
@@ -163,14 +163,14 @@ jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess"
 jsoup = "org.jsoup:jsoup:1.18.1"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
-junit-bom = "org.junit:junit-bom:5.11.2"
+junit-bom = "org.junit:junit-bom:5.11.3"
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "org-junit-jupiter" }
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "org-junit-jupiter" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "org-junit-jupiter" }
 junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "org-junit-jupiter" }
 junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
-junit-vintage = "org.junit.vintage:junit-vintage-engine:5.11.2"
+junit-vintage = "org.junit.vintage:junit-vintage-engine:5.11.3"
 kgit2-kommand = "com.kgit2:kommand:2.2.1"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.1"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
@@ -347,8 +347,8 @@ org-apache-groovy = "4.0.23"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.0.21"
 org-jetbrains-kotlinx = "1.9.0"
-org-junit-jupiter = "5.11.2"
-org-junit-platform = "1.11.2"
+org-junit-jupiter = "5.11.3"
+org-junit-platform = "1.11.3"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.7.1"
 org-seleniumhq-selenium = "4.25.0"
