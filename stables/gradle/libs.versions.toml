@@ -26,7 +26,7 @@ palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.9.3"
-spring-boot = "org.springframework.boot:3.3.4"
+spring-boot = "org.springframework.boot:3.3.5"
 spring-dependency-management = "io.spring.dependency-management:1.1.6"
 
 [libraries]
@@ -284,7 +284,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.5.0"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.6.0"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.10.0"
 snakeyaml = "org.yaml:snakeyaml:2.3"
 soloader = "com.facebook.soloader:soloader:0.12.1"
@@ -353,5 +353,5 @@ org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.7.1"
 org-seleniumhq-selenium = "4.25.0"
 org-slf4j = "2.0.16"
-org-springframework-boot = "3.3.4"
+org-springframework-boot = "3.3.5"
 org-testcontainers = "1.20.3"
