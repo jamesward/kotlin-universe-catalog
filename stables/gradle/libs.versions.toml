@@ -28,6 +28,9 @@ qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.9.3"
 spring-boot = "org.springframework.boot:3.3.5"
 spring-dependency-management = "io.spring.dependency-management:1.1.6"
+vanniktech-maven-publish = "com.vanniktech.maven.publish:0.30.0"
+version-catalog-update = "nl.littlerobots.version-catalog-update:0.8.5"
+versions = "com.github.ben-manes.versions:0.51.0"
 
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"

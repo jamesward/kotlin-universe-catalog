@@ -1,14 +1,23 @@
+import com.vanniktech.maven.publish.MavenPublishBaseExtension
+import com.vanniktech.maven.publish.SonatypeHost
 import me.qoomon.gitversioning.commons.GitUtil
 import nl.littlerobots.vcu.plugin.resolver.VersionSelectors
 import nl.littlerobots.vcu.plugin.versionSelector
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder
 
 plugins {
+    // https://github.com/vanniktech/gradle-maven-publish-plugin/issues/812
+    `kotlin-dsl` apply false
+
     alias(universe.plugins.qoomon.git.versioning)
-    alias(universe.plugins.gradle.nexus.publish.plugin)
+
     // causes an issue with gradle-plugin using kotlin-dsl
     //alias(universe.plugins.kotlin.power.assert)
-    alias(universeunstable.plugins.version.catalog.update)
+
+    // temp use non-catalog
+    id("com.github.ben-manes.versions") version "0.41.0"
+    id("nl.littlerobots.version-catalog-update") version "0.8.5"
+    id("com.vanniktech.maven.publish") version "0.30.0" apply false
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -40,57 +49,6 @@ configure<com.bnorm.power.PowerAssertGradleExtension> {
 }
  */
 
-subprojects {
-    apply {
-        plugin("maven-publish")
-        plugin("signing")
-    }
-
-    extensions.getByType<PublishingExtension>().publications {
-        configureEach {
-            (this as MavenPublication).pom {
-                name = rootProject.ext["pluginName"].toString()
-                description = rootProject.ext["pluginDescription"].toString()
-                url = rootProject.ext["pluginUrl"].toString()
-
-                scm {
-                    connection = "scm:git:${rootProject.ext["pluginUrl"]}.git"
-                    developerConnection = "scm:git:git@github.com:jamesward/kotlin-universe-catalog.git"
-                    url = rootProject.ext["pluginUrl"].toString()
-                }
-
-                licenses {
-                    license {
-                        name = "Apache 2.0"
-                        url = "https://opensource.org/licenses/Apache-2.0"
-                    }
-                }
-
-                developers {
-                    developer {
-                        id = "jamesward"
-                        name = "James Ward"
-                        email = "james@jamesward.com"
-                        url = "https://jamesward.com"
-                    }
-                }
-            }
-        }
-    }
-
-    extensions.getByType<PublishingExtension>().repositories {
-        maven {
-            url = uri(rootProject.layout.buildDirectory.dir("maven-repo"))
-        }
-    }
-
-    extensions.getByType<SigningExtension>().useInMemoryPgpKeys(System.getenv("GPG_PRIVATE_KEY"), System.getenv("GPG_PASSPHRASE"))
-
-    tasks.withType<Sign> {
-        onlyIf { System.getenv("GPG_PRIVATE_KEY") != null && System.getenv("GPG_PASSPHRASE") != null }
-    }
-}
-
 versionCatalogUpdate {
     keep {
         keepUnusedVersions = true
@@ -121,9 +79,44 @@ versionCatalogUpdate {
     }
 }
 
-nexusPublishing.repositories {
-    sonatype {
-        username = System.getenv("SONATYPE_USERNAME")
-        password = System.getenv("SONATYPE_PASSWORD")
+subprojects {
+    apply {
+        plugin("com.vanniktech.maven.publish")
+    }
+
+    extensions.getByType<MavenPublishBaseExtension>().apply {
+        publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+
+        if (System.getenv("ORG_GRADLE_PROJECT_signingInMemoryKey") != null && System.getenv("ORG_GRADLE_PROJECT_signingInMemoryKeyPassword") != null) {
+            signAllPublications()
+        }
+
+        pom {
+            name = rootProject.ext["pluginName"].toString()
+            description = rootProject.ext["pluginDescription"].toString()
+            url = rootProject.ext["pluginUrl"].toString()
+
+            scm {
+                connection = "scm:git:${rootProject.ext["pluginUrl"]}.git"
+                developerConnection = "scm:git:git@github.com:jamesward/kotlin-universe-catalog.git"
+                url = rootProject.ext["pluginUrl"].toString()
+            }
+
+            licenses {
+                license {
+                    name = "Apache 2.0"
+                    url = "https://opensource.org/licenses/Apache-2.0"
+                }
+            }
+
+            developers {
+                developer {
+                    id = "jamesward"
+                    name = "James Ward"
+                    email = "james@jamesward.com"
+                    url = "https://jamesward.com"
+                }
+            }
+        }
     }
 }

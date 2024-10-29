@@ -1,9 +1,11 @@
+import com.vanniktech.maven.publish.JavadocJar
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent.*
 
 plugins {
     `kotlin-dsl`
     alias(universe.plugins.gradle.plugin.publish)
+    id("com.vanniktech.maven.publish")
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -22,10 +24,23 @@ dependencies {
     testRuntimeOnly(universe.junit.platform.launcher)
 }
 
+mavenPublishing {
+    configure(com.vanniktech.maven.publish.GradlePublishPlugin())
+}
+
+publishing {
+    repositories {
+        maven {
+            name = "test"
+            url = uri(rootProject.layout.buildDirectory.dir("maven-repo"))
+        }
+    }
+}
+
 tasks.named<Test>("test") {
-    dependsOn("publishAllPublicationsToMavenRepository")
-    dependsOn(":stables:publishAllPublicationsToMavenRepository")
-    dependsOn(":unstables:publishAllPublicationsToMavenRepository")
+    dependsOn("publishAllPublicationsToTestRepository")
+    dependsOn(":stables:publishAllPublicationsToTestRepository")
+    dependsOn(":unstables:publishAllPublicationsToTestRepository")
 
     useJUnitPlatform()
 

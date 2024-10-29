@@ -1,6 +1,6 @@
 plugins {
     `version-catalog`
-    `maven-publish`
+    id("com.vanniktech.maven.publish")
 }
 
 group = "com.jamesward.kotlin-universe-catalog"
@@ -11,14 +11,15 @@ catalog {
     }
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["versionCatalog"])
-        }
-    }
+mavenPublishing {
+    configure(com.vanniktech.maven.publish.VersionCatalog())
 }
 
-signing {
-    sign(publishing.publications["maven"])
+publishing {
+    repositories {
+        maven {
+            name = "test"
+            url = uri(rootProject.layout.buildDirectory.dir("maven-repo"))
+        }
+    }
 }
