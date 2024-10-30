@@ -142,7 +142,7 @@ jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", ver
 jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.1"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
-jackson-module-afterburner = "com.fasterxml.jackson.module:jackson-module-afterburner:2.18.1"
+jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
 jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:3.0.0"
@@ -247,8 +247,8 @@ netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-n
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
 netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
-netty-tcnative = "io.netty:netty-tcnative:2.0.66.Final"
-netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.66.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.67.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.67.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
 netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.25.Final"
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
@@ -288,7 +288,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.6.0"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.6.1"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.10.0"
 snakeyaml = "org.yaml:snakeyaml:2.3"
 soloader = "com.facebook.soloader:soloader:0.12.1"
@@ -329,14 +329,14 @@ com-apollographql-apollo3 = "3.8.5"
 com-facebook-flipper = "0.270.0"
 com-facebook-fresco = "3.4.0"
 com-fasterxml-jackson-core = "2.18.1"
-com-fasterxml-jackson-datatype = "2.18.0"
-com-fasterxml-jackson-module = "2.18.0"
+com-fasterxml-jackson-datatype = "2.18.1"
+com-fasterxml-jackson-module = "2.18.1"
 com-google-dagger = "2.52"
 com-google-protobuf = "4.28.3"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
 io-arrow-kt = "0.4.0"
-io-ktor = "3.0.0"
+io-ktor = "3.0.1"
 io-micronaut-sql = "5.8.2"
 io-micronaut-test = "4.5.0"
 io-micronaut-tracing = "6.9.0"
