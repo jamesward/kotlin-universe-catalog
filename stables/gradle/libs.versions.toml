@@ -21,7 +21,7 @@ kotlin-plugin-compose = "org.jetbrains.kotlin.plugin.compose:2.0.21"
 kotlin-plugin-power-assert = "org.jetbrains.kotlin.plugin.power-assert:2.0.21"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.0.21"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.0.21"
-ksp = "com.google.devtools.ksp:2.0.21-1.0.26"
+ksp = "com.google.devtools.ksp:2.0.21-1.0.27"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
@@ -126,7 +126,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.11.0"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.3.232"
-hibernate-core = "org.hibernate:hibernate-core:6.6.1.Final"
+hibernate-core = "org.hibernate:hibernate-core:6.6.2.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -305,7 +305,7 @@ system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
 testcontainers-r2dbc = { module = "org.testcontainers:r2dbc", version.ref = "org-testcontainers" }
 testcontainers-spock = { module = "org.testcontainers:spock", version.ref = "org-testcontainers" }
-thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.20"
+thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.21"
 tomlj = "org.tomlj:tomlj:1.1.1"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
 vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
