@@ -43,7 +43,7 @@ androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resource
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.1.0"
 androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.3.3"
-androidx-compose-bom = "androidx.compose:compose-bom:2024.10.01"
+androidx-compose-bom = "androidx.compose:compose-bom:2024.11.00"
 androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.15"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
@@ -69,7 +69,7 @@ androidx-lifecycle-runtime-kts = { module = "androidx.lifecycle:lifecycle-runtim
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
 androidx-monitor = "androidx.test:monitor:1.7.2"
-androidx-navigation-compose = "androidx.navigation:navigation-compose:2.8.3"
+androidx-navigation-compose = "androidx.navigation:navigation-compose:2.8.4"
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "androidx-paging" }
 androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
 androidx-profileinstaller = "androidx.profileinstaller:profileinstaller:1.4.1"
@@ -98,7 +98,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.26.3"
 awaitility = "org.awaitility:awaitility:4.2.2"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.777"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.778"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.14"
@@ -319,7 +319,7 @@ androidx-compose-foundation = "1.7.5"
 androidx-compose-runtime = "1.7.5"
 androidx-compose-ui = "1.7.5"
 androidx-lifecycle = "2.8.7"
-androidx-paging = "3.3.2"
+androidx-paging = "3.3.4"
 androidx-room = "2.6.1"
 androidx-test = "1.6.1"
 androidx-test-espresso = "3.6.1"
@@ -344,7 +344,7 @@ io-micronaut-validation = "4.8.0"
 io-netty = "4.1.115.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.7.0"
-io-quarkus = "3.16.2"
+io-quarkus = "3.16.3"
 io-vertx = "4.5.11"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.24"
