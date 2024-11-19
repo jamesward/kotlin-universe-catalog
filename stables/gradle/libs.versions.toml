@@ -2,7 +2,7 @@
 android-application = "com.android.application:8.7.2"
 android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.7.2"
 android-library = "com.android.library:8.7.2"
-animalsniffer = "ru.vyarus.animalsniffer:1.7.1"
+animalsniffer = "ru.vyarus.animalsniffer:1.7.2"
 apollo = "com.apollographql.apollo3:3.8.5"
 dokka = "org.jetbrains.dokka:1.9.20"
 download = "de.undercouch.download:5.6.0"
@@ -201,7 +201,7 @@ kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1
 kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
 kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.3"
 kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.7.3"
-kotter = "com.varabyte.kotter:kotter:1.1.2"
+kotter = "com.varabyte.kotter:kotter:1.2.0"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "io-ktor" }
