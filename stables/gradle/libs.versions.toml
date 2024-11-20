@@ -104,7 +104,7 @@ benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.14"
 caffeine = "com.github.ben-manes.caffeine:caffeine:3.1.8"
 compile-testing = "com.google.testing.compile:compile-testing:0.21.0"
-errorprone-core = "com.google.errorprone:error_prone_core:2.35.1"
+errorprone-core = "com.google.errorprone:error_prone_core:2.36.0"
 errorprone-javac = "com.google.errorprone:javac:9+181-r4173-1"
 fbjni = "com.facebook.fbjni:fbjni:0.7.0"
 findbugs-annotations = "com.google.code.findbugs:jsr305:3.0.2"
@@ -288,7 +288,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.6.2"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.6.3"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.10.1"
 snakeyaml = "org.yaml:snakeyaml:2.3"
 soloader = "com.facebook.soloader:soloader:0.12.1"
