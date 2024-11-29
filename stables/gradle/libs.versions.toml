@@ -25,7 +25,7 @@ ksp = "com.google.devtools.ksp:2.1.0-1.0.29"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
-skie = "co.touchlab.skie:0.9.3"
+skie = "co.touchlab.skie:0.9.5"
 spring-boot = "org.springframework.boot:3.4.0"
 spring-dependency-management = "io.spring.dependency-management:1.1.6"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.30.0"
@@ -136,10 +136,10 @@ httpcomponents-client = { module = "org.apache.httpcomponents:httpclient", versi
 httpcomponents-mime = { module = "org.apache.httpcomponents:httpmime", version.ref = "org-apache-httpcomponents" }
 infer-annotation = "com.facebook.infer.annotation:infer-annotation:0.18.0"
 jackson-annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "com-fasterxml-jackson-core" }
-jackson-bom = "com.fasterxml.jackson:jackson-bom:2.18.1"
+jackson-bom = "com.fasterxml.jackson:jackson-bom:2.18.2"
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "com-fasterxml-jackson-core" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "com-fasterxml-jackson-core" }
-jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.1"
+jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.2"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
@@ -239,7 +239,7 @@ mockito = "org.mockito:mockito-inline:5.2.0"
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "com-squareup-okhttp3" }
 moshi = "com.squareup.moshi:moshi:1.15.1"
 mysql-connector-java = "mysql:mysql-connector-java:8.0.33"
-neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:5.26.3"
+neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:5.27.0"
 netty-bom = { module = "io.netty:netty-bom", version.ref = "io-netty" }
 netty-buffer = { module = "io.netty:netty-buffer", version.ref = "io-netty" }
 netty-codec-http = { module = "io.netty:netty-codec-http", version.ref = "io-netty" }
@@ -288,7 +288,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.6.3"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.7.0"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.10.1"
 snakeyaml = "org.yaml:snakeyaml:2.3"
 soloader = "com.facebook.soloader:soloader:0.12.1"
@@ -328,9 +328,9 @@ androidx-work = "2.10.0"
 com-apollographql-apollo3 = "3.8.5"
 com-facebook-flipper = "0.273.0"
 com-facebook-fresco = "3.5.0"
-com-fasterxml-jackson-core = "2.18.1"
-com-fasterxml-jackson-datatype = "2.18.1"
-com-fasterxml-jackson-module = "2.18.1"
+com-fasterxml-jackson-core = "2.18.2"
+com-fasterxml-jackson-datatype = "2.18.2"
+com-fasterxml-jackson-module = "2.18.2"
 com-google-dagger = "2.52"
 com-google-protobuf = "4.29.0"
 com-squareup-okhttp3 = "4.12.0"
@@ -344,7 +344,7 @@ io-micronaut-validation = "4.8.0"
 io-netty = "4.1.115.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.7.0"
-io-quarkus = "3.17.0"
+io-quarkus = "3.17.2"
 io-vertx = "4.5.11"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.24"
