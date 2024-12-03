@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:8.7.2"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.7.2"
-android-library = "com.android.library:8.7.2"
+android-application = "com.android.application:8.7.3"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.7.3"
+android-library = "com.android.library:8.7.3"
 animalsniffer = "ru.vyarus.animalsniffer:1.7.2"
 apollo = "com.apollographql.apollo3:3.8.5"
 dokka = "org.jetbrains.dokka:1.9.20"
@@ -35,7 +35,7 @@ versions = "com.github.ben-manes.versions:0.51.0"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:8.7.2"
+android-gradle = "com.android.tools.build:gradle:8.7.3"
 androidx-activity-compose = "androidx.activity:activity-compose:1.9.3"
 androidx-annotation = "androidx.annotation:annotation:1.9.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -111,7 +111,7 @@ findbugs-annotations = "com.google.code.findbugs:jsr305:3.0.2"
 flipper = { module = "com.facebook.flipper:flipper", version.ref = "com-facebook-flipper" }
 flipper-fresco-plugin = { module = "com.facebook.fresco:flipper-fresco-plugin", version.ref = "com-facebook-fresco" }
 flipper-network-plugin = { module = "com.facebook.flipper:flipper-network-plugin", version.ref = "com-facebook-flipper" }
-foojay-resolver = "org.gradle.toolchains:foojay-resolver:0.8.0"
+foojay-resolver = "org.gradle.toolchains:foojay-resolver:0.9.0"
 fresco = { module = "com.facebook.fresco:fresco", version.ref = "com-facebook-fresco" }
 fresco-imagepipeline-okhttp3 = { module = "com.facebook.fresco:imagepipeline-okhttp3", version.ref = "com-facebook-fresco" }
 fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "com-facebook-fresco" }
@@ -331,7 +331,7 @@ com-facebook-fresco = "3.5.0"
 com-fasterxml-jackson-core = "2.18.2"
 com-fasterxml-jackson-datatype = "2.18.2"
 com-fasterxml-jackson-module = "2.18.2"
-com-google-dagger = "2.52"
+com-google-dagger = "2.53"
 com-google-protobuf = "4.29.0"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
