@@ -43,11 +43,11 @@ androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resource
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.1.0"
 androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.3.3"
-androidx-compose-bom = "androidx.compose:compose-bom:2024.11.00"
+androidx-compose-bom = "androidx.compose:compose-bom:2024.12.01"
 androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.15"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
-androidx-compose-material = "androidx.compose.material:material:1.7.5"
+androidx-compose-material = "androidx.compose.material:material:1.7.6"
 androidx-compose-material3 = "androidx.compose.material3:material3:1.3.1"
 androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "androidx-compose-runtime" }
 androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "androidx-compose-runtime" }
@@ -69,7 +69,7 @@ androidx-lifecycle-runtime-kts = { module = "androidx.lifecycle:lifecycle-runtim
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
 androidx-monitor = "androidx.test:monitor:1.7.2"
-androidx-navigation-compose = "androidx.navigation:navigation-compose:2.8.4"
+androidx-navigation-compose = "androidx.navigation:navigation-compose:2.8.5"
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "androidx-paging" }
 androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
 androidx-profileinstaller = "androidx.profileinstaller:profileinstaller:1.4.1"
@@ -315,11 +315,11 @@ yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
 [versions]
 androidx-appcompat = "1.7.0"
-androidx-compose-foundation = "1.7.5"
-androidx-compose-runtime = "1.7.5"
-androidx-compose-ui = "1.7.5"
+androidx-compose-foundation = "1.7.6"
+androidx-compose-runtime = "1.7.6"
+androidx-compose-ui = "1.7.6"
 androidx-lifecycle = "2.8.7"
-androidx-paging = "3.3.4"
+androidx-paging = "3.3.5"
 androidx-room = "2.6.1"
 androidx-test = "1.6.1"
 androidx-test-espresso = "3.6.1"
@@ -344,7 +344,7 @@ io-micronaut-validation = "4.8.0"
 io-netty = "4.1.115.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.7.1"
-io-quarkus = "3.17.3"
+io-quarkus = "3.17.4"
 io-vertx = "4.5.11"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.24"
