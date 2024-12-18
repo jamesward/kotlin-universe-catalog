@@ -27,7 +27,7 @@ protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.10.0"
 spring-boot = "org.springframework.boot:3.4.0"
-spring-dependency-management = "io.spring.dependency-management:1.1.6"
+spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.30.0"
 version-catalog-update = "nl.littlerobots.version-catalog-update:0.8.5"
 versions = "com.github.ben-manes.versions:0.51.0"
@@ -300,7 +300,7 @@ spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boo
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
 spring-data-commons = "org.springframework.data:spring-data-commons:3.4.1"
-spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.6"
+spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
 testcontainers-r2dbc = { module = "org.testcontainers:r2dbc", version.ref = "org-testcontainers" }
@@ -341,7 +341,7 @@ io-micronaut-sql = "6.0.2"
 io-micronaut-test = "4.6.2"
 io-micronaut-tracing = "6.9.0"
 io-micronaut-validation = "4.8.0"
-io-netty = "4.1.115.Final"
+io-netty = "4.1.116.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.7.1"
 io-quarkus = "3.17.4"
