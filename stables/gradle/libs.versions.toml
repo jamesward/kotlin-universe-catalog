@@ -250,7 +250,7 @@ netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-cod
 netty-tcnative = "io.netty:netty-tcnative:2.0.69.Final"
 netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.69.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
-netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.25.Final"
+netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.26.Final"
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
 netty-transport-native-unix-common = { module = "io.netty:netty-transport-native-unix-common", version.ref = "io-netty" }
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
