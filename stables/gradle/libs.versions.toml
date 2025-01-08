@@ -197,10 +197,10 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.3"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3"
-kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.3"
-kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.7.3"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.8.0"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.8.0"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.8.0"
 kotter = "com.varabyte.kotter:kotter:1.2.1"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
@@ -256,7 +256,7 @@ netty-transport-native-unix-common = { module = "io.netty:netty-transport-native
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
-okio = "com.squareup.okio:okio:3.9.1"
+okio = "com.squareup.okio:okio:3.10.1"
 postgresql = "org.postgresql:postgresql:42.7.4"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
@@ -288,7 +288,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.7.1"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.7.2"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.10.2"
 snakeyaml = "org.yaml:snakeyaml:2.3"
 soloader = "com.facebook.soloader:soloader:0.12.1"
@@ -309,7 +309,7 @@ thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.21"
 tomlj = "org.tomlj:tomlj:1.1.1"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
 vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
-wire-runtime = "com.squareup.wire:wire-runtime:5.1.0"
+wire-runtime = "com.squareup.wire:wire-runtime:5.2.1"
 wiremock = "com.github.tomakehurst:wiremock-jre8:3.0.1"
 yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
