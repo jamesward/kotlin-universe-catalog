@@ -174,7 +174,7 @@ junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", vers
 junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:5.11.4"
-kgit2-kommand = "com.kgit2:kommand:2.2.1"
+kgit2-kommand = "com.kgit2:kommand:2.3.0"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.1"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
@@ -256,7 +256,7 @@ netty-transport-native-unix-common = { module = "io.netty:netty-transport-native
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
-okio = "com.squareup.okio:okio:3.10.1"
+okio = "com.squareup.okio:okio:3.10.2"
 postgresql = "org.postgresql:postgresql:42.7.4"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
@@ -327,12 +327,12 @@ androidx-tracing = "1.2.0"
 androidx-work = "2.10.0"
 com-apollographql-apollo3 = "3.8.5"
 com-facebook-flipper = "0.273.0"
-com-facebook-fresco = "3.5.0"
+com-facebook-fresco = "3.6.0"
 com-fasterxml-jackson-core = "2.18.2"
 com-fasterxml-jackson-datatype = "2.18.2"
 com-fasterxml-jackson-module = "2.18.2"
 com-google-dagger = "2.54"
-com-google-protobuf = "4.29.2"
+com-google-protobuf = "4.29.3"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
 io-arrow-kt = "0.4.0"
@@ -344,7 +344,7 @@ io-micronaut-validation = "4.8.0"
 io-netty = "4.1.116.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.7.1"
-io-quarkus = "3.17.5"
+io-quarkus = "3.17.6"
 io-vertx = "4.5.11"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.24"
