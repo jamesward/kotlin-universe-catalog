@@ -257,7 +257,7 @@ okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
 okio = "com.squareup.okio:okio:3.10.2"
-postgresql = "org.postgresql:postgresql:42.7.4"
+postgresql = "org.postgresql:postgresql:42.7.5"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
 quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "io-quarkus" }
@@ -341,9 +341,9 @@ io-micronaut-sql = "6.0.2"
 io-micronaut-test = "4.6.2"
 io-micronaut-tracing = "6.9.0"
 io-micronaut-validation = "4.8.0"
-io-netty = "4.1.116.Final"
+io-netty = "4.1.117.Final"
 io-netty-incubator = "0.0.28.Final"
-io-projectreactor = "3.7.1"
+io-projectreactor = "3.7.2"
 io-quarkus = "3.17.6"
 io-vertx = "4.5.11"
 jakarta-inject = "2.0.1"
