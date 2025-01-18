@@ -102,7 +102,7 @@ aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.780"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.14"
-caffeine = "com.github.ben-manes.caffeine:caffeine:3.1.8"
+caffeine = "com.github.ben-manes.caffeine:caffeine:3.2.0"
 compile-testing = "com.google.testing.compile:compile-testing:0.21.0"
 errorprone-core = "com.google.errorprone:error_prone_core:2.36.0"
 errorprone-javac = "com.google.errorprone:javac:9+181-r4173-1"
@@ -299,7 +299,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.4.1"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.4.2"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
