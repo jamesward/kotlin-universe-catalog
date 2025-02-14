@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:8.8.0"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.8.0"
-android-library = "com.android.library:8.8.0"
+android-application = "com.android.application:8.8.1"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.8.1"
+android-library = "com.android.library:8.8.1"
 animalsniffer = "ru.vyarus.animalsniffer:2.0.0"
 apollo = "com.apollographql.apollo3:3.8.5"
 dokka = "org.jetbrains.dokka:2.0.0"
@@ -35,7 +35,7 @@ versions = "com.github.ben-manes.versions:0.52.0"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:8.8.0"
+android-gradle = "com.android.tools.build:gradle:8.8.1"
 androidx-activity-compose = "androidx.activity:activity-compose:1.10.0"
 androidx-annotation = "androidx.annotation:annotation:1.9.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -223,7 +223,7 @@ logbook-netty = "org.zalando:logbook-netty:3.10.0"
 material = "com.google.android.material:material:1.12.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
 micronaut-docs = "io.micronaut.docs:micronaut-docs-asciidoc-config-props:2.0.0"
-micronaut-session = "io.micronaut.session:micronaut-session:4.5.0"
+micronaut-session = "io.micronaut.session:micronaut-session:4.6.0"
 micronaut-sql-jdbc = { module = "io.micronaut.sql:micronaut-jdbc", version.ref = "io-micronaut-sql" }
 micronaut-sql-jdbc-tomcat = { module = "io.micronaut.sql:micronaut-jdbc-tomcat", version.ref = "io-micronaut-sql" }
 micronaut-test-bom = { module = "io.micronaut.test:micronaut-test-bom", version.ref = "io-micronaut-test" }
