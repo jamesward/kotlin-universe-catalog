@@ -21,7 +21,7 @@ kotlin-plugin-compose = "org.jetbrains.kotlin.plugin.compose:2.1.10"
 kotlin-plugin-power-assert = "org.jetbrains.kotlin.plugin.power-assert:2.1.10"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.1.10"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.1.10"
-ksp = "com.google.devtools.ksp:2.1.10-1.0.29"
+ksp = "com.google.devtools.ksp:2.1.10-1.0.30"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.4"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
@@ -299,7 +299,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.4.2"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.4.3"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -309,7 +309,7 @@ thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.21"
 tomlj = "org.tomlj:tomlj:1.1.1"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
 vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
-wire-runtime = "com.squareup.wire:wire-runtime:5.2.1"
+wire-runtime = "com.squareup.wire:wire-runtime:5.3.0"
 wiremock = "com.github.tomakehurst:wiremock-jre8:3.0.1"
 yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
