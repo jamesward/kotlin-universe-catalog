@@ -218,7 +218,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.24.3"
-logback-classic = "ch.qos.logback:logback-classic:1.5.16"
+logback-classic = "ch.qos.logback:logback-classic:1.5.17"
 logbook-netty = "org.zalando:logbook-netty:3.10.0"
 material = "com.google.android.material:material:1.12.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.18.0"
@@ -356,6 +356,6 @@ org-junit-platform = "1.12.0"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.7.1"
 org-seleniumhq-selenium = "4.29.0"
-org-slf4j = "2.0.16"
+org-slf4j = "2.0.17"
 org-springframework-boot = "3.4.3"
 org-testcontainers = "1.20.5"
