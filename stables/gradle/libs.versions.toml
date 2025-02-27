@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:8.8.1"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.8.1"
-android-library = "com.android.library:8.8.1"
+android-application = "com.android.application:8.8.2"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.8.2"
+android-library = "com.android.library:8.8.2"
 animalsniffer = "ru.vyarus.animalsniffer:2.0.0"
 apollo = "com.apollographql.apollo3:3.8.5"
 dokka = "org.jetbrains.dokka:2.0.0"
@@ -35,8 +35,8 @@ versions = "com.github.ben-manes.versions:0.52.0"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:8.8.1"
-androidx-activity-compose = "androidx.activity:activity-compose:1.10.0"
+android-gradle = "com.android.tools.build:gradle:8.8.2"
+androidx-activity-compose = "androidx.activity:activity-compose:1.10.1"
 androidx-annotation = "androidx.annotation:annotation:1.9.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
 androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "androidx-appcompat" }
@@ -57,8 +57,8 @@ androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-mani
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose-ui" }
 androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidx-compose-ui" }
 androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "androidx-compose-ui" }
-androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.2.0"
-androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.1.0"
+androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.2.1"
+androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.1.1"
 androidx-core-ktx = "androidx.core:core-ktx:1.15.0"
 androidx-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-test-espresso" }
 androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-test-espresso" }
@@ -69,7 +69,7 @@ androidx-lifecycle-runtime-kts = { module = "androidx.lifecycle:lifecycle-runtim
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
 androidx-monitor = "androidx.test:monitor:1.7.2"
-androidx-navigation-compose = "androidx.navigation:navigation-compose:2.8.7"
+androidx-navigation-compose = "androidx.navigation:navigation-compose:2.8.8"
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "androidx-paging" }
 androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
 androidx-profileinstaller = "androidx.profileinstaller:profileinstaller:1.4.1"
@@ -341,10 +341,10 @@ io-micronaut-sql = "6.0.2"
 io-micronaut-test = "4.7.0"
 io-micronaut-tracing = "6.9.0"
 io-micronaut-validation = "4.9.0"
-io-netty = "4.1.118.Final"
+io-netty = "4.1.119.Final"
 io-netty-incubator = "0.0.28.Final"
 io-projectreactor = "3.7.3"
-io-quarkus = "3.19.0"
+io-quarkus = "3.19.1"
 io-vertx = "4.5.13"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.25"
