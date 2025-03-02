@@ -139,10 +139,10 @@ jackson-annotations = { module = "com.fasterxml.jackson.core:jackson-annotations
 jackson-bom = "com.fasterxml.jackson:jackson-bom:2.18.3"
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "com-fasterxml-jackson-core" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "com-fasterxml-jackson-core" }
-jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.2"
+jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.3"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
-jackson-module-afterburner = "com.fasterxml.jackson.module:jackson-module-afterburner:2.18.3"
+jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
 jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:3.0.0"
@@ -293,7 +293,7 @@ smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.12.2"
 snakeyaml = "org.yaml:snakeyaml:2.4"
 soloader = "com.facebook.soloader:soloader:0.12.1"
 spock-core = "org.spockframework:spock-core:0.3"
-spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.9.1"
+spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.9.2"
 spring-boot-gradle-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "org-springframework-boot" }
 spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "org-springframework-boot" }
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
@@ -329,8 +329,8 @@ com-apollographql-apollo3 = "3.8.5"
 com-facebook-flipper = "0.273.0"
 com-facebook-fresco = "3.6.0"
 com-fasterxml-jackson-core = "2.18.3"
-com-fasterxml-jackson-datatype = "2.18.2"
-com-fasterxml-jackson-module = "2.18.2"
+com-fasterxml-jackson-datatype = "2.18.3"
+com-fasterxml-jackson-module = "2.18.3"
 com-google-dagger = "2.55"
 com-google-protobuf = "4.29.3"
 com-squareup-okhttp3 = "4.12.0"
