@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:8.8.2"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.8.2"
-android-library = "com.android.library:8.8.2"
+android-application = "com.android.application:8.9.0"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.9.0"
+android-library = "com.android.library:8.9.0"
 animalsniffer = "ru.vyarus.animalsniffer:2.0.0"
 apollo = "com.apollographql.apollo3:3.8.5"
 dokka = "org.jetbrains.dokka:2.0.0"
@@ -35,7 +35,7 @@ versions = "com.github.ben-manes.versions:0.52.0"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:8.8.2"
+android-gradle = "com.android.tools.build:gradle:8.9.0"
 androidx-activity-compose = "androidx.activity:activity-compose:1.10.1"
 androidx-annotation = "androidx.annotation:annotation:1.9.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -163,7 +163,7 @@ jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.5
 jib-native-image-extension = "com.google.cloud.tools:jib-native-image-extension-gradle:0.1.0"
 jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "org-openjdk-jmh" }
 jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "org-openjdk-jmh" }
-jsoup = "org.jsoup:jsoup:1.18.3"
+jsoup = "org.jsoup:jsoup:1.19.1"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
 junit-bom = "org.junit:junit-bom:5.12.0"
@@ -358,4 +358,4 @@ org-ow2-asm = "9.7.1"
 org-seleniumhq-selenium = "4.29.0"
 org-slf4j = "2.0.17"
 org-springframework-boot = "3.4.3"
-org-testcontainers = "1.20.5"
+org-testcontainers = "1.20.6"
