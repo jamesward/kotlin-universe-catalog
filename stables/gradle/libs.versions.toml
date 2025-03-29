@@ -29,7 +29,7 @@ skie = "co.touchlab.skie:0.10.1"
 spring-boot = "org.springframework.boot:3.4.4"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.31.0"
-version-catalog-update = "nl.littlerobots.version-catalog-update:0.8.5"
+version-catalog-update = "nl.littlerobots.version-catalog-update:1.0.0"
 versions = "com.github.ben-manes.versions:0.52.0"
 
 [libraries]
