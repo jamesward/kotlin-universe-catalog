@@ -23,7 +23,7 @@ kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.1.20"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.1.20"
 ksp = "com.google.devtools.ksp:2.1.20-1.0.32"
 palantir-graal = "com.palantir.graal:0.12.0"
-protobuf = "com.google.protobuf:0.9.4"
+protobuf = "com.google.protobuf:0.9.5"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.10.1"
 spring-boot = "org.springframework.boot:3.4.4"
@@ -197,10 +197,10 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.8.0"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0"
-kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.8.0"
-kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.8.0"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.8.1"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.8.1"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.8.1"
 kotter = "com.varabyte.kotter:kotter:1.2.1"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
