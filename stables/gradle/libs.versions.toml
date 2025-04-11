@@ -111,7 +111,7 @@ findbugs-annotations = "com.google.code.findbugs:jsr305:3.0.2"
 flipper = { module = "com.facebook.flipper:flipper", version.ref = "com-facebook-flipper" }
 flipper-fresco-plugin = { module = "com.facebook.fresco:flipper-fresco-plugin", version.ref = "com-facebook-fresco" }
 flipper-network-plugin = { module = "com.facebook.flipper:flipper-network-plugin", version.ref = "com-facebook-flipper" }
-foojay-resolver = "org.gradle.toolchains:foojay-resolver:0.9.0"
+foojay-resolver = "org.gradle.toolchains:foojay-resolver:0.10.0"
 fresco = { module = "com.facebook.fresco:fresco", version.ref = "com-facebook-fresco" }
 fresco-imagepipeline-okhttp3 = { module = "com.facebook.fresco:imagepipeline-okhttp3", version.ref = "com-facebook-fresco" }
 fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "com-facebook-fresco" }
