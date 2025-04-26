@@ -142,7 +142,7 @@ jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", ver
 jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.0"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
-jackson-module-afterburner = "com.fasterxml.jackson.module:jackson-module-afterburner:2.19.0"
+jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
 jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:3.0.0"
@@ -219,7 +219,7 @@ ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.24.3"
 logback-classic = "ch.qos.logback:logback-classic:1.5.18"
-logbook-netty = "org.zalando:logbook-netty:3.11.0"
+logbook-netty = "org.zalando:logbook-netty:3.12.0"
 material = "com.google.android.material:material:1.12.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.19.0"
 micronaut-docs = "io.micronaut.docs:micronaut-docs-asciidoc-config-props:2.0.0"
@@ -329,8 +329,8 @@ com-apollographql-apollo3 = "3.8.5"
 com-facebook-flipper = "0.273.0"
 com-facebook-fresco = "3.6.0"
 com-fasterxml-jackson-core = "2.19.0"
-com-fasterxml-jackson-datatype = "2.18.3"
-com-fasterxml-jackson-module = "2.18.3"
+com-fasterxml-jackson-datatype = "2.19.0"
+com-fasterxml-jackson-module = "2.19.0"
 com-google-dagger = "2.56.2"
 com-google-protobuf = "4.30.2"
 com-squareup-okhttp3 = "4.12.0"
