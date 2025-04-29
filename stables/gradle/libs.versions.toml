@@ -2,7 +2,7 @@
 android-application = "com.android.application:8.9.2"
 android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.9.2"
 android-library = "com.android.library:8.9.2"
-animalsniffer = "ru.vyarus.animalsniffer:2.0.0"
+animalsniffer = "ru.vyarus.animalsniffer:2.0.1"
 apollo = "com.apollographql.apollo3:3.8.5"
 dokka = "org.jetbrains.dokka:2.0.0"
 download = "de.undercouch.download:5.6.0"
