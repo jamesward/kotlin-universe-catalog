@@ -163,7 +163,7 @@ jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.5
 jib-native-image-extension = "com.google.cloud.tools:jib-native-image-extension-gradle:0.1.0"
 jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "org-openjdk-jmh" }
 jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "org-openjdk-jmh" }
-jsoup = "org.jsoup:jsoup:1.19.1"
+jsoup = "org.jsoup:jsoup:1.20.1"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
 junit-bom = "org.junit:junit-bom:5.12.2"
@@ -335,7 +335,7 @@ com-google-dagger = "2.56.2"
 com-google-protobuf = "4.30.2"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
-io-arrow-kt = "2.1.0"
+io-arrow-kt = "2.1.1"
 io-ktor = "3.1.2"
 io-micronaut-sql = "6.1.1"
 io-micronaut-test = "4.7.0"
