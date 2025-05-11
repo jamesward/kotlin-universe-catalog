@@ -126,7 +126,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.13.1"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.3.232"
-hibernate-core = "org.hibernate:hibernate-core:6.6.13.Final"
+hibernate-core = "org.hibernate:hibernate-core:6.6.14.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
