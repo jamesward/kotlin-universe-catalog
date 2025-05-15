@@ -28,7 +28,7 @@ qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.10.1"
 spring-boot = "org.springframework.boot:3.4.5"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
-vanniktech-maven-publish = "com.vanniktech.maven.publish:0.31.0"
+vanniktech-maven-publish = "com.vanniktech.maven.publish:0.32.0"
 version-catalog-update = "nl.littlerobots.version-catalog-update:1.0.0"
 versions = "com.github.ben-manes.versions:0.52.0"
 
@@ -186,7 +186,7 @@ kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref =
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "org-jetbrains-kotlin" }
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "org-jetbrains-kotlin" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "org-jetbrains-kotlin" }
-kotlinx-collections-immutable = "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.8"
+kotlinx-collections-immutable = "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.4.0"
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-bom = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-bom", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "org-jetbrains-kotlinx" }
@@ -332,7 +332,7 @@ com-fasterxml-jackson-core = "2.19.0"
 com-fasterxml-jackson-datatype = "2.19.0"
 com-fasterxml-jackson-module = "2.19.0"
 com-google-dagger = "2.56.2"
-com-google-protobuf = "4.30.2"
+com-google-protobuf = "4.31.0"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "2.11.0"
 io-arrow-kt = "2.1.1"
@@ -344,8 +344,8 @@ io-micronaut-validation = "4.9.0"
 io-netty = "4.2.1.Final"
 io-netty-incubator = "0.0.29.Final"
 io-projectreactor = "3.7.6"
-io-quarkus = "3.22.2"
-io-vertx = "4.5.14"
+io-quarkus = "3.22.3"
+io-vertx = "5.0.0"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "4.0.26"
 org-apache-httpcomponents = "4.5.14"
