@@ -299,7 +299,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.4.5"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.5.0"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -335,7 +335,7 @@ com-google-dagger = "2.56.2"
 com-google-protobuf = "4.31.0"
 com-squareup-okhttp3 = "4.12.0"
 com-squareup-retrofit2 = "3.0.0"
-io-arrow-kt = "2.1.1"
+io-arrow-kt = "2.1.2"
 io-ktor = "3.1.3"
 io-micronaut-sql = "6.1.1"
 io-micronaut-test = "4.7.0"
