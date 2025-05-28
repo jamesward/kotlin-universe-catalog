@@ -219,7 +219,7 @@ ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.24.3"
 logback-classic = "ch.qos.logback:logback-classic:1.5.18"
-logbook-netty = "org.zalando:logbook-netty:3.12.0"
+logbook-netty = "org.zalando:logbook-netty:3.12.1"
 material = "com.google.android.material:material:1.12.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.19.0"
 micronaut-docs = "io.micronaut.docs:micronaut-docs-asciidoc-config-props:2.0.0"
@@ -256,7 +256,7 @@ netty-transport-native-unix-common = { module = "io.netty:netty-transport-native
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
-okio = "com.squareup.okio:okio:3.11.0"
+okio = "com.squareup.okio:okio:3.12.0"
 postgresql = "org.postgresql:postgresql:42.7.5"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
@@ -347,7 +347,7 @@ io-projectreactor = "3.7.6"
 io-quarkus = "3.23.0"
 io-vertx = "5.0.0"
 jakarta-inject = "2.0.1"
-org-apache-groovy = "4.0.26"
+org-apache-groovy = "4.0.27"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.1.21"
 org-jetbrains-kotlinx = "1.10.2"
