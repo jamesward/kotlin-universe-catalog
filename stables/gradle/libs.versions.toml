@@ -166,14 +166,14 @@ jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess"
 jsoup = "org.jsoup:jsoup:1.20.1"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
-junit-bom = "org.junit:junit-bom:5.12.2"
+junit-bom = "org.junit:junit-bom:5.13.0"
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "org-junit-jupiter" }
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "org-junit-jupiter" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "org-junit-jupiter" }
 junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "org-junit-jupiter" }
 junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
-junit-vintage = "org.junit.vintage:junit-vintage-engine:5.12.2"
+junit-vintage = "org.junit.vintage:junit-vintage-engine:5.13.0"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:5.9.1"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
@@ -351,8 +351,8 @@ org-apache-groovy = "4.0.27"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.1.21"
 org-jetbrains-kotlinx = "1.10.2"
-org-junit-jupiter = "5.12.2"
-org-junit-platform = "1.12.2"
+org-junit-jupiter = "5.13.0"
+org-junit-platform = "1.13.0"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.8"
 org-seleniumhq-selenium = "4.33.0"
