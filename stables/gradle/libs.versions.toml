@@ -309,7 +309,7 @@ thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.21"
 tomlj = "org.tomlj:tomlj:1.1.1"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
 vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
-wire-runtime = "com.squareup.wire:wire-runtime:5.3.2"
+wire-runtime = "com.squareup.wire:wire-runtime:5.3.3"
 wiremock = "com.github.tomakehurst:wiremock-jre8:3.0.1"
 yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
@@ -341,7 +341,7 @@ io-micronaut-sql = "6.1.1"
 io-micronaut-test = "4.7.0"
 io-micronaut-tracing = "7.0.0"
 io-micronaut-validation = "4.9.0"
-io-netty = "4.2.1.Final"
+io-netty = "4.2.2.Final"
 io-netty-incubator = "0.0.29.Final"
 io-projectreactor = "3.7.6"
 io-quarkus = "3.23.2"
