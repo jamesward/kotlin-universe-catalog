@@ -256,7 +256,7 @@ netty-transport-native-unix-common = { module = "io.netty:netty-transport-native
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
-okio = "com.squareup.okio:okio:3.13.0"
+okio = "com.squareup.okio:okio:3.14.0"
 postgresql = "org.postgresql:postgresql:42.7.7"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
@@ -358,4 +358,4 @@ org-ow2-asm = "9.8"
 org-seleniumhq-selenium = "4.33.0"
 org-slf4j = "2.0.17"
 org-springframework-boot = "3.5.3"
-org-testcontainers = "1.21.2"
+org-testcontainers = "1.21.3"
