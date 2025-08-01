@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:8.11.1"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.11.1"
-android-library = "com.android.library:8.11.1"
+android-application = "com.android.application:8.12.0"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.12.0"
+android-library = "com.android.library:8.12.0"
 animalsniffer = "ru.vyarus.animalsniffer:2.0.1"
 apollo = "com.apollographql.apollo3:3.8.6"
 dokka = "org.jetbrains.dokka:2.0.0"
@@ -25,7 +25,7 @@ ksp = "com.google.devtools.ksp:2.2.0-2.0.2"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.5"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
-skie = "co.touchlab.skie:0.10.4"
+skie = "co.touchlab.skie:0.10.5"
 spring-boot = "org.springframework.boot:3.5.4"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.34.0"
@@ -33,9 +33,9 @@ version-catalog-update = "nl.littlerobots.version-catalog-update:1.0.0"
 versions = "com.github.ben-manes.versions:0.52.0"
 
 [libraries]
-accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:2.1"
+accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:8.11.1"
+android-gradle = "com.android.tools.build:gradle:8.12.0"
 androidx-activity-compose = "androidx.activity:activity-compose:1.10.1"
 androidx-annotation = "androidx.annotation:annotation:1.9.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -205,13 +205,13 @@ kotter = "com.varabyte.kotter:kotter:1.2.1"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "io-ktor" }
-ktor-client-curl = { module = "io.ktor:ktor-client-curl", version.ref = "io-ktor" }
-ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "io-ktor" }
-ktor-client-ios = { module = "io.ktor:ktor-client-ios", version.ref = "io-ktor" }
+ktor-client-curl = "io.ktor:ktor-client-curl:3.2.0"
+ktor-client-darwin = "io.ktor:ktor-client-darwin:3.2.0"
+ktor-client-ios = "io.ktor:ktor-client-ios:3.2.0"
 ktor-client-java = { module = "io.ktor:ktor-client-java", version.ref = "io-ktor" }
-ktor-client-js = { module = "io.ktor:ktor-client-js", version.ref = "io-ktor" }
+ktor-client-js = "io.ktor:ktor-client-js:3.2.0"
 ktor-client-mock = { module = "io.ktor:ktor-client-mock", version.ref = "io-ktor" }
-ktor-client-winhttp = { module = "io.ktor:ktor-client-winhttp", version.ref = "io-ktor" }
+ktor-client-winhttp = "io.ktor:ktor-client-winhttp:3.2.0"
 ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "io-ktor" }
 ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" }
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
@@ -288,7 +288,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.9.1"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.9.2"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.13.4"
 snakeyaml = "org.yaml:snakeyaml:2.4"
 soloader = "com.facebook.soloader:soloader:0.12.1"
@@ -339,7 +339,7 @@ io-arrow-kt = "2.1.2"
 io-ktor = "3.2.3"
 io-micronaut-sql = "6.2.1"
 io-micronaut-test = "4.8.1"
-io-micronaut-tracing = "7.1.3"
+io-micronaut-tracing = "7.1.4"
 io-micronaut-validation = "4.10.0"
 io-netty = "4.2.3.Final"
 io-netty-incubator = "0.0.30.Final"
