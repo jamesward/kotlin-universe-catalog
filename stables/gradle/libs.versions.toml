@@ -293,7 +293,7 @@ smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.13.4"
 snakeyaml = "org.yaml:snakeyaml:2.4"
 soloader = "com.facebook.soloader:soloader:0.12.1"
 spock-core = "org.spockframework:spock-core:0.3"
-spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.9.3"
+spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.9.4"
 spring-boot-gradle-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "org-springframework-boot" }
 spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "org-springframework-boot" }
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
