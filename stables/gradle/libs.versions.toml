@@ -163,7 +163,7 @@ jetty-alpn-openjdk8-client = "org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.5
 jib-native-image-extension = "com.google.cloud.tools:jib-native-image-extension-gradle:0.1.0"
 jmh-core = { module = "org.openjdk.jmh:jmh-core", version.ref = "org-openjdk-jmh" }
 jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess", version.ref = "org-openjdk-jmh" }
-jsoup = "org.jsoup:jsoup:1.21.1"
+jsoup = "org.jsoup:jsoup:1.21.2"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
 junit-bom = "org.junit:junit-bom:5.13.4"
@@ -347,7 +347,7 @@ io-projectreactor = "3.7.9"
 io-quarkus = "3.26.0"
 io-vertx = "5.0.3"
 jakarta-inject = "2.0.1"
-org-apache-groovy = "4.0.28"
+org-apache-groovy = "5.0.0"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.2.10"
 org-jetbrains-kotlinx = "1.10.2"
