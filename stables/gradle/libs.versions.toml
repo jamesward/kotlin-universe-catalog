@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:5.13.4"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.0"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.1"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
@@ -273,7 +273,7 @@ reactor-core = { module = "io.projectreactor:reactor-core", version.ref = "io-pr
 reactor-test = { module = "io.projectreactor:reactor-test", version.ref = "io-projectreactor" }
 retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "com-squareup-retrofit2" }
 retrofit2-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "com-squareup-retrofit2" }
-robolectric = "org.robolectric:robolectric:4.15.1"
+robolectric = "org.robolectric:robolectric:4.16"
 robovm = "com.mobidevelop.robovm:robovm-rt:2.3.23"
 rxjava = "io.reactivex:rxjava:1.3.8"
 rxjava2 = "io.reactivex.rxjava2:rxjava:2.2.21"
