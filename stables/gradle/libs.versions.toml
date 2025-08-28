@@ -43,7 +43,7 @@ androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resource
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.3.0"
 androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.4.0"
-androidx-compose-bom = "androidx.compose:compose-bom:2025.08.00"
+androidx-compose-bom = "androidx.compose:compose-bom:2025.08.01"
 androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.15"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
@@ -318,7 +318,7 @@ androidx-appcompat = "1.7.1"
 androidx-compose-foundation = "1.9.0"
 androidx-compose-runtime = "1.9.0"
 androidx-compose-ui = "1.9.0"
-androidx-lifecycle = "2.9.2"
+androidx-lifecycle = "2.9.3"
 androidx-paging = "3.3.6"
 androidx-room = "2.7.2"
 androidx-test = "1.7.0"
