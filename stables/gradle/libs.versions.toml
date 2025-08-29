@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:8.12.1"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.12.1"
-android-library = "com.android.library:8.12.1"
+android-application = "com.android.application:8.12.2"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:8.12.2"
+android-library = "com.android.library:8.12.2"
 animalsniffer = "ru.vyarus.animalsniffer:2.0.1"
 apollo = "com.apollographql.apollo3:3.8.6"
 dokka = "org.jetbrains.dokka:2.0.0"
@@ -35,7 +35,7 @@ versions = "com.github.ben-manes.versions:0.52.0"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:8.12.1"
+android-gradle = "com.android.tools.build:gradle:8.12.2"
 androidx-activity-compose = "androidx.activity:activity-compose:1.10.1"
 androidx-annotation = "androidx.annotation:annotation:1.9.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -135,11 +135,11 @@ htmlunit = "net.sourceforge.htmlunit:htmlunit:2.70.0"
 httpcomponents-client = { module = "org.apache.httpcomponents:httpclient", version.ref = "org-apache-httpcomponents" }
 httpcomponents-mime = { module = "org.apache.httpcomponents:httpmime", version.ref = "org-apache-httpcomponents" }
 infer-annotation = "com.facebook.infer.annotation:infer-annotation:0.18.0"
-jackson-annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "com-fasterxml-jackson-core" }
-jackson-bom = "com.fasterxml.jackson:jackson-bom:2.19.2"
+jackson-annotations = "com.fasterxml.jackson.core:jackson-annotations:2.20"
+jackson-bom = "com.fasterxml.jackson:jackson-bom:2.20.0"
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "com-fasterxml-jackson-core" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "com-fasterxml-jackson-core" }
-jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.19.2"
+jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.20.0"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
@@ -247,8 +247,8 @@ netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-n
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
 netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
-netty-tcnative = "io.netty:netty-tcnative:2.0.72.Final"
-netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.72.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.73.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.73.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
 netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.26.Final"
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
@@ -328,9 +328,9 @@ androidx-work = "2.10.3"
 com-apollographql-apollo3 = "3.8.6"
 com-facebook-flipper = "0.273.0"
 com-facebook-fresco = "3.6.0"
-com-fasterxml-jackson-core = "2.19.2"
-com-fasterxml-jackson-datatype = "2.19.2"
-com-fasterxml-jackson-module = "2.19.2"
+com-fasterxml-jackson-core = "2.20.0"
+com-fasterxml-jackson-datatype = "2.20.0"
+com-fasterxml-jackson-module = "2.20.0"
 com-google-dagger = "2.57.1"
 com-google-protobuf = "4.32.0"
 com-squareup-okhttp3 = "5.1.0"
