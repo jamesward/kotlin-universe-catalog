@@ -288,7 +288,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.9.2"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.9.3"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.13.4"
 snakeyaml = "org.yaml:snakeyaml:2.5"
 soloader = "com.facebook.soloader:soloader:0.12.1"
@@ -299,7 +299,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.5.3"
+spring-data-commons = "org.springframework.data:spring-data-commons:3.5.4"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
