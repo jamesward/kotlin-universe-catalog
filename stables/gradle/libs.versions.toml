@@ -26,7 +26,7 @@ palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.5"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.10.6"
-spring-boot = "org.springframework.boot:3.5.5"
+spring-boot = "org.springframework.boot:3.5.6"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.34.0"
 version-catalog-update = "nl.littlerobots.version-catalog-update:1.0.0"
@@ -96,7 +96,7 @@ arrow-kt-suspendapp-ktor = { module = "io.arrow-kt:suspendapp-ktor", version.ref
 asm = { module = "org.ow2.asm:asm", version.ref = "org-ow2-asm" }
 asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" }
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
-assertj = "org.assertj:assertj-core:3.27.4"
+assertj = "org.assertj:assertj-core:3.27.5"
 awaitility = "org.awaitility:awaitility:4.3.0"
 aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.791"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
@@ -257,7 +257,7 @@ okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
 okio = "com.squareup.okio:okio:3.16.0"
-postgresql = "org.postgresql:postgresql:42.7.7"
+postgresql = "org.postgresql:postgresql:42.7.8"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
 quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "io-quarkus" }
@@ -357,5 +357,5 @@ org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.8"
 org-seleniumhq-selenium = "4.35.0"
 org-slf4j = "2.0.17"
-org-springframework-boot = "3.5.5"
+org-springframework-boot = "3.5.6"
 org-testcontainers = "1.21.3"
