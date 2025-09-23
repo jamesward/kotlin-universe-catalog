@@ -96,7 +96,7 @@ arrow-kt-suspendapp-ktor = { module = "io.arrow-kt:suspendapp-ktor", version.ref
 asm = { module = "org.ow2.asm:asm", version.ref = "org-ow2-asm" }
 asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" }
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
-assertj = "org.assertj:assertj-core:3.27.5"
+assertj = "org.assertj:assertj-core:3.27.6"
 awaitility = "org.awaitility:awaitility:4.3.0"
 aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.791"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
@@ -217,7 +217,7 @@ ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" 
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
-log4j = "org.apache.logging.log4j:log4j-core:2.25.1"
+log4j = "org.apache.logging.log4j:log4j-core:2.25.2"
 logback-classic = "ch.qos.logback:logback-classic:1.5.18"
 logbook-netty = "org.zalando:logbook-netty:3.12.3"
 material = "com.google.android.material:material:1.13.0"
@@ -247,8 +247,8 @@ netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-n
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
 netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
-netty-tcnative = "io.netty:netty-tcnative:2.0.73.Final"
-netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.73.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.74.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.74.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
 netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.26.Final"
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
@@ -340,7 +340,7 @@ io-ktor = "3.3.0"
 io-micronaut-sql = "6.2.1"
 io-micronaut-test = "4.8.1"
 io-micronaut-tracing = "7.1.4"
-io-micronaut-validation = "4.10.0"
+io-micronaut-validation = "4.11.0"
 io-netty = "4.2.6.Final"
 io-netty-incubator = "0.0.30.Final"
 io-projectreactor = "3.7.11"
