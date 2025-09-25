@@ -30,7 +30,7 @@ spring-boot = "org.springframework.boot:3.5.6"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.34.0"
 version-catalog-update = "nl.littlerobots.version-catalog-update:1.0.0"
-versions = "com.github.ben-manes.versions:0.52.0"
+versions = "com.github.ben-manes.versions:0.53.0"
 
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
@@ -43,12 +43,12 @@ androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resource
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.3.0"
 androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.4.1"
-androidx-compose-bom = "androidx.compose:compose-bom:2025.09.00"
+androidx-compose-bom = "androidx.compose:compose-bom:2025.09.01"
 androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.15"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
-androidx-compose-material = "androidx.compose.material:material:1.9.1"
-androidx-compose-material3 = "androidx.compose.material3:material3:1.3.2"
+androidx-compose-material = "androidx.compose.material:material:1.9.2"
+androidx-compose-material3 = "androidx.compose.material3:material3:1.4.0"
 androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "androidx-compose-runtime" }
 androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "androidx-compose-runtime" }
 androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "androidx-compose-ui" }
@@ -69,7 +69,7 @@ androidx-lifecycle-runtime-kts = { module = "androidx.lifecycle:lifecycle-runtim
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
 androidx-monitor = "androidx.test:monitor:1.8.0"
-androidx-navigation-compose = "androidx.navigation:navigation-compose:2.9.4"
+androidx-navigation-compose = "androidx.navigation:navigation-compose:2.9.5"
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "androidx-paging" }
 androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx-paging" }
 androidx-profileinstaller = "androidx.profileinstaller:profileinstaller:1.4.1"
@@ -125,7 +125,7 @@ groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apach
 groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.ref = "org-apache-groovy" }
 gson = "com.google.code.gson:gson:2.13.2"
 guava = "com.google.guava:guava:23.0"
-h2 = "com.h2database:h2:2.3.232"
+h2 = "com.h2database:h2:2.4.240"
 hibernate-core = "org.hibernate:hibernate-core:7.1.1.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
@@ -277,7 +277,7 @@ robolectric = "org.robolectric:robolectric:4.16"
 robovm = "com.mobidevelop.robovm:robovm-rt:2.3.23"
 rxjava = "io.reactivex:rxjava:1.3.8"
 rxjava2 = "io.reactivex.rxjava2:rxjava:2.2.21"
-rxjava3 = "io.reactivex.rxjava3:rxjava:3.1.11"
+rxjava3 = "io.reactivex.rxjava3:rxjava:3.1.12"
 scala-library = "org.scala-lang:scala-library:2.13.16"
 selenium-api = { module = "org.seleniumhq.selenium:selenium-api", version.ref = "org-seleniumhq-selenium" }
 selenium-driver-chrome = { module = "org.seleniumhq.selenium:selenium-chrome-driver", version.ref = "org-seleniumhq-selenium" }
@@ -315,16 +315,16 @@ yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
 [versions]
 androidx-appcompat = "1.7.1"
-androidx-compose-foundation = "1.9.1"
-androidx-compose-runtime = "1.9.1"
-androidx-compose-ui = "1.9.1"
+androidx-compose-foundation = "1.9.2"
+androidx-compose-runtime = "1.9.2"
+androidx-compose-ui = "1.9.2"
 androidx-lifecycle = "2.9.4"
 androidx-paging = "3.3.6"
-androidx-room = "2.8.0"
+androidx-room = "2.8.1"
 androidx-test = "1.7.0"
 androidx-test-espresso = "3.7.0"
 androidx-tracing = "1.3.0"
-androidx-work = "2.10.4"
+androidx-work = "2.10.5"
 com-apollographql-apollo3 = "3.8.6"
 com-facebook-flipper = "0.273.0"
 com-facebook-fresco = "3.6.0"
@@ -337,14 +337,14 @@ com-squareup-okhttp3 = "5.1.0"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.1.2"
 io-ktor = "3.3.0"
-io-micronaut-sql = "6.2.1"
+io-micronaut-sql = "6.2.2"
 io-micronaut-test = "4.8.1"
 io-micronaut-tracing = "7.1.4"
 io-micronaut-validation = "4.11.0"
 io-netty = "4.2.6.Final"
 io-netty-incubator = "0.0.30.Final"
 io-projectreactor = "3.7.11"
-io-quarkus = "3.28.0"
+io-quarkus = "3.28.1"
 io-vertx = "5.0.4"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "5.0.1"
