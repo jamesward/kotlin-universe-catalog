@@ -98,7 +98,7 @@ asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "org-ow2-asm" 
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "org-ow2-asm" }
 assertj = "org.assertj:assertj-core:3.27.6"
 awaitility = "org.awaitility:awaitility:4.3.0"
-aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.791"
+aws-java-sdk-lambda = "com.amazonaws:aws-java-sdk-lambda:1.12.792"
 bcpkix = "org.bouncycastle:bcpkix-jdk15on:1.70"
 benasher44-uuid = "com.benasher44:uuid:0.8.4"
 blaze-persistence-core = "com.blazebit:blaze-persistence-core-impl:1.6.17"
@@ -239,7 +239,7 @@ mockito = "org.mockito:mockito-inline:5.2.0"
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "com-squareup-okhttp3" }
 moshi = "com.squareup.moshi:moshi:1.15.2"
 mysql-connector-java = "mysql:mysql-connector-java:8.0.33"
-neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:6.0.0"
+neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:6.0.1"
 netty-bom = { module = "io.netty:netty-bom", version.ref = "io-netty" }
 netty-buffer = { module = "io.netty:netty-buffer", version.ref = "io-netty" }
 netty-codec-http = { module = "io.netty:netty-codec-http", version.ref = "io-netty" }
@@ -355,7 +355,7 @@ org-junit-jupiter = "6.0.0"
 org-junit-platform = "6.0.0"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.8"
-org-seleniumhq-selenium = "4.35.0"
+org-seleniumhq-selenium = "4.36.0"
 org-slf4j = "2.0.17"
 org-springframework-boot = "3.5.6"
 org-testcontainers = "1.21.3"
