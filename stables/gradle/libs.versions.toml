@@ -21,7 +21,7 @@ kotlin-plugin-compose = "org.jetbrains.kotlin.plugin.compose:2.2.20"
 kotlin-plugin-power-assert = "org.jetbrains.kotlin.plugin.power-assert:2.2.20"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.2.20"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.2.20"
-ksp = "com.google.devtools.ksp:2.2.20-2.0.3"
+ksp = "com.google.devtools.ksp:2.2.20-2.0.4"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.5"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
@@ -267,7 +267,7 @@ quarkus-core-deployment = { module = "io.quarkus:quarkus-core-deployment", versi
 quarkus-devtools-common = { module = "io.quarkus:quarkus-devtools-common", version.ref = "io-quarkus" }
 quarkus-devtools-testing = { module = "io.quarkus:quarkus-devtools-testing", version.ref = "io-quarkus" }
 quarkus-project-core-extension-codestarts = { module = "io.quarkus:quarkus-project-core-extension-codestarts", version.ref = "io-quarkus" }
-r2dbc-postgresql = "org.postgresql:r2dbc-postgresql:1.0.7.RELEASE"
+r2dbc-postgresql = "org.postgresql:r2dbc-postgresql:1.1.0.RELEASE"
 reactive-streams = "org.reactivestreams:reactive-streams:1.0.4"
 reactor-core = { module = "io.projectreactor:reactor-core", version.ref = "io-projectreactor" }
 reactor-test = { module = "io.projectreactor:reactor-test", version.ref = "io-projectreactor" }
@@ -333,7 +333,7 @@ com-fasterxml-jackson-datatype = "2.20.0"
 com-fasterxml-jackson-module = "2.20.0"
 com-google-dagger = "2.57.2"
 com-google-protobuf = "4.32.1"
-com-squareup-okhttp3 = "5.1.0"
+com-squareup-okhttp3 = "5.2.0"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.1.2"
 io-ktor = "3.3.0"
