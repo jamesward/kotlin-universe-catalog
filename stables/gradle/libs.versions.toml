@@ -236,7 +236,7 @@ micronaut-tracing-jaeger = { module = "io.micronaut.tracing:micronaut-tracing-ja
 micronaut-validation = { module = "io.micronaut.validation:micronaut-validation", version.ref = "io-micronaut-validation" }
 micronaut-validation-processor = { module = "io.micronaut.validation:micronaut-validation-processor", version.ref = "io-micronaut-validation" }
 mockito = "org.mockito:mockito-inline:5.2.0"
-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "com-squareup-okhttp3" }
+mockwebserver = "com.squareup.okhttp3:mockwebserver:5.2.0"
 moshi = "com.squareup.moshi:moshi:1.15.2"
 mysql-connector-java = "mysql:mysql-connector-java:8.0.33"
 neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:6.0.1"
@@ -256,7 +256,7 @@ netty-transport-native-unix-common = { module = "io.netty:netty-transport-native
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
-okio = "com.squareup.okio:okio:3.16.0"
+okio = "com.squareup.okio:okio:3.16.1"
 postgresql = "org.postgresql:postgresql:42.7.8"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
@@ -333,7 +333,7 @@ com-fasterxml-jackson-datatype = "2.20.0"
 com-fasterxml-jackson-module = "2.20.0"
 com-google-dagger = "2.57.2"
 com-google-protobuf = "4.32.1"
-com-squareup-okhttp3 = "5.2.0"
+com-squareup-okhttp3 = "5.2.1"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.1.2"
 io-ktor = "3.3.1"
@@ -344,7 +344,7 @@ io-micronaut-validation = "4.11.0"
 io-netty = "4.2.6.Final"
 io-netty-incubator = "0.0.30.Final"
 io-projectreactor = "3.7.11"
-io-quarkus = "3.28.2"
+io-quarkus = "3.28.3"
 io-vertx = "5.0.4"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "5.0.1"
