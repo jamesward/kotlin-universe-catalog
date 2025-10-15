@@ -11,7 +11,7 @@ google-java-format = "com.github.sherter.google-java-format:0.9"
 graalvm-buildtools-native = "org.graalvm.buildtools.native:0.11.1"
 gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:2.0.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:2.0.0"
-jetbrains-compose = "org.jetbrains.compose:1.9.0"
+jetbrains-compose = "org.jetbrains.compose:1.9.1"
 jib = "com.google.cloud.tools.jib:3.4.5"
 kotlin-android = "org.jetbrains.kotlin.android:2.2.20"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.2.20"
@@ -240,7 +240,7 @@ mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "
 moshi = "com.squareup.moshi:moshi:1.15.2"
 mysql-connector-java = "mysql:mysql-connector-java:8.0.33"
 neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:6.0.1"
-netty-bom = { module = "io.netty:netty-bom", version.ref = "io-netty" }
+netty-bom = "io.netty:netty-bom:4.2.6.Final"
 netty-buffer = { module = "io.netty:netty-buffer", version.ref = "io-netty" }
 netty-codec-http = { module = "io.netty:netty-codec-http", version.ref = "io-netty" }
 netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-netty" }
@@ -256,7 +256,7 @@ netty-transport-native-unix-common = { module = "io.netty:netty-transport-native
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
-okio = "com.squareup.okio:okio:3.16.1"
+okio = "com.squareup.okio:okio:3.16.2"
 postgresql = "org.postgresql:postgresql:42.7.8"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
@@ -293,7 +293,7 @@ smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.14.1"
 snakeyaml = "org.yaml:snakeyaml:2.5"
 soloader = "com.facebook.soloader:soloader:0.12.1"
 spock-core = "org.spockframework:spock-core:0.3"
-spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.9.6"
+spotbugs-annotations = "com.github.spotbugs:spotbugs-annotations:4.9.7"
 spring-boot-gradle-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "org-springframework-boot" }
 spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-starter-actuator", version.ref = "org-springframework-boot" }
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
@@ -337,13 +337,13 @@ com-squareup-okhttp3 = "5.2.1"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.1.2"
 io-ktor = "3.3.1"
-io-micronaut-sql = "6.3.0"
+io-micronaut-sql = "6.3.1"
 io-micronaut-test = "4.9.0"
 io-micronaut-tracing = "7.2.0"
 io-micronaut-validation = "4.11.0"
-io-netty = "4.2.6.Final"
+io-netty = "4.2.7.Final"
 io-netty-incubator = "0.0.30.Final"
-io-projectreactor = "3.7.11"
+io-projectreactor = "3.7.12"
 io-quarkus = "3.28.3"
 io-vertx = "5.0.4"
 jakarta-inject = "2.0.1"
