@@ -218,7 +218,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.25.2"
-logback-classic = "ch.qos.logback:logback-classic:1.5.19"
+logback-classic = "ch.qos.logback:logback-classic:1.5.20"
 logbook-netty = "org.zalando:logbook-netty:3.12.3"
 material = "com.google.android.material:material:1.13.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.19.1"
