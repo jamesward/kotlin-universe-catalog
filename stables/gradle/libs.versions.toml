@@ -12,7 +12,7 @@ graalvm-buildtools-native = "org.graalvm.buildtools.native:0.11.3"
 gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:2.0.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:2.0.0"
 jetbrains-compose = "org.jetbrains.compose:1.9.3"
-jib = "com.google.cloud.tools.jib:3.4.5"
+jib = "com.google.cloud.tools.jib:3.5.0"
 kotlin-android = "org.jetbrains.kotlin.android:2.2.21"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.2.21"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:2.2.21"
@@ -256,7 +256,7 @@ netty-transport-native-unix-common = { module = "io.netty:netty-transport-native
 okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "com-squareup-okhttp3" }
 okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "com-squareup-okhttp3" }
 okhttp3-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "com-squareup-okhttp3" }
-okio = "com.squareup.okio:okio:3.16.2"
+okio = "com.squareup.okio:okio:3.16.3"
 postgresql = "org.postgresql:postgresql:42.7.8"
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "com-google-protobuf" }
 protoc = { module = "com.google.protobuf:protoc", version.ref = "com-google-protobuf" }
@@ -299,7 +299,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:3.5.5"
+spring-data-commons = "org.springframework.data:spring-data-commons:4.0.0"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
@@ -337,7 +337,7 @@ com-squareup-okhttp3 = "5.3.0"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.2.0"
 io-ktor = "3.3.2"
-io-micronaut-sql = "6.3.2"
+io-micronaut-sql = "7.0.0"
 io-micronaut-test = "4.10.2"
 io-micronaut-tracing = "7.2.0"
 io-micronaut-validation = "4.12.0"
