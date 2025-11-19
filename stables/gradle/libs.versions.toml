@@ -12,7 +12,7 @@ graalvm-buildtools-native = "org.graalvm.buildtools.native:0.11.3"
 gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:2.0.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:2.0.0"
 jetbrains-compose = "org.jetbrains.compose:1.9.3"
-jib = "com.google.cloud.tools.jib:3.5.0"
+jib = "com.google.cloud.tools.jib:3.5.1"
 kotlin-android = "org.jetbrains.kotlin.android:2.2.21"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.2.21"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:2.2.21"
@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:6.0.1"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.4"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.5"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
@@ -333,7 +333,7 @@ com-fasterxml-jackson-datatype = "2.20.1"
 com-fasterxml-jackson-module = "2.20.1"
 com-google-dagger = "2.57.2"
 com-google-protobuf = "4.33.1"
-com-squareup-okhttp3 = "5.3.1"
+com-squareup-okhttp3 = "5.3.2"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.2.0"
 io-ktor = "3.3.2"
