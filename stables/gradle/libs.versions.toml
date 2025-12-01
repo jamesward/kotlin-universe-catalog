@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:6.0.1"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.5"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.6"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
