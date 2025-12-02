@@ -126,7 +126,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.13.2"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.4.240"
-hibernate-core = "org.hibernate:hibernate-core:7.1.10.Final"
+hibernate-core = "org.hibernate:hibernate-core:7.1.11.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:6.0.1"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.6"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.7"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
