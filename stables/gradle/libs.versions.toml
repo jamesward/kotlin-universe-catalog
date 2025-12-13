@@ -12,7 +12,7 @@ graalvm-buildtools-native = "org.graalvm.buildtools.native:0.11.3"
 gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:2.0.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:2.0.0"
 jetbrains-compose = "org.jetbrains.compose:1.9.3"
-jib = "com.google.cloud.tools.jib:3.5.1"
+jib = "com.google.cloud.tools.jib:3.5.2"
 kotlin-android = "org.jetbrains.kotlin.android:2.2.21"
 kotlin-cocoapods = "org.jetbrains.kotlin.native.cocoapods:2.2.21"
 kotlin-jvm = "org.jetbrains.kotlin.jvm:2.2.21"
@@ -126,7 +126,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.13.2"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.4.240"
-hibernate-core = "org.hibernate:hibernate-core:7.1.11.Final"
+hibernate-core = "org.hibernate:hibernate-core:7.2.0.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -299,7 +299,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:4.0.0"
+spring-data-commons = "org.springframework.data:spring-data-commons:4.0.1"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
