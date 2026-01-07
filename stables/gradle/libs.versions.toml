@@ -25,7 +25,7 @@ ksp = "com.google.devtools.ksp:2.3.4"
 palantir-graal = "com.palantir.graal:0.12.0"
 protobuf = "com.google.protobuf:0.9.6"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
-skie = "co.touchlab.skie:0.10.8"
+skie = "co.touchlab.skie:0.10.9"
 spring-boot = "org.springframework.boot:4.0.1"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.35.0"
@@ -166,14 +166,14 @@ jmh-generator-annprocess = { module = "org.openjdk.jmh:jmh-generator-annprocess"
 jsoup = "org.jsoup:jsoup:1.22.1"
 jsr107 = "org.jsr107.ri:cache-ri-impl:1.1.1"
 junit = "junit:junit:4.13.2"
-junit-bom = "org.junit:junit-bom:6.0.1"
+junit-bom = "org.junit:junit-bom:6.0.2"
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "org-junit-jupiter" }
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "org-junit-jupiter" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "org-junit-jupiter" }
 junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "org-junit-jupiter" }
 junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engine", version.ref = "org-junit-platform" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
-junit-vintage = "org.junit.vintage:junit-vintage-engine:6.0.1"
+junit-vintage = "org.junit.vintage:junit-vintage-engine:6.0.2"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
 kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.7"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
@@ -218,7 +218,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.25.3"
-logback-classic = "ch.qos.logback:logback-classic:1.5.23"
+logback-classic = "ch.qos.logback:logback-classic:1.5.24"
 logbook-netty = "org.zalando:logbook-netty:3.12.3"
 material = "com.google.android.material:material:1.13.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.19.1"
@@ -351,8 +351,8 @@ org-apache-groovy = "5.0.3"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.3.0"
 org-jetbrains-kotlinx = "1.10.2"
-org-junit-jupiter = "6.0.1"
-org-junit-platform = "6.0.1"
+org-junit-jupiter = "6.0.2"
+org-junit-platform = "6.0.2"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.9.1"
 org-seleniumhq-selenium = "4.39.0"
