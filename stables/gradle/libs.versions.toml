@@ -309,7 +309,7 @@ thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.21"
 tomlj = "org.tomlj:tomlj:1.1.1"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
 vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
-wire-runtime = "com.squareup.wire:wire-runtime:5.4.0"
+wire-runtime = "com.squareup.wire:wire-runtime:5.5.0"
 wiremock = "com.github.tomakehurst:wiremock-jre8:3.0.1"
 yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
@@ -332,7 +332,7 @@ com-fasterxml-jackson-core = "2.20.1"
 com-fasterxml-jackson-datatype = "2.20.1"
 com-fasterxml-jackson-module = "2.20.1"
 com-google-dagger = "2.57.2"
-com-google-protobuf = "4.33.3"
+com-google-protobuf = "4.33.4"
 com-squareup-okhttp3 = "5.3.2"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.2.1.1"
