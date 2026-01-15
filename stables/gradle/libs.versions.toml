@@ -43,11 +43,11 @@ androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resource
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
 androidx-autofill = "androidx.autofill:autofill:1.3.0"
 androidx-benchmark-macro-junit4 = "androidx.benchmark:benchmark-macro-junit4:1.4.1"
-androidx-compose-bom = "androidx.compose:compose-bom:2025.12.01"
+androidx-compose-bom = "androidx.compose:compose-bom:2026.01.00"
 androidx-compose-compiler = "androidx.compose.compiler:compiler:1.5.15"
 androidx-compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "androidx-compose-foundation" }
 androidx-compose-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "androidx-compose-foundation" }
-androidx-compose-material = "androidx.compose.material:material:1.10.0"
+androidx-compose-material = "androidx.compose.material:material:1.10.1"
 androidx-compose-material3 = "androidx.compose.material3:material3:1.4.0"
 androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "androidx-compose-runtime" }
 androidx-compose-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "androidx-compose-runtime" }
@@ -315,9 +315,9 @@ yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
 [versions]
 androidx-appcompat = "1.7.1"
-androidx-compose-foundation = "1.10.0"
-androidx-compose-runtime = "1.10.0"
-androidx-compose-ui = "1.10.0"
+androidx-compose-foundation = "1.10.1"
+androidx-compose-runtime = "1.10.1"
+androidx-compose-ui = "1.10.1"
 androidx-lifecycle = "2.10.0"
 androidx-paging = "3.3.6"
 androidx-room = "2.8.4"
