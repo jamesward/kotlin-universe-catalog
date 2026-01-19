@@ -28,7 +28,7 @@ qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
 skie = "co.touchlab.skie:0.10.9"
 spring-boot = "org.springframework.boot:4.0.1"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
-vanniktech-maven-publish = "com.vanniktech.maven.publish:0.35.0"
+vanniktech-maven-publish = "com.vanniktech.maven.publish:0.36.0"
 version-catalog-update = "nl.littlerobots.version-catalog-update:1.0.1"
 versions = "com.github.ben-manes.versions:0.53.0"
 
@@ -85,7 +85,7 @@ androidx-tracing = { module = "androidx.tracing:tracing", version.ref = "android
 androidx-tracing-ktx = { module = "androidx.tracing:tracing-ktx", version.ref = "androidx-tracing" }
 androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "androidx-work" }
 androidx-work-testing = { module = "androidx.work:work-testing", version.ref = "androidx-work" }
-animalsniffer-annotations = "org.codehaus.mojo:animal-sniffer-annotations:1.26"
+animalsniffer-annotations = "org.codehaus.mojo:animal-sniffer-annotations:1.27"
 apollo-api = { module = "com.apollographql.apollo3:apollo-api", version.ref = "com-apollographql-apollo3" }
 apollo-ast = { module = "com.apollographql.apollo3:apollo-ast", version.ref = "com-apollographql-apollo3" }
 apollo-normalized-cache = { module = "com.apollographql.apollo3:apollo-normalized-cache", version.ref = "com-apollographql-apollo3" }
@@ -135,15 +135,15 @@ htmlunit = "net.sourceforge.htmlunit:htmlunit:2.70.0"
 httpcomponents-client = { module = "org.apache.httpcomponents:httpclient", version.ref = "org-apache-httpcomponents" }
 httpcomponents-mime = { module = "org.apache.httpcomponents:httpmime", version.ref = "org-apache-httpcomponents" }
 infer-annotation = "com.facebook.infer.annotation:infer-annotation:0.18.0"
-jackson-annotations = "com.fasterxml.jackson.core:jackson-annotations:2.20"
-jackson-bom = "com.fasterxml.jackson:jackson-bom:2.20.1"
+jackson-annotations = "com.fasterxml.jackson.core:jackson-annotations:2.21"
+jackson-bom = "com.fasterxml.jackson:jackson-bom:2.21.0"
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "com-fasterxml-jackson-core" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "com-fasterxml-jackson-core" }
-jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.20.1"
+jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.21.0"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
-jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
+jackson-module-kotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:2.20.1"
 jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
 jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:3.0.0"
 jakarta-el = "jakarta.el:jakarta.el-api:6.0.1"
@@ -328,9 +328,9 @@ androidx-work = "2.11.0"
 com-apollographql-apollo3 = "3.8.6"
 com-facebook-flipper = "0.273.0"
 com-facebook-fresco = "3.6.0"
-com-fasterxml-jackson-core = "2.20.1"
-com-fasterxml-jackson-datatype = "2.20.1"
-com-fasterxml-jackson-module = "2.20.1"
+com-fasterxml-jackson-core = "2.21.0"
+com-fasterxml-jackson-datatype = "2.21.0"
+com-fasterxml-jackson-module = "2.21.0"
 com-google-dagger = "2.58"
 com-google-protobuf = "4.33.4"
 com-squareup-okhttp3 = "5.3.2"
@@ -355,7 +355,7 @@ org-junit-jupiter = "6.0.2"
 org-junit-platform = "6.0.2"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.9.1"
-org-seleniumhq-selenium = "4.39.0"
+org-seleniumhq-selenium = "4.40.0"
 org-slf4j = "2.0.17"
 org-springframework-boot = "4.0.1"
 org-testcontainers = "1.21.4"
