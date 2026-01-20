@@ -143,7 +143,7 @@ jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-y
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
-jackson-module-kotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:2.20.1"
+jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "com-fasterxml-jackson-module" }
 jackson-module-parameterNames = { module = "com.fasterxml.jackson.module:jackson-module-parameter-names", version.ref = "com-fasterxml-jackson-module" }
 jakarta-annotation-api = "jakarta.annotation:jakarta.annotation-api:3.0.0"
 jakarta-el = "jakarta.el:jakarta.el-api:6.0.1"
@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:6.0.2"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.0.7"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.1.0"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
@@ -347,7 +347,7 @@ io-projectreactor = "3.8.2"
 io-quarkus = "3.30.6"
 io-vertx = "5.0.7"
 jakarta-inject = "2.0.1"
-org-apache-groovy = "5.0.3"
+org-apache-groovy = "5.0.4"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.3.0"
 org-jetbrains-kotlinx = "1.10.2"
