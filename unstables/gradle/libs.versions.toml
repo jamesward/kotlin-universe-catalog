@@ -1,4 +1,4 @@
 [plugins]
-android-application = "com.android.application:9.1.0-alpha05"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:9.1.0-alpha05"
-android-library = "com.android.library:9.1.0-alpha05"
+android-application = "com.android.application:9.1.0-alpha06"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:9.1.0-alpha06"
+android-library = "com.android.library:9.1.0-alpha06"
