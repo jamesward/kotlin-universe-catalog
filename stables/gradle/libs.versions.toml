@@ -247,8 +247,8 @@ netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-n
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
 netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
-netty-tcnative = "io.netty:netty-tcnative:2.0.74.Final"
-netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.74.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.75.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.75.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
 netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.26.Final"
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
@@ -344,7 +344,7 @@ io-micronaut-validation = "4.12.0"
 io-netty = "4.2.9.Final"
 io-netty-incubator = "0.0.30.Final"
 io-projectreactor = "3.8.2"
-io-quarkus = "3.31.1"
+io-quarkus = "3.31.2"
 io-vertx = "5.0.7"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "5.0.4"
