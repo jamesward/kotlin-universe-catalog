@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:9.0.0"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:9.0.0"
-android-library = "com.android.library:9.0.0"
+android-application = "com.android.application:9.0.1"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:9.0.1"
+android-library = "com.android.library:9.0.1"
 animalsniffer = "ru.vyarus.animalsniffer:2.0.1"
 apollo = "com.apollographql.apollo3:3.8.6"
 dokka = "org.jetbrains.dokka:2.1.0"
@@ -35,7 +35,7 @@ versions = "com.github.ben-manes.versions:0.53.0"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:9.0.0"
+android-gradle = "com.android.tools.build:gradle:9.0.1"
 androidx-activity-compose = "androidx.activity:activity-compose:1.12.4"
 androidx-annotation = "androidx.annotation:annotation:1.9.1"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -299,7 +299,7 @@ spring-boot-starter-actuator = { module = "org.springframework.boot:spring-boot-
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc", version.ref = "org-springframework-boot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "org-springframework-boot" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux", version.ref = "org-springframework-boot" }
-spring-data-commons = "org.springframework.data:spring-data-commons:4.0.2"
+spring-data-commons = "org.springframework.data:spring-data-commons:4.0.3"
 spring-gradle-dependency-management-plugin = "io.spring.gradle:dependency-management-plugin:1.1.7"
 system-lambda = "com.github.stefanbirkner:system-lambda:1.2.1"
 testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "org-testcontainers" }
