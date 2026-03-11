@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:6.0.3"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.1.5"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.1.6"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
@@ -343,7 +343,7 @@ io-micronaut-tracing = "7.2.0"
 io-micronaut-validation = "4.12.0"
 io-netty = "4.2.10.Final"
 io-netty-incubator = "0.0.30.Final"
-io-projectreactor = "3.8.3"
+io-projectreactor = "3.8.4"
 io-quarkus = "3.32.2"
 io-vertx = "5.0.8"
 jakarta-inject = "2.0.1"
