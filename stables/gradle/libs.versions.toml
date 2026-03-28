@@ -8,7 +8,7 @@ dokka = "org.jetbrains.dokka:2.2.0"
 download = "de.undercouch.download:5.7.0"
 errorprone = "net.ltgt.errorprone:5.1.0"
 google-java-format = "com.github.sherter.google-java-format:0.9"
-graalvm-buildtools-native = "org.graalvm.buildtools.native:0.11.5"
+graalvm-buildtools-native = "org.graalvm.buildtools.native:1.0.0"
 gradle-nexus-publish-plugin = "io.github.gradle-nexus.publish-plugin:2.0.0"
 gradle-plugin-publish = "com.gradle.plugin-publish:2.1.1"
 jetbrains-compose = "org.jetbrains.compose:1.10.3"
@@ -117,7 +117,7 @@ fresco-imagepipeline-okhttp3 = { module = "com.facebook.fresco:imagepipeline-okh
 fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "com-facebook-fresco" }
 fresco-ui-common = { module = "com.facebook.fresco:ui-common", version.ref = "com-facebook-fresco" }
 geb-spock = "org.gebish:geb-spock:7.0"
-graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:0.11.5"
+graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:1.0.0"
 graalvm-svm = "org.graalvm.nativeimage:svm:25.0.2"
 gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
 grails-datastore-core = "org.grails:grails-datastore-core:8.1.2"
@@ -239,7 +239,7 @@ mockito = "org.mockito:mockito-inline:5.2.0"
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "com-squareup-okhttp3" }
 moshi = "com.squareup.moshi:moshi:1.15.2"
 mysql-connector-java = "mysql:mysql-connector-java:8.0.33"
-neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:6.0.3"
+neo4j-java-driver = "org.neo4j.driver:neo4j-java-driver:6.0.4"
 netty-bom = { module = "io.netty:netty-bom", version.ref = "io-netty" }
 netty-buffer = { module = "io.netty:netty-buffer", version.ref = "io-netty" }
 netty-codec-http = { module = "io.netty:netty-codec-http", version.ref = "io-netty" }
@@ -336,7 +336,7 @@ com-google-protobuf = "4.34.1"
 com-squareup-okhttp3 = "5.3.2"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.2.2.1"
-io-ktor = "3.4.1"
+io-ktor = "3.4.2"
 io-micronaut-sql = "7.0.0"
 io-micronaut-test = "4.10.3"
 io-micronaut-tracing = "7.2.0"
