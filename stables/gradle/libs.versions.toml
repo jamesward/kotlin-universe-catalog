@@ -37,7 +37,7 @@ accessibility-test-framework = "com.google.android.apps.common.testing.accessibi
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
 android-gradle = "com.android.tools.build:gradle:9.1.0"
 androidx-activity-compose = "androidx.activity:activity-compose:1.13.0"
-androidx-annotation = "androidx.annotation:annotation:1.9.1"
+androidx-annotation = "androidx.annotation:annotation:1.10.0"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
 androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "androidx-appcompat" }
 androidx-arch-core-testing = "androidx.arch.core:core-testing:2.2.0"
@@ -344,7 +344,7 @@ io-micronaut-validation = "4.12.0"
 io-netty = "4.2.12.Final"
 io-netty-incubator = "0.0.30.Final"
 io-projectreactor = "3.8.4"
-io-quarkus = "3.34.2"
+io-quarkus = "3.34.3"
 io-vertx = "5.0.10"
 jakarta-inject = "2.0.1"
 org-apache-groovy = "5.0.5"
