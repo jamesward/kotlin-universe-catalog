@@ -197,10 +197,10 @@ kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-slf4j = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "org-jetbrains-kotlinx" }
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.10.0"
-kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0"
-kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.10.0"
-kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.10.0"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.11.0"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0"
+kotlinx-serialization-json-jvm = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.11.0"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.11.0"
 kotter = "com.varabyte.kotter:kotter:1.2.1"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
@@ -355,7 +355,7 @@ org-junit-jupiter = "6.0.3"
 org-junit-platform = "6.0.3"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.9.1"
-org-seleniumhq-selenium = "4.41.0"
+org-seleniumhq-selenium = "4.42.0"
 org-slf4j = "2.0.17"
 org-springframework-boot = "4.0.5"
 org-testcontainers = "1.21.4"
