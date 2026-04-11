@@ -126,7 +126,7 @@ groovy-test-junit5 = { module = "org.apache.groovy:groovy-test-junit5", version.
 gson = "com.google.code.gson:gson:2.13.2"
 guava = "com.google.guava:guava:23.0"
 h2 = "com.h2database:h2:2.4.240"
-hibernate-core = "org.hibernate:hibernate-core:7.3.0.Final"
+hibernate-core = "org.hibernate:hibernate-core:7.3.1.Final"
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "com-google-dagger" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "com-google-dagger" }
 hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "com-google-dagger" }
@@ -355,7 +355,7 @@ org-junit-jupiter = "6.0.3"
 org-junit-platform = "6.0.3"
 org-openjdk-jmh = "1.37"
 org-ow2-asm = "9.9.1"
-org-seleniumhq-selenium = "4.42.0"
+org-seleniumhq-selenium = "4.43.0"
 org-slf4j = "2.0.17"
 org-springframework-boot = "4.0.5"
 org-testcontainers = "1.21.4"
