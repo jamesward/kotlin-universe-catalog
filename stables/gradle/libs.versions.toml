@@ -1,7 +1,7 @@
 [plugins]
-android-application = "com.android.application:9.1.0"
-android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:9.1.0"
-android-library = "com.android.library:9.1.0"
+android-application = "com.android.application:9.1.1"
+android-kotlin-multiplatform-library = "com.android.kotlin.multiplatform.library:9.1.1"
+android-library = "com.android.library:9.1.1"
 animalsniffer = "ru.vyarus.animalsniffer:2.0.1"
 apollo = "com.apollographql.apollo3:3.8.6"
 dokka = "org.jetbrains.dokka:2.2.0"
@@ -35,7 +35,7 @@ versions = "com.github.ben-manes.versions:0.53.0"
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
 accompanist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.36.0"
-android-gradle = "com.android.tools.build:gradle:9.1.0"
+android-gradle = "com.android.tools.build:gradle:9.1.1"
 androidx-activity-compose = "androidx.activity:activity-compose:1.13.0"
 androidx-annotation = "androidx.annotation:annotation:1.10.0"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
@@ -289,7 +289,7 @@ simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
 smallrye = "io.smallrye:smallrye-fault-tolerance:6.11.1"
-smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.16.0"
+smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.17.0"
 snakeyaml = "org.yaml:snakeyaml:2.6"
 soloader = "com.facebook.soloader:soloader:0.12.1"
 spock-core = "org.spockframework:spock-core:0.3"
