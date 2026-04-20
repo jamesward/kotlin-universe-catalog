@@ -30,7 +30,7 @@ spring-boot = "org.springframework.boot:4.0.5"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.36.0"
 version-catalog-update = "nl.littlerobots.version-catalog-update:1.1.0"
-versions = "com.github.ben-manes.versions:0.53.0"
+versions = "com.github.ben-manes.versions:0.54.0"
 
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
@@ -247,8 +247,8 @@ netty-codec-http2 = { module = "io.netty:netty-codec-http2", version.ref = "io-n
 netty-handler = { module = "io.netty:netty-handler", version.ref = "io-netty" }
 netty-handler-proxy = { module = "io.netty:netty-handler-proxy", version.ref = "io-netty" }
 netty-incubator-codec-http3 = { module = "io.netty.incubator:netty-incubator-codec-http3", version.ref = "io-netty-incubator" }
-netty-tcnative = "io.netty:netty-tcnative:2.0.75.Final"
-netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.75.Final"
+netty-tcnative = "io.netty:netty-tcnative:2.0.76.Final"
+netty-tcnative-boringssl-static = "io.netty:netty-tcnative-boringssl-static:2.0.76.Final"
 netty-transport-native-epoll = { module = "io.netty:netty-transport-native-epoll", version.ref = "io-netty" }
 netty-transport-native-iouring = "io.netty.incubator:netty-incubator-transport-native-io_uring:0.0.26.Final"
 netty-transport-native-kqueue = { module = "io.netty:netty-transport-native-kqueue", version.ref = "io-netty" }
