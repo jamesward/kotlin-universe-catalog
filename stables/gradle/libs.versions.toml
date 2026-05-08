@@ -217,7 +217,7 @@ ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" 
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
-log4j = "org.apache.logging.log4j:log4j-core:2.25.4"
+log4j = "org.apache.logging.log4j:log4j-core:2.26.0"
 logback-classic = "ch.qos.logback:logback-classic:1.5.32"
 logbook-netty = "org.zalando:logbook-netty:4.0.4"
 material = "com.google.android.material:material:1.13.0"
@@ -347,7 +347,7 @@ io-projectreactor = "3.8.5"
 io-quarkus = "3.35.2"
 io-vertx = "5.0.12"
 jakarta-inject = "2.0.1"
-org-apache-groovy = "5.0.5"
+org-apache-groovy = "5.0.6"
 org-apache-httpcomponents = "4.5.14"
 org-jetbrains-kotlin = "2.3.21"
 org-jetbrains-kotlinx = "1.10.2"
