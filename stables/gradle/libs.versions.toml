@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:6.1.0"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.1.11"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.2.0"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
@@ -288,7 +288,7 @@ selenium-support = { module = "org.seleniumhq.selenium:selenium-support", versio
 simple-xml = "org.simpleframework:simple-xml:2.7.1"
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "org-slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "org-slf4j" }
-smallrye = "io.smallrye:smallrye-fault-tolerance:6.11.1"
+smallrye = "io.smallrye:smallrye-fault-tolerance:6.11.2"
 smallrye-config-yaml = "io.smallrye.config:smallrye-config-source-yaml:3.17.2"
 snakeyaml = "org.yaml:snakeyaml:2.6"
 soloader = "com.facebook.soloader:soloader:0.12.1"
