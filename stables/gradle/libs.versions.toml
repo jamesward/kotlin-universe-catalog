@@ -218,7 +218,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.26.0"
-logback-classic = "ch.qos.logback:logback-classic:1.5.34"
+logback-classic = "ch.qos.logback:logback-classic:1.5.35"
 logbook-netty = "org.zalando:logbook-netty:4.0.4"
 material = "com.google.android.material:material:1.14.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.19.1"
@@ -309,7 +309,7 @@ thoughtworks-xstream = "com.thoughtworks.xstream:xstream:1.4.21"
 tomlj = "org.tomlj:tomlj:1.1.1"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "io-vertx" }
 vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "io-vertx" }
-wire-runtime = "com.squareup.wire:wire-runtime:6.4.0"
+wire-runtime = "com.squareup.wire:wire-runtime:6.4.1"
 wiremock = "com.github.tomakehurst:wiremock-jre8:3.0.1"
 yoga-proguard-annotations = "com.facebook.yoga:proguard-annotations:1.19.0"
 
