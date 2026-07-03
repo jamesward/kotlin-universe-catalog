@@ -186,7 +186,7 @@ kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref =
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "org-jetbrains-kotlin" }
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "org-jetbrains-kotlin" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "org-jetbrains-kotlin" }
-kotlinx-collections-immutable = "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.5.0"
+kotlinx-collections-immutable = "org.jetbrains.kotlinx:kotlinx-collections-immutable:0.5.1"
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-bom = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-bom", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "org-jetbrains-kotlinx" }
@@ -217,7 +217,7 @@ ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "io-ktor" 
 ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negotiation", version.ref = "io-ktor" }
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
-log4j = "org.apache.logging.log4j:log4j-core:2.26.0"
+log4j = "org.apache.logging.log4j:log4j-core:2.26.1"
 logback-classic = "ch.qos.logback:logback-classic:1.5.37"
 logbook-netty = "org.zalando:logbook-netty:4.0.4"
 material = "com.google.android.material:material:1.14.0"
