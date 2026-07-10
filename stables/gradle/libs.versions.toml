@@ -21,7 +21,7 @@ kotlin-plugin-compose = "org.jetbrains.kotlin.plugin.compose:2.4.0"
 kotlin-plugin-power-assert = "org.jetbrains.kotlin.plugin.power-assert:2.4.0"
 kotlin-plugin-serialization = "org.jetbrains.kotlin.plugin.serialization:2.4.0"
 kotlin-plugin-spring = "org.jetbrains.kotlin.plugin.spring:2.4.0"
-ksp = "com.google.devtools.ksp:2.3.9"
+ksp = "com.google.devtools.ksp:2.3.10"
 palantir-graal = "com.palantir.graal:0.14.0"
 protobuf = "com.google.protobuf:0.10.0"
 qoomon-git-versioning = "me.qoomon.git-versioning:6.4.4"
@@ -218,7 +218,7 @@ ktor-server-content-negotiation = { module = "io.ktor:ktor-server-content-negoti
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "io-ktor" }
 ktor-server-html-builder = { module = "io.ktor:ktor-server-html-builder", version.ref = "io-ktor" }
 log4j = "org.apache.logging.log4j:log4j-core:2.26.1"
-logback-classic = "ch.qos.logback:logback-classic:1.5.37"
+logback-classic = "ch.qos.logback:logback-classic:1.5.38"
 logbook-netty = "org.zalando:logbook-netty:4.0.4"
 material = "com.google.android.material:material:1.14.0"
 methvin-directoryWatcher = "io.methvin:directory-watcher:0.19.1"
