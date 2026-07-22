@@ -118,7 +118,7 @@ fresco-middleware = { module = "com.facebook.fresco:middleware", version.ref = "
 fresco-ui-common = { module = "com.facebook.fresco:ui-common", version.ref = "com-facebook-fresco" }
 geb-spock = "org.gebish:geb-spock:7.0"
 graalvm-buildtools-native-gradle-plugin = "org.graalvm.buildtools:native-gradle-plugin:1.1.5"
-graalvm-svm = "org.graalvm.nativeimage:svm:25.0.3"
+graalvm-svm = "org.graalvm.nativeimage:svm:25.0.4"
 gradle-wrapper-shared = "org.gradle:gradle-wrapper-shared:8.4"
 grails-datastore-core = "org.grails:grails-datastore-core:8.1.2"
 groovy-bom = { module = "org.apache.groovy:groovy-bom", version.ref = "org-apache-groovy" }
@@ -175,7 +175,7 @@ junit-platform-engine = { module = "org.junit.platform:junit-platform-suite-engi
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "org-junit-platform" }
 junit-vintage = "org.junit.vintage:junit-vintage-engine:6.1.2"
 kgit2-kommand = "com.kgit2:kommand:2.3.0"
-kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.2.2"
+kotest-junit5-jvm = "io.kotest:kotest-runner-junit5-jvm:6.2.3"
 kotlin-allopen = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "org-jetbrains-kotlin" }
 kotlin-annotation-processing-embeddable = { module = "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable", version.ref = "org-jetbrains-kotlin" }
 kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "org-jetbrains-kotlin" }
