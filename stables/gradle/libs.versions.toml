@@ -57,8 +57,8 @@ androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-mani
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose-ui" }
 androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidx-compose-ui" }
 androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "androidx-compose-ui" }
-androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.2.1"
-androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.1.1"
+androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.2.2"
+androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.1.2"
 androidx-core-ktx = "androidx.core:core-ktx:1.19.0"
 androidx-espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version.ref = "androidx-test-espresso" }
 androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-test-espresso" }
@@ -201,7 +201,7 @@ kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serializa
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-serialization-json-jvm = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm", version.ref = "org-jetbrains-kotlinx" }
 kotlinx-serialization-protobuf = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version.ref = "org-jetbrains-kotlinx" }
-kotter = "com.varabyte.kotter:kotter:1.3.0"
+kotter = "com.varabyte.kotter:kotter:1.4.0"
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "io-ktor" }
 ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "io-ktor" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "io-ktor" }
