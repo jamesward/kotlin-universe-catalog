@@ -30,7 +30,7 @@ spring-boot = "org.springframework.boot:4.1.0"
 spring-dependency-management = "io.spring.dependency-management:1.1.7"
 vanniktech-maven-publish = "com.vanniktech.maven.publish:0.37.0"
 version-catalog-update = "nl.littlerobots.version-catalog-update:1.1.1"
-versions = "com.github.ben-manes.versions:0.60.0"
+versions = "com.github.ben-manes.versions:0.61.0"
 
 [libraries]
 accessibility-test-framework = "com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:4.1.1"
