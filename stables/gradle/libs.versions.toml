@@ -136,10 +136,10 @@ httpcomponents-client = { module = "org.apache.httpcomponents:httpclient", versi
 httpcomponents-mime = { module = "org.apache.httpcomponents:httpmime", version.ref = "org-apache-httpcomponents" }
 infer-annotation = "com.facebook.infer.annotation:infer-annotation:0.18.0"
 jackson-annotations = "com.fasterxml.jackson.core:jackson-annotations:2.22"
-jackson-bom = "com.fasterxml.jackson:jackson-bom:2.22.1"
+jackson-bom = "com.fasterxml.jackson:jackson-bom:2.22.2"
 jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "com-fasterxml-jackson-core" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "com-fasterxml-jackson-core" }
-jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.22.1"
+jackson-dataformat-yaml = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.22.2"
 jackson-datatype-jdk8 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jdk8", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "com-fasterxml-jackson-datatype" }
 jackson-module-afterburner = { module = "com.fasterxml.jackson.module:jackson-module-afterburner", version.ref = "com-fasterxml-jackson-module" }
@@ -328,12 +328,12 @@ androidx-work = "2.11.2"
 com-apollographql-apollo3 = "3.8.6"
 com-facebook-flipper = "0.273.0"
 com-facebook-fresco = "3.7.0"
-com-fasterxml-jackson-core = "2.22.1"
-com-fasterxml-jackson-datatype = "2.22.1"
-com-fasterxml-jackson-module = "2.22.1"
+com-fasterxml-jackson-core = "2.22.2"
+com-fasterxml-jackson-datatype = "2.22.2"
+com-fasterxml-jackson-module = "2.22.2"
 com-google-dagger = "2.60.1"
 com-google-protobuf = "4.35.1"
-com-squareup-okhttp3 = "5.4.0"
+com-squareup-okhttp3 = "5.5.0"
 com-squareup-retrofit2 = "3.0.0"
 io-arrow-kt = "2.2.3"
 io-ktor = "3.5.2"
